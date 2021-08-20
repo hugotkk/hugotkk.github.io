@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://hugotkk.github.io/sitemap.xml

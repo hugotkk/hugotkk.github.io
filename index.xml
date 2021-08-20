@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hugo</title>
+    <link>https://hugotkk.github.io/</link>
+    <description>Recent content on Hugo</description>
+    <image>
+      <url>https://hugotkk.github.io/papermod-cover.png</url>
+      <link>https://hugotkk.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 20 Aug 2021 10:18:29 +0100</lastBuildDate><atom:link href="https://hugotkk.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Move Forward Backward in Chrome</title>
+      <link>https://hugotkk.github.io/posts/move-forward-backward-in-chrome/</link>
+      <pubDate>Fri, 20 Aug 2021 10:18:29 +0100</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/move-forward-backward-in-chrome/</guid>
+      <description>I used the emacs keybind to maniplicate the string on command line but it does not work at chrome on macos.
+I am unhappy with that until I find the solution on this post
+ https://stackoverflow.com/questions/20146972/is-there-a-way-to-make-alt-f-and-alt-b-jump-word-forward-and-backward-instead-of  sudo mkdir -p ~/Library/Keybindings/ sudo vi ~/Library/Keybindings/DefaultKeyBinding.dict { &amp;quot;~d&amp;quot; = &amp;quot;deleteWordForward:&amp;quot;; &amp;quot;^w&amp;quot; = &amp;quot;deleteWordBackward:&amp;quot;; &amp;quot;~f&amp;quot; = &amp;quot;moveWordForward:&amp;quot;; &amp;quot;~b&amp;quot; = &amp;quot;moveWordBackward:&amp;quot;; } </description>
+    </item>
+    
+  </channel>
+</rss>

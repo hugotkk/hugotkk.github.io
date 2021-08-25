@@ -9,7 +9,31 @@
       <link>https://hugotkk.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 20 Aug 2021 10:18:29 +0100</lastBuildDate><atom:link href="https://hugotkk.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Aug 2021 11:57:02 +0100</lastBuildDate><atom:link href="https://hugotkk.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Broken Git Ref</title>
+      <link>https://hugotkk.github.io/posts/broken-git-ref/</link>
+      <pubDate>Wed, 25 Aug 2021 11:57:02 +0100</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/broken-git-ref/</guid>
+      <description>Facing this warning in a repo
+warning: ignoring broken ref refs/remotes/origin/HEAD https://stackoverflow.com/questions/45811971/warning-ignoring-broken-ref-refs-remotes-origin-head
+After reading this article, seem the reference of refs/remotes/origin/HEAD is broken.
+$ git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/master I have changed the branch from master to main before. master branch is no longer exist. I think that is the reason of the warning.
+git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main Then the warning is fixed.</description>
+    </item>
+    
+    <item>
+      <title>Slow Bash Startup</title>
+      <link>https://hugotkk.github.io/posts/slow-bash-startup/</link>
+      <pubDate>Wed, 25 Aug 2021 11:50:07 +0100</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/slow-bash-startup/</guid>
+      <description>Recently find that it is too slow to start a new bash.
+After debugging, I realize that nvm is the main reason for that.
+Finally, disabled nvm to solve the problem.</description>
+    </item>
+    
     <item>
       <title>Move Forward Backward in Chrome</title>
       <link>https://hugotkk.github.io/posts/move-forward-backward-in-chrome/</link>

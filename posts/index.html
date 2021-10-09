@@ -16,7 +16,7 @@
 <link rel=mask-icon href=https://hugotkk.github.io/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.87.0">
+<meta name=generator content="Hugo 0.88.1">
 <link rel=alternate type=application/rss+xml href=https://hugotkk.github.io/posts/index.xml>
 <meta property="og:title" content="Posts">
 <meta property="og:description" content>
@@ -73,6 +73,33 @@
 </header>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Disable Ctrl+w on Chrome</h2>
+</header>
+<section class=entry-content>
+<p>I am preparing the CKA exam. The exam requires us to complete tasks using web terminal on Chrome.
+My concern is that Ctrl+w is a common shortcut in terminal (delete word) but it also is the “close tab” shortcut of chrome.
+There is a workaround on this issue. Comment under this article mentioned that we can define ctrl+w in chrome://extensions/shortcuts to override the default behavior on ctrl+w. This will prevent the tab be closed when hit ctrl+w accidently....</p>
+</section>
+<footer class=entry-footer>October 9, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to Disable Ctrl+w on Chrome" href=https://hugotkk.github.io/posts/disable-ctrl-w-on-chrome/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Time Format</h2>
+</header>
+<section class=entry-content>
+<p>https://www.w3.org/TR/NOTE-datetime
+2019-07-16T12:00:00Z = utc time
+YYYY-MM-DDThh:mm:ss.sTZD
+TZD can be Z or +hh:mm or -hh:mm
+Z = UTC
++08:00 = UTC+8</p>
+</section>
+<footer class=entry-footer>September 17, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to Time Format" href=https://hugotkk.github.io/posts/time-format/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Test</h2>
 </header>
 <section class=entry-content>
@@ -107,18 +134,11 @@ Finally, disabled nvm to solve the problem.</p>
 <footer class=entry-footer>August 25, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
 <a class=entry-link aria-label="post link to Slow Bash Startup" href=https://hugotkk.github.io/posts/slow-bash-startup/></a>
 </article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Move Forward Backward in Chrome</h2>
-</header>
-<section class=entry-content>
-<p>I used the emacs keybind to maniplicate the string on command line but it does not work at chrome on macos.
-I am unhappy with that until I find the solution on this post
-https://stackoverflow.com/questions/20146972/is-there-a-way-to-make-alt-f-and-alt-b-jump-word-forward-and-backward-instead-of sudo mkdir -p ~/Library/Keybindings/ sudo vi ~/Library/Keybindings/DefaultKeyBinding.dict { "~d" = "deleteWordForward:"; "^w" = "deleteWordBackward:"; "~f" = "moveWordForward:"; "~b" = "moveWordBackward:"; } </p>
-</section>
-<footer class=entry-footer>August 20, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
-<a class=entry-link aria-label="post link to Move Forward Backward in Chrome" href=https://hugotkk.github.io/posts/move-forward-backward-in-chrome/></a>
-</article>
+<footer class=page-footer>
+<nav class=pagination>
+<a class=next href=https://hugotkk.github.io/posts/page/2/>Next Page »</a>
+</nav>
+</footer>
 </main>
 <footer class=footer>
 <span>&copy; 2021 <a href=https://hugotkk.github.io/>Hugo</a></span>

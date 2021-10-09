@@ -21,7 +21,7 @@ git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main Then the warn
 <link rel=mask-icon href=https://hugotkk.github.io/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.87.0">
+<meta name=generator content="Hugo 0.88.1">
 <meta property="og:title" content="Broken Git Ref">
 <meta property="og:description" content="Facing this warning in a repo
 warning: ignoring broken ref refs/remotes/origin/HEAD https://stackoverflow.com/questions/45811971/warning-ignoring-broken-ref-refs-remotes-origin-head
@@ -101,13 +101,13 @@ Broken Git Ref
 </details>
 </div>
 <div class=post-content><p>Facing this warning in a repo</p>
-<pre><code>warning: ignoring broken ref refs/remotes/origin/HEAD
+<pre tabindex=0><code>warning: ignoring broken ref refs/remotes/origin/HEAD
 </code></pre><p><a href=https://stackoverflow.com/questions/45811971/warning-ignoring-broken-ref-refs-remotes-origin-head>https://stackoverflow.com/questions/45811971/warning-ignoring-broken-ref-refs-remotes-origin-head</a></p>
 <p>After reading this article, seem the reference of refs/remotes/origin/HEAD is broken.</p>
-<pre><code>$ git symbolic-ref refs/remotes/origin/HEAD
+<pre tabindex=0><code>$ git symbolic-ref refs/remotes/origin/HEAD
 refs/remotes/origin/master
 </code></pre><p>I have changed the branch from master to main before. master branch is no longer exist. I think that is the reason of the warning.</p>
-<pre><code>git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main
+<pre tabindex=0><code>git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main
 </code></pre><p>Then the warning is fixed.</p>
 </div>
 <footer class=post-footer>

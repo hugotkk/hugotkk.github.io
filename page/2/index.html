@@ -67,88 +67,21 @@
 </nav>
 </header>
 <main class=main>
-<article class="first-entry home-info">
-<header class=entry-header>
-<h1>Hugo</h1>
-</header>
-<section class=entry-content>
-<p></p>
-</section>
-<footer class=entry-footer>
-<div class=social-icons>
-<a href=https://github.com/hugotkk target=_blank rel="noopener noreferrer me" title=Github><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77 5.44 5.44.0 003.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg>
-</a>
-<a href=https://www.linkedin.com/in/hugotkk target=_blank rel="noopener noreferrer me" title=Linkedin><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-</a>
-</div>
-</footer>
-</article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>Disable Ctrl+w on Chrome</h2>
+<h2>Move Forward Backward in Chrome</h2>
 </header>
 <section class=entry-content>
-<p>I am preparing the CKA exam. The exam requires us to complete tasks using web terminal on Chrome.
-My concern is that Ctrl+w is a common shortcut in terminal (delete word) but it also is the “close tab” shortcut of chrome.
-There is a workaround on this issue. Comment under this article mentioned that we can define ctrl+w in chrome://extensions/shortcuts to override the default behavior on ctrl+w. This will prevent the tab be closed when hit ctrl+w accidently....</p>
+<p>I used the emacs keybind to maniplicate the string on command line but it does not work at chrome on macos.
+I am unhappy with that until I find the solution on this post
+https://stackoverflow.com/questions/20146972/is-there-a-way-to-make-alt-f-and-alt-b-jump-word-forward-and-backward-instead-of sudo mkdir -p ~/Library/Keybindings/ sudo vi ~/Library/Keybindings/DefaultKeyBinding.dict { "~d" = "deleteWordForward:"; "^w" = "deleteWordBackward:"; "~f" = "moveWordForward:"; "~b" = "moveWordBackward:"; } </p>
 </section>
-<footer class=entry-footer>October 9, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
-<a class=entry-link aria-label="post link to Disable Ctrl+w on Chrome" href=https://hugotkk.github.io/posts/disable-ctrl-w-on-chrome/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Time Format</h2>
-</header>
-<section class=entry-content>
-<p>https://www.w3.org/TR/NOTE-datetime
-2019-07-16T12:00:00Z = utc time
-YYYY-MM-DDThh:mm:ss.sTZD
-TZD can be Z or +hh:mm or -hh:mm
-Z = UTC
-+08:00 = UTC+8</p>
-</section>
-<footer class=entry-footer>September 17, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
-<a class=entry-link aria-label="post link to Time Format" href=https://hugotkk.github.io/posts/time-format/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Test</h2>
-</header>
-<section class=entry-content>
-<p>Testing post for github workflow</p>
-</section>
-<footer class=entry-footer>August 26, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
-<a class=entry-link aria-label="post link to Test" href=https://hugotkk.github.io/posts/test/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Broken Git Ref</h2>
-</header>
-<section class=entry-content>
-<p>Facing this warning in a repo
-warning: ignoring broken ref refs/remotes/origin/HEAD https://stackoverflow.com/questions/45811971/warning-ignoring-broken-ref-refs-remotes-origin-head
-After reading this article, seem the reference of refs/remotes/origin/HEAD is broken.
-$ git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/master I have changed the branch from master to main before. master branch is no longer exist. I think that is the reason of the warning.
-git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main Then the warning is fixed.</p>
-</section>
-<footer class=entry-footer>August 25, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
-<a class=entry-link aria-label="post link to Broken Git Ref" href=https://hugotkk.github.io/posts/broken-git-ref/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Slow Bash Startup</h2>
-</header>
-<section class=entry-content>
-<p>Recently find that it is too slow to start a new bash.
-After debugging, I realize that nvm is the main reason for that.
-Finally, disabled nvm to solve the problem.</p>
-</section>
-<footer class=entry-footer>August 25, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
-<a class=entry-link aria-label="post link to Slow Bash Startup" href=https://hugotkk.github.io/posts/slow-bash-startup/></a>
+<footer class=entry-footer>August 20, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to Move Forward Backward in Chrome" href=https://hugotkk.github.io/posts/move-forward-backward-in-chrome/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
-<a class=next href=https://hugotkk.github.io/page/2/>Next Page »</a>
+<a class=prev href=https://hugotkk.github.io/>« Prev Page</a>
 </nav>
 </footer>
 </main>

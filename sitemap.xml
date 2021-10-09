@@ -2,11 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://hugotkk.github.io/categories/</loc>
+    <lastmod>2021-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/chrome/</loc>
+    <lastmod>2021-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/cka/</loc>
+    <lastmod>2021-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/posts/disable-ctrl-w-on-chrome/</loc>
+    <lastmod>2021-10-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://hugotkk.github.io/</loc>
-    <lastmod>2021-08-26T08:54:34+01:00</lastmod>
+    <lastmod>2021-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/categories/other/</loc>
+    <lastmod>2021-10-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/posts/</loc>
-    <lastmod>2021-08-26T08:54:34+01:00</lastmod>
+    <lastmod>2021-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/</loc>
+    <lastmod>2021-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/posts/time-format/</loc>
+    <lastmod>2021-09-17T15:39:47+01:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/posts/test/</loc>
     <lastmod>2021-08-26T08:54:34+01:00</lastmod>
@@ -14,16 +35,10 @@
     <loc>https://hugotkk.github.io/posts/broken-git-ref/</loc>
     <lastmod>2021-08-25T11:57:02+01:00</lastmod>
   </url><url>
-    <loc>https://hugotkk.github.io/categories/</loc>
-    <lastmod>2021-08-25T11:57:02+01:00</lastmod>
-  </url><url>
     <loc>https://hugotkk.github.io/tags/git/</loc>
     <lastmod>2021-08-25T11:57:02+01:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/categories/git/</loc>
-    <lastmod>2021-08-25T11:57:02+01:00</lastmod>
-  </url><url>
-    <loc>https://hugotkk.github.io/tags/</loc>
     <lastmod>2021-08-25T11:57:02+01:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/posts/slow-bash-startup/</loc>

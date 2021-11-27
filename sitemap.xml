@@ -2,35 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hugotkk.github.io/categories/</loc>
-    <lastmod>2021-10-09T00:00:00+00:00</lastmod>
+    <loc>https://hugotkk.github.io/tags/hk/</loc>
+    <lastmod>2021-11-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hugotkk.github.io/tags/chrome/</loc>
-    <lastmod>2021-10-09T00:00:00+00:00</lastmod>
+    <loc>https://hugotkk.github.io/</loc>
+    <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/movie/</loc>
+    <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/posts/movies-about-hk/</loc>
+    <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/posts/</loc>
+    <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/</loc>
+    <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/auth/</loc>
+    <lastmod>2021-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/posts/aws-certified-advanced-network/</loc>
+    <lastmod>2021-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/blockchain/</loc>
+    <lastmod>2021-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/posts/blockchain-use-case/</loc>
+    <lastmod>2021-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/cert/</loc>
+    <lastmod>2021-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/tags/cka/</loc>
+    <lastmod>2021-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/etcd/</loc>
+    <lastmod>2021-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/exam/</loc>
+    <lastmod>2021-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/k8s/</loc>
+    <lastmod>2021-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/posts/k8s-authentication/</loc>
+    <lastmod>2021-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/posts/note-for-cka-exam/</loc>
+    <lastmod>2021-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/posts/etcd/</loc>
+    <lastmod>2021-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/categories/</loc>
+    <lastmod>2021-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/posts/openssl/</loc>
+    <lastmod>2021-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/categories/k8s/</loc>
+    <lastmod>2021-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/openssl/</loc>
+    <lastmod>2021-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/categories/openssl/</loc>
+    <lastmod>2021-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/chrome/</loc>
     <lastmod>2021-10-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/posts/disable-ctrl-w-on-chrome/</loc>
     <lastmod>2021-10-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hugotkk.github.io/</loc>
-    <lastmod>2021-10-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://hugotkk.github.io/categories/other/</loc>
-    <lastmod>2021-10-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hugotkk.github.io/posts/</loc>
-    <lastmod>2021-10-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hugotkk.github.io/tags/</loc>
     <lastmod>2021-10-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/posts/time-format/</loc>
     <lastmod>2021-09-17T15:39:47+01:00</lastmod>
-  </url><url>
-    <loc>https://hugotkk.github.io/posts/test/</loc>
-    <lastmod>2021-08-26T08:54:34+01:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/posts/broken-git-ref/</loc>
     <lastmod>2021-08-25T11:57:02+01:00</lastmod>

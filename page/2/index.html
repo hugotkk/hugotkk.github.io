@@ -15,7 +15,7 @@
 <link rel=mask-icon href=https://hugotkk.github.io/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.88.1">
+<meta name=generator content="Hugo 0.89.4">
 <link rel=alternate type=application/rss+xml href=https://hugotkk.github.io/index.xml>
 <meta property="og:title" content="Hugo">
 <meta property="og:description" content>
@@ -69,19 +69,69 @@
 <main class=main>
 <article class=post-entry>
 <header class=entry-header>
-<h2>Move Forward Backward in Chrome</h2>
+<h2>Recover etcd</h2>
 </header>
 <section class=entry-content>
-<p>I used the emacs keybind to maniplicate the string on command line but it does not work at chrome on macos.
-I am unhappy with that until I find the solution on this post
-https://stackoverflow.com/questions/20146972/is-there-a-way-to-make-alt-f-and-alt-b-jump-word-forward-and-backward-instead-of sudo mkdir -p ~/Library/Keybindings/ sudo vi ~/Library/Keybindings/DefaultKeyBinding.dict { "~d" = "deleteWordForward:"; "^w" = "deleteWordBackward:"; "~f" = "moveWordForward:"; "~b" = "moveWordBackward:"; } </p>
+<p>Control Panel svr1 svr2 svr3 svr1 Stop k8s systemctl stop kubelet crictl rm -f $(crictl ps -q) start the etcd in single node vim /etc/kubernetes/manifests/etcd.yaml - --force-new-cluster=true Add svr2 etcd to cluster kubectl exec -it etcd-svr1.hhuge9.com -nkube-system -- sh -c 'ETCDCTL_API=3 etcdctl --endpoints 127.0.0.1:2379 --cert=/etc/kubernetes/pki/etcd/server.crt --key=/etc/kubernetes/pki/etcd/server.key --cacert=/etc/kubernetes/pki/etcd/ca.crt member add svr2.hhuge9.com --peer-urls="https://192.168.0.102:2380"' Save the output export ETCD_NAME="svr2.hhuge9.com" export ETCD_INITIAL_CLUSTER="svr1....</p>
 </section>
-<footer class=entry-footer>August 20, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
-<a class=entry-link aria-label="post link to Move Forward Backward in Chrome" href=https://hugotkk.github.io/posts/move-forward-backward-in-chrome/></a>
+<footer class=entry-footer>November 26, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to Recover etcd" href=https://hugotkk.github.io/posts/etcd/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>How to create ssl cert for tls auth</h2>
+</header>
+<section class=entry-content>
+<p>Procedures create private key create csr (distinguished_name) sign csr by CA (x509v3) Commands Gen private key openssl genrsa \ -out ca.key Self signed crt openssl req -x509 \ -config openssl.cnf -new \ -out ca.crt \ -key ca.key gen csr openssl req \ -config openssl.cnf -new \ -out server.csr \ -key server.key sign crt openssl x509 \ -extfile openssl.cnf \ -extensions svr_cert \ -in server.csr \ -out server.crt \ -CA ca....</p>
+</section>
+<footer class=entry-footer>October 21, 2021&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to How to create ssl cert for tls auth" href=https://hugotkk.github.io/posts/openssl/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Disable Ctrl+w on Chrome</h2>
+</header>
+<section class=entry-content>
+<p>I am preparing the CKA exam. The exam requires us to complete tasks using web terminal on Chrome.
+My concern is that Ctrl+w is a common shortcut in terminal (delete word) but it also is the “close tab” shortcut of chrome. (Windows)
+There is a workaround on this issue. Comment under this article mentioned that we can define ctrl+w in chrome://extensions/shortcuts to override the default behavior on ctrl+w. This will prevent the tab be closed when hit ctrl+w accidently....</p>
+</section>
+<footer class=entry-footer>October 9, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to Disable Ctrl+w on Chrome" href=https://hugotkk.github.io/posts/disable-ctrl-w-on-chrome/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Time Format</h2>
+</header>
+<section class=entry-content>
+<p>https://www.w3.org/TR/NOTE-datetime
+2019-07-16T12:00:00Z = utc time
+YYYY-MM-DDThh:mm:ss.sTZD
+TZD can be Z or +hh:mm or -hh:mm
+Z = UTC
++08:00 = UTC+8</p>
+</section>
+<footer class=entry-footer>September 17, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to Time Format" href=https://hugotkk.github.io/posts/time-format/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Broken Git Ref</h2>
+</header>
+<section class=entry-content>
+<p>Facing this warning in a repo
+warning: ignoring broken ref refs/remotes/origin/HEAD https://stackoverflow.com/questions/45811971/warning-ignoring-broken-ref-refs-remotes-origin-head
+After reading this article, seem the reference of refs/remotes/origin/HEAD is broken.
+$ git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/master I have changed the branch from master to main before. master branch is no longer exist. I think that is the reason of the warning.
+git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main Then the warning is fixed.</p>
+</section>
+<footer class=entry-footer>August 25, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to Broken Git Ref" href=https://hugotkk.github.io/posts/broken-git-ref/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
 <a class=prev href=https://hugotkk.github.io/>« Prev Page</a>
+<a class=next href=https://hugotkk.github.io/page/3/>Next Page »</a>
 </nav>
 </footer>
 </main>

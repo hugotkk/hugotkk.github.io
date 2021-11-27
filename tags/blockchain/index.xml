@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>blockchain on Hugo</title>
+    <link>https://hugotkk.github.io/tags/blockchain/</link>
+    <description>Recent content in blockchain on Hugo</description>
+    <image>
+      <url>https://hugotkk.github.io/papermod-cover.png</url>
+      <link>https://hugotkk.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 26 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blockchain use cases</title>
+      <link>https://hugotkk.github.io/posts/blockchain-use-case/</link>
+      <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/blockchain-use-case/</guid>
+      <description>Trust Over IP: Hyperledger Ursa, Indy, and Aires https://www.youtube.com/watch?v=FfuhlF9ZYPM
+Notes  prove the credential without CA trusted issuer (eg: gov) issues the identity token (eg: driving license) -&amp;gt; send it to a crypto account (like sending btc to someone) on the blockchain, it shows a record that the account owns that license. (like you can check your btc balance / NFS on chain explorer) anyone can request that you own that account (like an approval transaction from dapp).</description>
+    </item>
+    
+  </channel>
+</rss>

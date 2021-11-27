@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>cert on Hugo</title>
+    <link>https://hugotkk.github.io/tags/cert/</link>
+    <description>Recent content in cert on Hugo</description>
+    <image>
+      <url>https://hugotkk.github.io/papermod-cover.png</url>
+      <link>https://hugotkk.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 26 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/cert/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Certified Advanced Networking - Specialty</title>
+      <link>https://hugotkk.github.io/posts/aws-certified-advanced-network/</link>
+      <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/aws-certified-advanced-network/</guid>
+      <description>VPC Addressing Reversed IPs in subnet https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html
+Default route table will have rule: &amp;lt;vpc_cidr&amp;gt; local Limited ips per ENI Single ENI can have multiple private ip. Depends on the instance types.
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html
+VPC Route tables by default the subnet will use vpc route table
+we can customize the route table per subnet
+VPC Firewall EC2 -&amp;gt; Security Group -&amp;gt; NACL
+Security Group is stateful
+DC need to know about BGP first</description>
+    </item>
+    
+    <item>
+      <title>Note for CKA Exam</title>
+      <link>https://hugotkk.github.io/posts/note-for-cka-exam/</link>
+      <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/note-for-cka-exam/</guid>
+      <description>Things to turn off before exam Bandwidth saving  google drive sync any backgorund updates wifi connection in other devices  Prevent from autoupdate  software update (mbp, iphone)  Others  firewall disable all chrome plugins  backup plan  sim card - two extra network: EE, giffgaff spare computer (MBP)  Tips When use wc -&amp;gt; be careful the header, need total - 1 Store temporary commands / note / result in a fixed location like /root/tmp Even in remote host; we use that fixed location to store our results then get back the result from it remote$ cat tmp remote$ exit remote$ exit local$ ssh remote cat tmp Do not use tmux hard to copy and paste and scroll</description>
+    </item>
+    
+  </channel>
+</rss>

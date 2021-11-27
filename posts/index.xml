@@ -9,7 +9,82 @@
       <link>https://hugotkk.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 09 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Movies about Hong Kong</title>
+      <link>https://hugotkk.github.io/posts/movies-about-hk/</link>
+      <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/movies-about-hk/</guid>
+      <description>https://youtu.be/TgsTCzLRQcs?t=1905
+May You Stay Forever Young Taipei golden horse film festival 2021
+ two girls arrested in 721 one sexuel abused by HK police force and try to commit suicide another young teanager insists on looking for her. She is arrested as she turns back to him in a confrontation with riot police  Revolution of Our Times IMDB
+Connection with mashipo [https://hongkongfp.com/2021/06/27/how-an-elderly-hong-kong-pro-democracy-protester-also-fought-in-vain-to-save-his-village-from-developers/](How an elderly Hong Kong pro-democracy protester also fought in vain to save his village from developers)</description>
+    </item>
+    
+    <item>
+      <title>AWS Certified Advanced Networking - Specialty</title>
+      <link>https://hugotkk.github.io/posts/aws-certified-advanced-network/</link>
+      <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/aws-certified-advanced-network/</guid>
+      <description>VPC Addressing Reversed IPs in subnet https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html
+Default route table will have rule: &amp;lt;vpc_cidr&amp;gt; local Limited ips per ENI Single ENI can have multiple private ip. Depends on the instance types.
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html
+VPC Route tables by default the subnet will use vpc route table
+we can customize the route table per subnet
+VPC Firewall EC2 -&amp;gt; Security Group -&amp;gt; NACL
+Security Group is stateful
+DC need to know about BGP first</description>
+    </item>
+    
+    <item>
+      <title>Blockchain use cases</title>
+      <link>https://hugotkk.github.io/posts/blockchain-use-case/</link>
+      <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/blockchain-use-case/</guid>
+      <description>Trust Over IP: Hyperledger Ursa, Indy, and Aires https://www.youtube.com/watch?v=FfuhlF9ZYPM
+Notes  prove the credential without CA trusted issuer (eg: gov) issues the identity token (eg: driving license) -&amp;gt; send it to a crypto account (like sending btc to someone) on the blockchain, it shows a record that the account owns that license. (like you can check your btc balance / NFS on chain explorer) anyone can request that you own that account (like an approval transaction from dapp).</description>
+    </item>
+    
+    <item>
+      <title>k8s Authentication</title>
+      <link>https://hugotkk.github.io/posts/k8s-authentication/</link>
+      <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/k8s-authentication/</guid>
+      <description>with IAM  user -&amp;gt; with API_KEY &amp;amp; API_TOKEN audience attached iam role (eg: ec2 instance) update the iam role and user mapping in configmap aws-auth  OIDC OIDC built in at the eks cluster
+ OICD can request AWS IAM to issue the web identity token the token will be used to assume role and access AWS service     Item Value     OICD oidc.</description>
+    </item>
+    
+    <item>
+      <title>Note for CKA Exam</title>
+      <link>https://hugotkk.github.io/posts/note-for-cka-exam/</link>
+      <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/note-for-cka-exam/</guid>
+      <description>Things to turn off before exam Bandwidth saving  google drive sync any backgorund updates wifi connection in other devices  Prevent from autoupdate  software update (mbp, iphone)  Others  firewall disable all chrome plugins  backup plan  sim card - two extra network: EE, giffgaff spare computer (MBP)  Tips When use wc -&amp;gt; be careful the header, need total - 1 Store temporary commands / note / result in a fixed location like /root/tmp Even in remote host; we use that fixed location to store our results then get back the result from it remote$ cat tmp remote$ exit remote$ exit local$ ssh remote cat tmp Do not use tmux hard to copy and paste and scroll</description>
+    </item>
+    
+    <item>
+      <title>Recover etcd</title>
+      <link>https://hugotkk.github.io/posts/etcd/</link>
+      <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/etcd/</guid>
+      <description>Control Panel     svr1   svr2   svr3    svr1 Stop k8s systemctl stop kubelet crictl rm -f $(crictl ps -q) start the etcd in single node vim /etc/kubernetes/manifests/etcd.yaml - --force-new-cluster=true Add svr2 etcd to cluster kubectl exec -it etcd-svr1.hhuge9.com -nkube-system -- sh -c &#39;ETCDCTL_API=3 etcdctl --endpoints 127.0.0.1:2379 --cert=/etc/kubernetes/pki/etcd/server.crt --key=/etc/kubernetes/pki/etcd/server.key --cacert=/etc/kubernetes/pki/etcd/ca.crt member add svr2.hhuge9.com --peer-urls=&amp;quot;https://192.168.0.102:2380&amp;quot;&#39; Save the output export ETCD_NAME=&amp;quot;svr2.hhuge9.com&amp;quot; export ETCD_INITIAL_CLUSTER=&amp;quot;svr1.</description>
+    </item>
+    
+    <item>
+      <title>How to create ssl cert for tls auth</title>
+      <link>https://hugotkk.github.io/posts/openssl/</link>
+      <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/openssl/</guid>
+      <description>Procedures  create private key create csr (distinguished_name) sign csr by CA (x509v3)  Commands Gen private key openssl genrsa \ -out ca.key Self signed crt openssl req -x509 \ -config openssl.cnf -new \ -out ca.crt \ -key ca.key gen csr openssl req \ -config openssl.cnf -new \ -out server.csr \ -key server.key sign crt openssl x509 \ -extfile openssl.cnf \ -extensions svr_cert \ -in server.csr \ -out server.crt \ -CA ca.</description>
+    </item>
+    
     <item>
       <title>Disable Ctrl&#43;w on Chrome</title>
       <link>https://hugotkk.github.io/posts/disable-ctrl-w-on-chrome/</link>
@@ -17,7 +92,7 @@
       
       <guid>https://hugotkk.github.io/posts/disable-ctrl-w-on-chrome/</guid>
       <description>I am preparing the CKA exam. The exam requires us to complete tasks using web terminal on Chrome.
-My concern is that Ctrl+w is a common shortcut in terminal (delete word) but it also is the &amp;ldquo;close tab&amp;rdquo; shortcut of chrome.
+My concern is that Ctrl+w is a common shortcut in terminal (delete word) but it also is the &amp;ldquo;close tab&amp;rdquo; shortcut of chrome. (Windows)
 There is a workaround on this issue. Comment under this article mentioned that we can define ctrl+w in chrome://extensions/shortcuts to override the default behavior on ctrl+w. This will prevent the tab be closed when hit ctrl+w accidently.</description>
     </item>
     
@@ -33,15 +108,6 @@ YYYY-MM-DDThh:mm:ss.sTZD
 TZD can be Z or +hh:mm or -hh:mm
 Z = UTC
 +08:00 = UTC+8</description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>https://hugotkk.github.io/posts/test/</link>
-      <pubDate>Thu, 26 Aug 2021 08:54:34 +0100</pubDate>
-      
-      <guid>https://hugotkk.github.io/posts/test/</guid>
-      <description>Testing post for github workflow</description>
     </item>
     
     <item>

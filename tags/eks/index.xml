@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>aws on Hugo</title>
-    <link>https://hugotkk.github.io/tags/aws/</link>
-    <description>Recent content in aws on Hugo</description>
+    <title>eks on Hugo</title>
+    <link>https://hugotkk.github.io/tags/eks/</link>
+    <description>Recent content in eks on Hugo</description>
     <image>
       <url>https://hugotkk.github.io/papermod-cover.png</url>
       <link>https://hugotkk.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 27 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/eks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AWS EKS Workshop</title>
       <link>https://hugotkk.github.io/posts/aws-workshop/</link>
@@ -20,19 +20,6 @@
  EC2 Fargate  They can coexist in EKS.
 Also we can only fargate only. When we deploy plugins to the cluster, It will be deployed to the control panel. (hidden from user)
 How to use fargate in EKS:  create a fargate profile which is associated with a namespace deploy yml to that namespace  Cost of fargate Fargate will be cheaper in some situations.</description>
-    </item>
-    
-    <item>
-      <title>EKS vs AKS</title>
-      <link>https://hugotkk.github.io/posts/eks-vs-aks/</link>
-      <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugotkk.github.io/posts/eks-vs-aks/</guid>
-      <description>Control Panel Fee  AKS: 0 EKS: fixed charge 0.1 USD / Hour  Integration I think AKS is better, most of the provisioning plugins can be enabled by one click
-In aws, you need to
- install plugins setup iam service account for the plugins to access AWS service  application routing For AKS,
- it is just an checkbox option  For EKS, you need to
- setup IAM OICD setup external dns setup ALB contrller  auto scaler Same as application routing -&amp;gt; auto scaler.</description>
     </item>
     
   </channel>

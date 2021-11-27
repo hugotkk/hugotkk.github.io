@@ -11,6 +11,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 27 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>AWS EKS Workshop</title>
+      <link>https://hugotkk.github.io/posts/aws-workshop/</link>
+      <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/aws-workshop/</guid>
+      <description>EKS Workshop Day1 Setup  https://www.eksworkshop.com/020_prerequisites/ec2instance https://www.eksworkshop.com/030_eksctl/launcheks https://www.eksworkshop.com/beginner/060_helm/helm_intro/install  Tasks  Deploy simple application Fargate  Notes There are 2 modes in EKS:
+ EC2 Fargate  They can coexist in EKS.
+Also we can only fargate only. When we deploy plugins to the cluster, It will be deployed to the control panel. (hidden from user)
+How to use fargate in EKS:  create a fargate profile which is associated with a namespace deploy yml to that namespace  Cost of fargate Fargate will be cheaper in some situations.</description>
+    </item>
+    
+    <item>
       <title>EKS vs AKS</title>
       <link>https://hugotkk.github.io/posts/eks-vs-aks/</link>
       <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
@@ -32,7 +44,7 @@ In aws, you need to
       <description>https://youtu.be/TgsTCzLRQcs?t=1905
 May You Stay Forever Young Taipei golden horse film festival 2021
  two girls arrested in 721 one sexuel abused by HK police force and try to commit suicide another young teanager insists on looking for her. She is arrested as she turns back to him in a confrontation with riot police  Revolution of Our Times IMDB
-Connection with mashipo [https://hongkongfp.com/2021/06/27/how-an-elderly-hong-kong-pro-democracy-protester-also-fought-in-vain-to-save-his-village-from-developers/](How an elderly Hong Kong pro-democracy protester also fought in vain to save his village from developers)</description>
+Connection with mashipo How an elderly Hong Kong pro-democracy protester also fought in vain to save his village from developers</description>
     </item>
     
     <item>

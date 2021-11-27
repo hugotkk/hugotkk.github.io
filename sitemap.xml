@@ -2,10 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://hugotkk.github.io/tags/aws/</loc>
+    <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/azure/</loc>
+    <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/posts/eks-vs-aks/</loc>
+    <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://hugotkk.github.io/tags/hk/</loc>
     <lastmod>2021-11-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/</loc>
+    <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/k8s/</loc>
     <lastmod>2021-11-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/tags/movie/</loc>
@@ -42,9 +54,6 @@
     <lastmod>2021-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/tags/exam/</loc>
-    <lastmod>2021-11-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hugotkk.github.io/tags/k8s/</loc>
     <lastmod>2021-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/posts/k8s-authentication/</loc>

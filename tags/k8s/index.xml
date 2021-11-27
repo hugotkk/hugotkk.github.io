@@ -9,7 +9,20 @@
       <link>https://hugotkk.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 26 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/k8s/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/k8s/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EKS vs AKS</title>
+      <link>https://hugotkk.github.io/posts/eks-vs-aks/</link>
+      <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/eks-vs-aks/</guid>
+      <description>Control Panel Fee  AKS: 0 EKS: fixed charge 0.1 USD / Hour  Integration I think AKS is better, most of the provisioning plugins can be enabled by one click
+In aws, you need to
+ install plugins setup iam service account for the plugins to access AWS service  application routing For AKS,
+ it is just an checkbox option  For EKS, you need to
+ setup IAM OICD setup external dns setup ALB contrller  auto scaler Same as application routing -&amp;gt; auto scaler.</description>
+    </item>
+    
     <item>
       <title>k8s Authentication</title>
       <link>https://hugotkk.github.io/posts/k8s-authentication/</link>

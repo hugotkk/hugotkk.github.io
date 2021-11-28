@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>crosschain on Hugo</title>
+    <link>https://hugotkk.github.io/tags/crosschain/</link>
+    <description>Recent content in crosschain on Hugo</description>
+    <image>
+      <url>https://hugotkk.github.io/papermod-cover.png</url>
+      <link>https://hugotkk.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 28 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/crosschain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Atomic cross chain swap between Hyperledger Fabric and Ethereum</title>
+      <link>https://hugotkk.github.io/posts/cross-chain-swap/</link>
+      <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/cross-chain-swap/</guid>
+      <description>https://www.youtube.com/watch?v=j_j2MiAxUvY&amp;amp;list=PL0MZ85B_96CEmmy0C6NF52ZCMNcY1Wryf
+Methods Wait until the transaction is completely settled not practical and safe
+Hashlock The transaction is partially complete
+Settle once the sender publishes the key on the blockchain.
+Cons  hugo cannot refund if kevin does not response  Timelock  hugo made a partial transaction that the btc can be claimed by kevin within n number of blocks if the transaction is expired, hugo can claim back the fund  Cons  the claims need to execute manually  HTLC (Hash Time Lock Contract) Combine two locks: (and)</description>
+    </item>
+    
+  </channel>
+</rss>

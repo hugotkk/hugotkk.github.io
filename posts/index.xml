@@ -11,6 +11,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 28 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Atomic cross chain swap between Hyperledger Fabric and Ethereum</title>
+      <link>https://hugotkk.github.io/posts/cross-chain-swap/</link>
+      <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/cross-chain-swap/</guid>
+      <description>https://www.youtube.com/watch?v=j_j2MiAxUvY&amp;amp;list=PL0MZ85B_96CEmmy0C6NF52ZCMNcY1Wryf
+Methods Wait until the transaction is completely settled not practical and safe
+Hashlock The transaction is partially complete
+Settle once the sender publishes the key on the blockchain.
+Cons  hugo cannot refund if kevin does not response  Timelock  hugo made a partial transaction that the btc can be claimed by kevin within n number of blocks if the transaction is expired, hugo can claim back the fund  Cons  the claims need to execute manually  HTLC (Hash Time Lock Contract) Combine two locks: (and)</description>
+    </item>
+    
+    <item>
       <title>Hyperledger composer</title>
       <link>https://hugotkk.github.io/posts/hyperledger-composer/</link>
       <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
@@ -19,18 +32,6 @@
       <description>Building BLOCKCHAIN Apps With HYPERLEDGER COMPOSER https://www.youtube.com/watch?v=gAxK6zYrfxI
 a framework of hyperledger
  testing - mocha / chai webapp generator - Yeoman api generation - Rest Server + loopback api doc generation - swagger auth (rest api) - passport integration with IOT - red-node  </description>
-    </item>
-    
-    <item>
-      <title>Hyperledger fabric</title>
-      <link>https://hugotkk.github.io/posts/cross-chain-swap/</link>
-      <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugotkk.github.io/posts/cross-chain-swap/</guid>
-      <description>Atomic cross chain swap between Hyperledger Fabric and Ethereum https://www.youtube.com/watch?v=j_j2MiAxUvY&amp;amp;list=PL0MZ85B_96CEmmy0C6NF52ZCMNcY1Wryf
-Wait until the transaction is completely settled. hashlock The transaction is partially complete
-Settle once the sender publishes the key on the blockchain.
-Cons  hugo cannot refund if kevin does not response  timelock  hugo made a partial transaction that the btc can be claimed by kevin within n number of blocks if the transaction is expired, hugo can claim back the fund  Cons  the claims need to execute manually  HTLC (Hash Time Lock Contract) Combine two locks: (and)</description>
     </item>
     
     <item>

@@ -45,18 +45,8 @@
 </div>
 <ul id=menu>
 <li>
-<a href=https://hugotkk.github.io/archives title=Archive>
-<span>Archive</span>
-</a>
-</li>
-<li>
-<a href=https://hugotkk.github.io/categories/ title=Categories>
-<span>Categories</span>
-</a>
-</li>
-<li>
-<a href=https://hugotkk.github.io/search/ title=Search>
-<span>Search</span>
+<a href=https://hugotkk.github.io/search/ title="search (Alt + /)" accesskey=/>
+<span>search</span>
 </a>
 </li>
 <li>
@@ -73,73 +63,60 @@
 </header>
 <article class=post-entry>
 <header class=entry-header>
-<h2>EKS vs AKS</h2>
+<h2>Time Format</h2>
 </header>
 <section class=entry-content>
-<p>Control Panel Fee AKS: 0 EKS: fixed charge 0.1 USD / Hour Integration I think AKS is better, most of the provisioning plugins can be enabled by one click
-In aws, you need to
-install plugins setup iam service account for the plugins to access AWS service application routing For AKS,
-it is just an checkbox option For EKS, you need to
-setup IAM OICD setup external dns setup ALB contrller auto scaler Same as application routing -> auto scaler....</p>
+<p>https://www.w3.org/TR/NOTE-datetime
+2019-07-16T12:00:00Z = utc time
+YYYY-MM-DDThh:mm:ss.sTZD
+TZD can be Z or +hh:mm or -hh:mm
+Z = UTC
++08:00 = UTC+8</p>
 </section>
-<footer class=entry-footer>November 27, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
-<a class=entry-link aria-label="post link to EKS vs AKS" href=https://hugotkk.github.io/posts/eks-vs-aks/></a>
+<footer class=entry-footer>September 17, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to Time Format" href=https://hugotkk.github.io/posts/time-format/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>Hyperledger fabric</h2>
+<h2>Broken Git Ref</h2>
 </header>
 <section class=entry-content>
-<p>Installation https://hyperledger-fabric.readthedocs.io/en/release-2.2/install.html node go docker fabric fabric-ca third party image: kafka, zookeeper, couchdb fabric-ca-binary</p>
+<p>Facing this warning in a repo
+warning: ignoring broken ref refs/remotes/origin/HEAD https://stackoverflow.com/questions/45811971/warning-ignoring-broken-ref-refs-remotes-origin-head
+After reading this article, seem the reference of refs/remotes/origin/HEAD is broken.
+$ git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/master I have changed the branch from master to main before. master branch is no longer exist. I think that is the reason of the warning.
+git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main Then the warning is fixed.</p>
 </section>
-<footer class=entry-footer>November 27, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
-<a class=entry-link aria-label="post link to Hyperledger fabric" href=https://hugotkk.github.io/posts/hyperfabric-ledger/></a>
+<footer class=entry-footer>August 25, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to Broken Git Ref" href=https://hugotkk.github.io/posts/broken-git-ref/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>Movies about Hong Kong</h2>
+<h2>Slow Bash Startup</h2>
 </header>
 <section class=entry-content>
-<p>https://youtu.be/TgsTCzLRQcs?t=1905
-May You Stay Forever Young Taipei golden horse film festival 2021
-two girls arrested in 721 one sexuel abused by HK police force and try to commit suicide another young teanager insists on looking for her. She is arrested as she turns back to him in a confrontation with riot police Revolution of Our Times IMDB
-Connection with mashipo How an elderly Hong Kong pro-democracy protester also fought in vain to save his village from developers...</p>
+<p>Recently find that it is too slow to start a new bash.
+After debugging, I realize that nvm is the main reason for that.
+Finally, disabled nvm to solve the problem.</p>
 </section>
-<footer class=entry-footer>November 27, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Hugo</footer>
-<a class=entry-link aria-label="post link to Movies about Hong Kong" href=https://hugotkk.github.io/posts/movies-about-hk/></a>
+<footer class=entry-footer>August 25, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to Slow Bash Startup" href=https://hugotkk.github.io/posts/slow-bash-startup/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>AWS Certified Advanced Networking - Specialty</h2>
+<h2>Move Forward Backward in Chrome</h2>
 </header>
 <section class=entry-content>
-<p>VPC Addressing Reversed IPs in subnet https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html
-Default route table will have rule: &lt;vpc_cidr> local Limited ips per ENI Single ENI can have multiple private ip. Depends on the instance types.
-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html
-VPC Route tables by default the subnet will use vpc route table
-we can customize the route table per subnet
-VPC Firewall EC2 -> Security Group -> NACL
-Security Group is stateful
-DC need to know about BGP first</p>
+<p>I used the emacs keybind to maniplicate the string on command line but it does not work at chrome on macos.
+I am unhappy with that until I find the solution on this post
+https://stackoverflow.com/questions/20146972/is-there-a-way-to-make-alt-f-and-alt-b-jump-word-forward-and-backward-instead-of sudo mkdir -p ~/Library/Keybindings/ sudo vi ~/Library/Keybindings/DefaultKeyBinding.dict { "~d" = "deleteWordForward:"; "^w" = "deleteWordBackward:"; "~f" = "moveWordForward:"; "~b" = "moveWordBackward:"; } </p>
 </section>
-<footer class=entry-footer>November 26, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
-<a class=entry-link aria-label="post link to AWS Certified Advanced Networking - Specialty" href=https://hugotkk.github.io/posts/aws-certified-advanced-network/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Blockchain use cases</h2>
-</header>
-<section class=entry-content>
-<p>Trust Over IP: Hyperledger Ursa, Indy, and Aires https://www.youtube.com/watch?v=FfuhlF9ZYPM
-Notes prove the credential without CA trusted issuer (eg: gov) issues the identity token (eg: driving license) -> send it to a crypto account (like sending btc to someone) on the blockchain, it shows a record that the account owns that license. (like you can check your btc balance / NFS on chain explorer) anyone can request that you own that account (like an approval transaction from dapp)....</p>
-</section>
-<footer class=entry-footer>November 26, 2021&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Hugo</footer>
-<a class=entry-link aria-label="post link to Blockchain use cases" href=https://hugotkk.github.io/posts/blockchain-use-case/></a>
+<footer class=entry-footer>August 20, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to Move Forward Backward in Chrome" href=https://hugotkk.github.io/posts/move-forward-backward-in-chrome/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
 <a class=prev href=https://hugotkk.github.io/posts/>« Prev Page</a>
-<a class=next href=https://hugotkk.github.io/posts/page/3/>Next Page »</a>
 </nav>
 </footer>
 </main>

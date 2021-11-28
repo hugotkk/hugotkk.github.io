@@ -45,18 +45,8 @@
 </div>
 <ul id=menu>
 <li>
-<a href=https://hugotkk.github.io/archives title=Archive>
-<span>Archive</span>
-</a>
-</li>
-<li>
-<a href=https://hugotkk.github.io/categories/ title=Categories>
-<span>Categories</span>
-</a>
-</li>
-<li>
-<a href=https://hugotkk.github.io/search/ title=Search>
-<span>Search</span>
+<a href=https://hugotkk.github.io/search/ title="search (Alt + /)" accesskey=/>
+<span>search</span>
 </a>
 </li>
 <li>
@@ -134,6 +124,124 @@ ledger database (immutable transaction) consenus decentlization smart contract e
 </section>
 <footer class=entry-footer>November 27, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
 <a class=entry-link aria-label="post link to AWS Managed Blockchain" href=https://hugotkk.github.io/posts/aws-managed-blockchain/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>EKS vs AKS</h2>
+</header>
+<section class=entry-content>
+<p>Control Panel Fee AKS: 0 EKS: fixed charge 0.1 USD / Hour Integration I think AKS is better, most of the provisioning plugins can be enabled by one click
+In aws, you need to
+install plugins setup iam service account for the plugins to access AWS service application routing For AKS,
+it is just an checkbox option For EKS, you need to
+setup IAM OICD setup external dns setup ALB contrller auto scaler Same as application routing -> auto scaler....</p>
+</section>
+<footer class=entry-footer>November 27, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to EKS vs AKS" href=https://hugotkk.github.io/posts/eks-vs-aks/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Hyperledger fabric</h2>
+</header>
+<section class=entry-content>
+<p>Installation https://hyperledger-fabric.readthedocs.io/en/release-2.2/install.html node go docker fabric fabric-ca third party image: kafka, zookeeper, couchdb fabric-ca-binary</p>
+</section>
+<footer class=entry-footer>November 27, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to Hyperledger fabric" href=https://hugotkk.github.io/posts/hyperfabric-ledger/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Movies about Hong Kong</h2>
+</header>
+<section class=entry-content>
+<p>https://youtu.be/TgsTCzLRQcs?t=1905
+May You Stay Forever Young Taipei golden horse film festival 2021
+two girls arrested in 721 one sexuel abused by HK police force and try to commit suicide another young teanager insists on looking for her. She is arrested as she turns back to him in a confrontation with riot police Revolution of Our Times IMDB
+Connection with mashipo How an elderly Hong Kong pro-democracy protester also fought in vain to save his village from developers...</p>
+</section>
+<footer class=entry-footer>November 27, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to Movies about Hong Kong" href=https://hugotkk.github.io/posts/movies-about-hk/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>AWS Certified Advanced Networking - Specialty</h2>
+</header>
+<section class=entry-content>
+<p>VPC Addressing Reversed IPs in subnet https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html
+Default route table will have rule: &lt;vpc_cidr> local Limited ips per ENI Single ENI can have multiple private ip. Depends on the instance types.
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html
+VPC Route tables by default the subnet will use vpc route table
+we can customize the route table per subnet
+VPC Firewall EC2 -> Security Group -> NACL
+Security Group is stateful
+DC need to know about BGP first</p>
+</section>
+<footer class=entry-footer>November 26, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to AWS Certified Advanced Networking - Specialty" href=https://hugotkk.github.io/posts/aws-certified-advanced-network/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Blockchain use cases</h2>
+</header>
+<section class=entry-content>
+<p>Trust Over IP: Hyperledger Ursa, Indy, and Aires https://www.youtube.com/watch?v=FfuhlF9ZYPM
+Notes prove the credential without CA trusted issuer (eg: gov) issues the identity token (eg: driving license) -> send it to a crypto account (like sending btc to someone) on the blockchain, it shows a record that the account owns that license. (like you can check your btc balance / NFS on chain explorer) anyone can request that you own that account (like an approval transaction from dapp)....</p>
+</section>
+<footer class=entry-footer>November 26, 2021&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to Blockchain use cases" href=https://hugotkk.github.io/posts/blockchain-use-case/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>k8s Authentication</h2>
+</header>
+<section class=entry-content>
+<p>with IAM user -> with API_KEY & API_TOKEN audience attached iam role (eg: ec2 instance) update the iam role and user mapping in configmap aws-auth OIDC OIDC built in at the eks cluster
+OICD can request AWS IAM to issue the web identity token the token will be used to assume role and access AWS service Item Value OICD oidc....</p>
+</section>
+<footer class=entry-footer>November 26, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to k8s Authentication" href=https://hugotkk.github.io/posts/k8s-authentication/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Note for CKA Exam</h2>
+</header>
+<section class=entry-content>
+<p>Things to turn off before exam Bandwidth saving google drive sync any backgorund updates wifi connection in other devices Prevent from autoupdate software update (mbp, iphone) Others firewall disable all chrome plugins backup plan sim card - two extra network: EE, giffgaff spare computer (MBP) Tips When use wc -> be careful the header, need total - 1 Store temporary commands / note / result in a fixed location like /root/tmp Even in remote host; we use that fixed location to store our results then get back the result from it remote$ cat tmp remote$ exit remote$ exit local$ ssh remote cat tmp Do not use tmux hard to copy and paste and scroll...</p>
+</section>
+<footer class=entry-footer>November 26, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to Note for CKA Exam" href=https://hugotkk.github.io/posts/note-for-cka-exam/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Recover etcd</h2>
+</header>
+<section class=entry-content>
+<p>Control Panel svr1 svr2 svr3 svr1 Stop k8s systemctl stop kubelet crictl rm -f $(crictl ps -q) start the etcd in single node vim /etc/kubernetes/manifests/etcd.yaml - --force-new-cluster=true Add svr2 etcd to cluster kubectl exec -it etcd-svr1.hhuge9.com -nkube-system -- sh -c 'ETCDCTL_API=3 etcdctl --endpoints 127.0.0.1:2379 --cert=/etc/kubernetes/pki/etcd/server.crt --key=/etc/kubernetes/pki/etcd/server.key --cacert=/etc/kubernetes/pki/etcd/ca.crt member add svr2.hhuge9.com --peer-urls="https://192.168.0.102:2380"' Save the output export ETCD_NAME="svr2.hhuge9.com" export ETCD_INITIAL_CLUSTER="svr1....</p>
+</section>
+<footer class=entry-footer>November 26, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to Recover etcd" href=https://hugotkk.github.io/posts/etcd/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>How to create ssl cert for tls auth</h2>
+</header>
+<section class=entry-content>
+<p>Procedures create private key create csr (distinguished_name) sign csr by CA (x509v3) Commands Gen private key openssl genrsa \ -out ca.key Self signed crt openssl req -x509 \ -config openssl.cnf -new \ -out ca.crt \ -key ca.key gen csr openssl req \ -config openssl.cnf -new \ -out server.csr \ -key server.key sign crt openssl x509 \ -extfile openssl.cnf \ -extensions svr_cert \ -in server.csr \ -out server.crt \ -CA ca....</p>
+</section>
+<footer class=entry-footer>October 21, 2021&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to How to create ssl cert for tls auth" href=https://hugotkk.github.io/posts/openssl/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Disable Ctrl+w on Chrome</h2>
+</header>
+<section class=entry-content>
+<p>I am preparing the CKA exam. The exam requires us to complete tasks using web terminal on Chrome.
+My concern is that Ctrl+w is a common shortcut in terminal (delete word) but it also is the “close tab” shortcut of chrome. (Windows)
+There is a workaround on this issue. Comment under this article mentioned that we can define ctrl+w in chrome://extensions/shortcuts to override the default behavior on ctrl+w. This will prevent the tab be closed when hit ctrl+w accidently....</p>
+</section>
+<footer class=entry-footer>October 9, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to Disable Ctrl+w on Chrome" href=https://hugotkk.github.io/posts/disable-ctrl-w-on-chrome/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

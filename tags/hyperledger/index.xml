@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>blockchain on Hugo</title>
-    <link>https://hugotkk.github.io/tags/blockchain/</link>
-    <description>Recent content in blockchain on Hugo</description>
+    <title>hyperledger on Hugo</title>
+    <link>https://hugotkk.github.io/tags/hyperledger/</link>
+    <description>Recent content in hyperledger on Hugo</description>
     <image>
       <url>https://hugotkk.github.io/papermod-cover.png</url>
       <link>https://hugotkk.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 28 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/hyperledger/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hyperledger composer</title>
       <link>https://hugotkk.github.io/posts/hyperledger-composer/</link>
@@ -34,20 +34,6 @@ Cons  hugo cannot refund if kevin does not response  timelock  hugo made a parti
     </item>
     
     <item>
-      <title>Node Red</title>
-      <link>https://hugotkk.github.io/posts/node-red/</link>
-      <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugotkk.github.io/posts/node-red/</guid>
-      <description>Official Website
-Playlist
-a visual editor to build workflow and ui application to interact with IOT
- wire the IOTs and user (with web dashboard) read data from IOT write data to IOT (control it, on and off etc) build a flow among IOTs and users for automation build dashboard UI  all can be done by drag and drop
-can be used with blockchain in supply chain&amp;hellip;
-node red pull the data from sensors and submit to blockchain automatically</description>
-    </item>
-    
-    <item>
       <title>AWS Managed Blockchain</title>
       <link>https://hugotkk.github.io/posts/aws-managed-blockchain/</link>
       <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
@@ -55,15 +41,6 @@ node red pull the data from sensors and submit to blockchain automatically</desc
       <guid>https://hugotkk.github.io/posts/aws-managed-blockchain/</guid>
       <description>Pros with AWS Managed Blockchain  no need to build the ledger by themself focus on the smart contract a single blockchain network can effectively work cross multiple parties  An Overview on Blockchain Services from AWS https://www.youtube.com/watch?v=WAIOBeQA2QQ
  ledger database (immutable transaction) consenus decentlization smart contract ease for audit  Hyperledger Fabric VS eth  authentication access control private ledger  </description>
-    </item>
-    
-    <item>
-      <title>Hyperledger fabric</title>
-      <link>https://hugotkk.github.io/posts/hyperfabric-ledger/</link>
-      <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugotkk.github.io/posts/hyperfabric-ledger/</guid>
-      <description>Installation https://hyperledger-fabric.readthedocs.io/en/release-2.2/install.html node go docker fabric fabric-ca third party image: kafka, zookeeper, couchdb fabric-ca-binary</description>
     </item>
     
     <item>

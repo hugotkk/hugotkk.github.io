@@ -2,10 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://hugotkk.github.io/tags/blockchain/</loc>
+    <lastmod>2021-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/</loc>
+    <lastmod>2021-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/hyperledger/</loc>
+    <lastmod>2021-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/posts/hyperledger-composer/</loc>
+    <lastmod>2021-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/posts/cross-chain-swap/</loc>
+    <lastmod>2021-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/iot/</loc>
+    <lastmod>2021-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/posts/node-red/</loc>
+    <lastmod>2021-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/nodered/</loc>
+    <lastmod>2021-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/posts/</loc>
+    <lastmod>2021-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/</loc>
+    <lastmod>2021-11-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://hugotkk.github.io/tags/aws/</loc>
     <lastmod>2021-11-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/posts/aws-workshop/</loc>
+    <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/posts/aws-managed-blockchain/</loc>
     <lastmod>2021-11-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/tags/azure/</loc>
@@ -20,7 +53,7 @@
     <loc>https://hugotkk.github.io/tags/hk/</loc>
     <lastmod>2021-11-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hugotkk.github.io/</loc>
+    <loc>https://hugotkk.github.io/posts/hyperfabric-ledger/</loc>
     <lastmod>2021-11-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/tags/k8s/</loc>
@@ -32,12 +65,6 @@
     <loc>https://hugotkk.github.io/posts/movies-about-hk/</loc>
     <lastmod>2021-11-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hugotkk.github.io/posts/</loc>
-    <lastmod>2021-11-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hugotkk.github.io/tags/</loc>
-    <lastmod>2021-11-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://hugotkk.github.io/tags/workshop/</loc>
     <lastmod>2021-11-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -45,9 +72,6 @@
     <lastmod>2021-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/posts/aws-certified-advanced-network/</loc>
-    <lastmod>2021-11-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hugotkk.github.io/tags/blockchain/</loc>
     <lastmod>2021-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/posts/blockchain-use-case/</loc>
@@ -72,6 +96,9 @@
     <lastmod>2021-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/posts/etcd/</loc>
+    <lastmod>2021-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/use-case/</loc>
     <lastmod>2021-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/categories/</loc>

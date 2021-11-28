@@ -9,7 +9,43 @@
       <link>https://hugotkk.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 27 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blockchain</title>
+      <link>https://hugotkk.github.io/tags/blockchain/</link>
+      <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/tags/blockchain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hyperledger</title>
+      <link>https://hugotkk.github.io/tags/hyperledger/</link>
+      <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/tags/hyperledger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iot</title>
+      <link>https://hugotkk.github.io/tags/iot/</link>
+      <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/tags/iot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nodered</title>
+      <link>https://hugotkk.github.io/tags/nodered/</link>
+      <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/tags/nodered/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>aws</title>
       <link>https://hugotkk.github.io/tags/aws/</link>
@@ -83,15 +119,6 @@
     </item>
     
     <item>
-      <title>blockchain</title>
-      <link>https://hugotkk.github.io/tags/blockchain/</link>
-      <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugotkk.github.io/tags/blockchain/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>cert</title>
       <link>https://hugotkk.github.io/tags/cert/</link>
       <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
@@ -124,6 +151,15 @@
       <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/tags/exam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>use-case</title>
+      <link>https://hugotkk.github.io/tags/use-case/</link>
+      <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/tags/use-case/</guid>
       <description></description>
     </item>
     

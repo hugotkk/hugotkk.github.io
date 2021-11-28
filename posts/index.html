@@ -73,71 +73,67 @@
 </header>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Hyperledger composer</h2>
+</header>
+<section class=entry-content>
+<p>Building BLOCKCHAIN Apps With HYPERLEDGER COMPOSER https://www.youtube.com/watch?v=gAxK6zYrfxI
+a framework of hyperledger
+testing - mocha / chai webapp generator - Yeoman api generation - Rest Server + loopback api doc generation - swagger auth (rest api) - passport integration with IOT - red-node </p>
+</section>
+<footer class=entry-footer>November 28, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to Hyperledger composer" href=https://hugotkk.github.io/posts/hyperledger-composer/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Hyperledger fabric</h2>
+</header>
+<section class=entry-content>
+<p>Atomic cross chain swap between Hyperledger Fabric and Ethereum https://www.youtube.com/watch?v=j_j2MiAxUvY&list=PL0MZ85B_96CEmmy0C6NF52ZCMNcY1Wryf
+Wait until the transaction is completely settled. hashlock The transaction is partially complete
+Settle once the sender publishes the key on the blockchain.
+Cons hugo cannot refund if kevin does not response timelock hugo made a partial transaction that the btc can be claimed by kevin within n number of blocks if the transaction is expired, hugo can claim back the fund Cons the claims need to execute manually HTLC (Hash Time Lock Contract) Combine two locks: (and)...</p>
+</section>
+<footer class=entry-footer>November 28, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to Hyperledger fabric" href=https://hugotkk.github.io/posts/cross-chain-swap/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Node Red</h2>
+</header>
+<section class=entry-content>
+<p>Official Website
+Playlist
+a visual editor to build workflow and ui application to interact with IOT
+wire the IOTs and user (with web dashboard) read data from IOT write data to IOT (control it, on and off etc) build a flow among IOTs and users for automation build dashboard UI all can be done by drag and drop
+can be used with blockchain in supply chain…
+node red pull the data from sensors and submit to blockchain automatically...</p>
+</section>
+<footer class=entry-footer>November 28, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to Node Red" href=https://hugotkk.github.io/posts/node-red/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>AWS EKS Workshop</h2>
 </header>
 <section class=entry-content>
 <p>EKS Workshop Day1 Setup https://www.eksworkshop.com/020_prerequisites/ec2instance https://www.eksworkshop.com/030_eksctl/launcheks https://www.eksworkshop.com/beginner/060_helm/helm_intro/install Tasks Deploy simple application Fargate Notes There are 2 modes in EKS:
 EC2 Fargate They can coexist in EKS.
 Also we can only fargate only. When we deploy plugins to the cluster, It will be deployed to the control panel. (hidden from user)
-How to use fargate in EKS: create a fargate profile which is associated with a namespace deploy yml to that namespace Cost of fargate Fargate will be cheaper in some situations....</p>
+How to use fargate in EKS: create a fargate profile which is associated with a namespace deploy yml to that namespace Pros and Con of fargate can be scaled up quickly....</p>
 </section>
 <footer class=entry-footer>November 27, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
 <a class=entry-link aria-label="post link to AWS EKS Workshop" href=https://hugotkk.github.io/posts/aws-workshop/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>EKS vs AKS</h2>
+<h2>AWS Managed Blockchain</h2>
 </header>
 <section class=entry-content>
-<p>Control Panel Fee AKS: 0 EKS: fixed charge 0.1 USD / Hour Integration I think AKS is better, most of the provisioning plugins can be enabled by one click
-In aws, you need to
-install plugins setup iam service account for the plugins to access AWS service application routing For AKS,
-it is just an checkbox option For EKS, you need to
-setup IAM OICD setup external dns setup ALB contrller auto scaler Same as application routing -> auto scaler....</p>
+<p>Pros with AWS Managed Blockchain no need to build the ledger by themself focus on the smart contract a single blockchain network can effectively work cross multiple parties An Overview on Blockchain Services from AWS https://www.youtube.com/watch?v=WAIOBeQA2QQ
+ledger database (immutable transaction) consenus decentlization smart contract ease for audit Hyperledger Fabric VS eth authentication access control private ledger </p>
 </section>
 <footer class=entry-footer>November 27, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
-<a class=entry-link aria-label="post link to EKS vs AKS" href=https://hugotkk.github.io/posts/eks-vs-aks/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Movies about Hong Kong</h2>
-</header>
-<section class=entry-content>
-<p>https://youtu.be/TgsTCzLRQcs?t=1905
-May You Stay Forever Young Taipei golden horse film festival 2021
-two girls arrested in 721 one sexuel abused by HK police force and try to commit suicide another young teanager insists on looking for her. She is arrested as she turns back to him in a confrontation with riot police Revolution of Our Times IMDB
-Connection with mashipo How an elderly Hong Kong pro-democracy protester also fought in vain to save his village from developers...</p>
-</section>
-<footer class=entry-footer>November 27, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Hugo</footer>
-<a class=entry-link aria-label="post link to Movies about Hong Kong" href=https://hugotkk.github.io/posts/movies-about-hk/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>AWS Certified Advanced Networking - Specialty</h2>
-</header>
-<section class=entry-content>
-<p>VPC Addressing Reversed IPs in subnet https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html
-Default route table will have rule: &lt;vpc_cidr> local Limited ips per ENI Single ENI can have multiple private ip. Depends on the instance types.
-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html
-VPC Route tables by default the subnet will use vpc route table
-we can customize the route table per subnet
-VPC Firewall EC2 -> Security Group -> NACL
-Security Group is stateful
-DC need to know about BGP first</p>
-</section>
-<footer class=entry-footer>November 26, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
-<a class=entry-link aria-label="post link to AWS Certified Advanced Networking - Specialty" href=https://hugotkk.github.io/posts/aws-certified-advanced-network/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Blockchain use cases</h2>
-</header>
-<section class=entry-content>
-<p>Trust Over IP: Hyperledger Ursa, Indy, and Aires https://www.youtube.com/watch?v=FfuhlF9ZYPM
-Notes prove the credential without CA trusted issuer (eg: gov) issues the identity token (eg: driving license) -> send it to a crypto account (like sending btc to someone) on the blockchain, it shows a record that the account owns that license. (like you can check your btc balance / NFS on chain explorer) anyone can request that you own that account (like an approval transaction from dapp)....</p>
-</section>
-<footer class=entry-footer>November 26, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Hugo</footer>
-<a class=entry-link aria-label="post link to Blockchain use cases" href=https://hugotkk.github.io/posts/blockchain-use-case/></a>
+<a class=entry-link aria-label="post link to AWS Managed Blockchain" href=https://hugotkk.github.io/posts/aws-managed-blockchain/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

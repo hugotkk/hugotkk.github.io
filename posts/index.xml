@@ -9,7 +9,44 @@
       <link>https://hugotkk.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 27 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hyperledger composer</title>
+      <link>https://hugotkk.github.io/posts/hyperledger-composer/</link>
+      <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/hyperledger-composer/</guid>
+      <description>Building BLOCKCHAIN Apps With HYPERLEDGER COMPOSER https://www.youtube.com/watch?v=gAxK6zYrfxI
+a framework of hyperledger
+ testing - mocha / chai webapp generator - Yeoman api generation - Rest Server + loopback api doc generation - swagger auth (rest api) - passport integration with IOT - red-node  </description>
+    </item>
+    
+    <item>
+      <title>Hyperledger fabric</title>
+      <link>https://hugotkk.github.io/posts/cross-chain-swap/</link>
+      <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/cross-chain-swap/</guid>
+      <description>Atomic cross chain swap between Hyperledger Fabric and Ethereum https://www.youtube.com/watch?v=j_j2MiAxUvY&amp;amp;list=PL0MZ85B_96CEmmy0C6NF52ZCMNcY1Wryf
+Wait until the transaction is completely settled. hashlock The transaction is partially complete
+Settle once the sender publishes the key on the blockchain.
+Cons  hugo cannot refund if kevin does not response  timelock  hugo made a partial transaction that the btc can be claimed by kevin within n number of blocks if the transaction is expired, hugo can claim back the fund  Cons  the claims need to execute manually  HTLC (Hash Time Lock Contract) Combine two locks: (and)</description>
+    </item>
+    
+    <item>
+      <title>Node Red</title>
+      <link>https://hugotkk.github.io/posts/node-red/</link>
+      <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/node-red/</guid>
+      <description>Official Website
+Playlist
+a visual editor to build workflow and ui application to interact with IOT
+ wire the IOTs and user (with web dashboard) read data from IOT write data to IOT (control it, on and off etc) build a flow among IOTs and users for automation build dashboard UI  all can be done by drag and drop
+can be used with blockchain in supply chain&amp;hellip;
+node red pull the data from sensors and submit to blockchain automatically</description>
+    </item>
+    
     <item>
       <title>AWS EKS Workshop</title>
       <link>https://hugotkk.github.io/posts/aws-workshop/</link>
@@ -19,7 +56,17 @@
       <description>EKS Workshop Day1 Setup  https://www.eksworkshop.com/020_prerequisites/ec2instance https://www.eksworkshop.com/030_eksctl/launcheks https://www.eksworkshop.com/beginner/060_helm/helm_intro/install  Tasks  Deploy simple application Fargate  Notes There are 2 modes in EKS:
  EC2 Fargate  They can coexist in EKS.
 Also we can only fargate only. When we deploy plugins to the cluster, It will be deployed to the control panel. (hidden from user)
-How to use fargate in EKS:  create a fargate profile which is associated with a namespace deploy yml to that namespace  Cost of fargate Fargate will be cheaper in some situations.</description>
+How to use fargate in EKS:  create a fargate profile which is associated with a namespace deploy yml to that namespace  Pros and Con of fargate can be scaled up quickly.</description>
+    </item>
+    
+    <item>
+      <title>AWS Managed Blockchain</title>
+      <link>https://hugotkk.github.io/posts/aws-managed-blockchain/</link>
+      <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/aws-managed-blockchain/</guid>
+      <description>Pros with AWS Managed Blockchain  no need to build the ledger by themself focus on the smart contract a single blockchain network can effectively work cross multiple parties  An Overview on Blockchain Services from AWS https://www.youtube.com/watch?v=WAIOBeQA2QQ
+ ledger database (immutable transaction) consenus decentlization smart contract ease for audit  Hyperledger Fabric VS eth  authentication access control private ledger  </description>
     </item>
     
     <item>
@@ -33,6 +80,15 @@ In aws, you need to
  install plugins setup iam service account for the plugins to access AWS service  application routing For AKS,
  it is just an checkbox option  For EKS, you need to
  setup IAM OICD setup external dns setup ALB contrller  auto scaler Same as application routing -&amp;gt; auto scaler.</description>
+    </item>
+    
+    <item>
+      <title>Hyperledger fabric</title>
+      <link>https://hugotkk.github.io/posts/hyperfabric-ledger/</link>
+      <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/hyperfabric-ledger/</guid>
+      <description>Installation https://hyperledger-fabric.readthedocs.io/en/release-2.2/install.html node go docker fabric fabric-ca third party image: kafka, zookeeper, couchdb fabric-ca-binary</description>
     </item>
     
     <item>

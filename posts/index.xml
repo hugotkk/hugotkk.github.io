@@ -24,6 +24,23 @@ Cons  hugo cannot refund if kevin does not response  Timelock  hugo made a parti
     </item>
     
     <item>
+      <title>Bluetooth</title>
+      <link>https://hugotkk.github.io/posts/bluetooth/</link>
+      <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/bluetooth/</guid>
+      <description>https://www.youtube.com/watch?v=1I1vxu5qIUM
+Trasnit electimagetic wave (binary) with different wavelength
+eg: 121mm = 1 124mm = 0
+the wave send in all directional
+Bluetooth range: 2.4835GHz - 2.4GHz
+Devided in different section (79 channels), each section has a pair of wavelength representing 0 and 1
+the bluetooth range are shared with some other device like microwave oven
+like the power of microwave oven is too large to bluetooth.
+it may distory the bluetooth device if you put them inside the microwave own (danger)</description>
+    </item>
+    
+    <item>
       <title>Hyperledger composer</title>
       <link>https://hugotkk.github.io/posts/hyperledger-composer/</link>
       <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
@@ -42,10 +59,25 @@ a framework of hyperledger
       <guid>https://hugotkk.github.io/posts/node-red/</guid>
       <description>Official Website
 Playlist
-a visual editor to build workflow and ui application to interact with IOT
- wire the IOTs and user (with web dashboard) read data from IOT write data to IOT (control it, on and off etc) build a flow among IOTs and users for automation build dashboard UI  all can be done by drag and drop
-can be used with blockchain in supply chain&amp;hellip;
-node red pull the data from sensors and submit to blockchain automatically</description>
+a visual editor to build workflow and ui application to interact with IoT
+ wire the IoTs and user (with web dashboard) read data from IoT write data to IoT (control it, on and off etc) build a flow among IoTs and users for automation build dashboard UI  all can be done by drag and drop
+can be used with blockchain in the supply chain&amp;hellip;
+node red pulls the data from sensors and submits to blockchain automatically</description>
+    </item>
+    
+    <item>
+      <title>Study Tips</title>
+      <link>https://hugotkk.github.io/posts/idea-about-study/</link>
+      <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/idea-about-study/</guid>
+      <description>Zero to Full-Time Programmer in 5 Steps Zero to Full-Time Programmer in 5 Steps
+ start from small consistently study every day  The scoreboard that is changing my life The scoreboard that is changing my life
+  use scoreboard to track your goal
+  goal vs actual
+  Weekly review (like a logbook)
+  lagging metric (review past performance)
+  leading metric (measure future performance)</description>
     </item>
     
     <item>

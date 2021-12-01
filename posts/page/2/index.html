@@ -63,6 +63,28 @@
 </header>
 <article class=post-entry>
 <header class=entry-header>
+<h2>How to create ssl cert for tls auth</h2>
+</header>
+<section class=entry-content>
+<p>Procedures create private key create csr (distinguished_name) sign csr by CA (x509v3) Commands Gen private key openssl genrsa \ -out ca.key Self signed crt openssl req -x509 \ -config openssl.cnf -new \ -out ca.crt \ -key ca.key gen csr openssl req \ -config openssl.cnf -new \ -out server.csr \ -key server.key sign crt openssl x509 \ -extfile openssl.cnf \ -extensions svr_cert \ -in server.csr \ -out server.crt \ -CA ca....</p>
+</section>
+<footer class=entry-footer>October 21, 2021&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to How to create ssl cert for tls auth" href=https://hugotkk.github.io/posts/openssl/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Disable Ctrl+w on Chrome</h2>
+</header>
+<section class=entry-content>
+<p>I am preparing the CKA exam. The exam requires us to complete tasks using web terminal on Chrome.
+My concern is that Ctrl+w is a common shortcut in terminal (delete word) but it also is the “close tab” shortcut of chrome. (Windows)
+There is a workaround on this issue. Comment under this article mentioned that we can define ctrl+w in chrome://extensions/shortcuts to override the default behavior on ctrl+w. This will prevent the tab be closed when hit ctrl+w accidently....</p>
+</section>
+<footer class=entry-footer>October 9, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to Disable Ctrl+w on Chrome" href=https://hugotkk.github.io/posts/disable-ctrl-w-on-chrome/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Time Format</h2>
 </header>
 <section class=entry-content>

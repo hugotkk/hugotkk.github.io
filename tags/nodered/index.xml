@@ -18,10 +18,10 @@
       <guid>https://hugotkk.github.io/posts/node-red/</guid>
       <description>Official Website
 Playlist
-a visual editor to build workflow and ui application to interact with IOT
- wire the IOTs and user (with web dashboard) read data from IOT write data to IOT (control it, on and off etc) build a flow among IOTs and users for automation build dashboard UI  all can be done by drag and drop
-can be used with blockchain in supply chain&amp;hellip;
-node red pull the data from sensors and submit to blockchain automatically</description>
+a visual editor to build workflow and ui application to interact with IoT
+ wire the IoTs and user (with web dashboard) read data from IoT write data to IoT (control it, on and off etc) build a flow among IoTs and users for automation build dashboard UI  all can be done by drag and drop
+can be used with blockchain in the supply chain&amp;hellip;
+node red pulls the data from sensors and submits to blockchain automatically</description>
     </item>
     
   </channel>

@@ -9,7 +9,20 @@
       <link>https://hugotkk.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 28 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenZeppelin</title>
+      <link>https://hugotkk.github.io/posts/openzeppelin/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/openzeppelin/</guid>
+      <description>Upgradable contract https://www.youtube.com/watch?v=kWUDTZhxKZI&amp;amp;list=WL&amp;amp;index=19
+proxy pattern user interact with the proxy contract
+the proxy will point to another smart contract
+When upgrading the contract, the admin of the proxy contract points the proxy to another smart contract storage
+Implementation  Transparent UUPS  </description>
+    </item>
+    
     <item>
       <title>Atomic cross chain swap between Hyperledger Fabric and Ethereum</title>
       <link>https://hugotkk.github.io/posts/cross-chain-swap/</link>

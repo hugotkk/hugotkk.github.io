@@ -79,7 +79,7 @@
 </header>
 <section class=entry-content>
 <p>https://www.youtube.com/watch?v=1I1vxu5qIUM
-Transmit electromagnetic wave (binary) with different wavelength
+Transmit an electromagnetic wave (binary) with different wavelength
 eg: 121mm = 1 124mm = 0
 the waves send in all directions
 Bluetooth range: 2.4835GHz - 2.4GHz
@@ -90,6 +90,20 @@ it may destroy the bluetooth device if you put them inside the microwave oven (d
 </section>
 <footer class=entry-footer>December 1, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
 <a class=entry-link aria-label="post link to Bluetooth" href=https://hugotkk.github.io/posts/bluetooth/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>OpenZeppelin</h2>
+</header>
+<section class=entry-content>
+<p>Upgradable contract https://www.youtube.com/watch?v=kWUDTZhxKZI&list=WL&index=19
+proxy pattern user interact with the proxy contract
+the proxy will point to another smart contract
+When upgrading the contract, the admin of the proxy contract points the proxy to another smart contract storage
+Implementation Transparent UUPS </p>
+</section>
+<footer class=entry-footer>December 1, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to OpenZeppelin" href=https://hugotkk.github.io/posts/openzeppelin/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
@@ -216,16 +230,9 @@ Connection with mashipo How an elderly Hong Kong pro-democracy protester also fo
 <h2>AWS Certified Advanced Networking - Specialty</h2>
 </header>
 <section class=entry-content>
-<p>VPC Addressing Reversed IPs in subnet https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html
-Default route table will have rule: &lt;vpc_cidr> local Limited ips per ENI Single ENI can have multiple private ip. Depends on the instance types.
-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html
-VPC Route tables by default the subnet will use vpc route table
-we can customize the route table per subnet
-VPC Firewall EC2 -> Security Group -> NACL
-Security Group is stateful
-DC need to know about BGP first</p>
+<p>Resources AWS Certified Advanced Networking Specialty 2021 How to connect VPCs Transit gateway peering attachments What is VPC peering? Transit Gateway vs VPC peering Solution / Situation same region cross region cross account VPC Peering OK OK OK TGW Peering OK OK OK TGW (attach VPC) OK NO OK AWS Managed VPN OK OK OK EC2 Based VPN OK OK OK Private Link is something like tgw peer but for spefic service only....</p>
 </section>
-<footer class=entry-footer>November 26, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
+<footer class=entry-footer>November 26, 2021&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Hugo</footer>
 <a class=entry-link aria-label="post link to AWS Certified Advanced Networking - Specialty" href=https://hugotkk.github.io/posts/aws-certified-advanced-network/></a>
 </article>
 <article class=post-entry>
@@ -259,16 +266,6 @@ OICD can request AWS IAM to issue the web identity token the token will be used 
 </section>
 <footer class=entry-footer>November 26, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Hugo</footer>
 <a class=entry-link aria-label="post link to Note for CKA Exam" href=https://hugotkk.github.io/posts/note-for-cka-exam/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Recover etcd</h2>
-</header>
-<section class=entry-content>
-<p>Control Panel svr1 svr2 svr3 svr1 Stop k8s systemctl stop kubelet crictl rm -f $(crictl ps -q) start the etcd in single node vim /etc/kubernetes/manifests/etcd.yaml - --force-new-cluster=true Add svr2 etcd to cluster kubectl exec -it etcd-svr1.hhuge9.com -nkube-system -- sh -c 'ETCDCTL_API=3 etcdctl --endpoints 127.0.0.1:2379 --cert=/etc/kubernetes/pki/etcd/server.crt --key=/etc/kubernetes/pki/etcd/server.key --cacert=/etc/kubernetes/pki/etcd/ca.crt member add svr2.hhuge9.com --peer-urls="https://192.168.0.102:2380"' Save the output export ETCD_NAME="svr2.hhuge9.com" export ETCD_INITIAL_CLUSTER="svr1....</p>
-</section>
-<footer class=entry-footer>November 26, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
-<a class=entry-link aria-label="post link to Recover etcd" href=https://hugotkk.github.io/posts/etcd/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

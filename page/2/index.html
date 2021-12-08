@@ -59,6 +59,16 @@
 <main class=main>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Recover etcd</h2>
+</header>
+<section class=entry-content>
+<p>Control Panel svr1 svr2 svr3 svr1 Stop k8s systemctl stop kubelet crictl rm -f $(crictl ps -q) start the etcd in single node vim /etc/kubernetes/manifests/etcd.yaml - --force-new-cluster=true Add svr2 etcd to cluster kubectl exec -it etcd-svr1.hhuge9.com -nkube-system -- sh -c 'ETCDCTL_API=3 etcdctl --endpoints 127.0.0.1:2379 --cert=/etc/kubernetes/pki/etcd/server.crt --key=/etc/kubernetes/pki/etcd/server.key --cacert=/etc/kubernetes/pki/etcd/ca.crt member add svr2.hhuge9.com --peer-urls="https://192.168.0.102:2380"' Save the output export ETCD_NAME="svr2.hhuge9.com" export ETCD_INITIAL_CLUSTER="svr1....</p>
+</section>
+<footer class=entry-footer>November 26, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to Recover etcd" href=https://hugotkk.github.io/posts/etcd/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>How to create ssl cert for tls auth</h2>
 </header>
 <section class=entry-content>

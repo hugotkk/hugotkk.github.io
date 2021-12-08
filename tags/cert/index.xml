@@ -16,14 +16,7 @@
       <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/aws-certified-advanced-network/</guid>
-      <description>VPC Addressing Reversed IPs in subnet https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html
-Default route table will have rule: &amp;lt;vpc_cidr&amp;gt; local Limited ips per ENI Single ENI can have multiple private ip. Depends on the instance types.
-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html
-VPC Route tables by default the subnet will use vpc route table
-we can customize the route table per subnet
-VPC Firewall EC2 -&amp;gt; Security Group -&amp;gt; NACL
-Security Group is stateful
-DC need to know about BGP first</description>
+      <description>Resources  AWS Certified Advanced Networking Specialty 2021  How to connect VPCs  Transit gateway peering attachments What is VPC peering? Transit Gateway vs VPC peering     Solution / Situation same region cross region cross account     VPC Peering OK OK OK   TGW Peering OK OK OK   TGW (attach VPC) OK NO OK   AWS Managed VPN OK OK OK   EC2 Based VPN OK OK OK    Private Link is something like tgw peer but for spefic service only.</description>
     </item>
     
     <item>

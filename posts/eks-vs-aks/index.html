@@ -41,7 +41,7 @@ In aws, you need to
  it is just an checkbox option  For EKS, you need to
  setup IAM OICD setup external dns setup ALB contrller  auto scaler Same as application routing -> auto scaler.">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://hugotkk.github.io/posts/"},{"@type":"ListItem","position":2,"name":"EKS vs AKS","item":"https://hugotkk.github.io/posts/eks-vs-aks/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"EKS vs AKS","name":"EKS vs AKS","description":"Control Panel Fee  AKS: 0 EKS: fixed charge 0.1 USD / Hour  Integration I think AKS is better, most of the provisioning plugins can be enabled by one click\nIn aws, you need to\n install plugins setup iam service account for the plugins to access AWS service  application routing For AKS,\n it is just an checkbox option  For EKS, you need to\n setup IAM OICD setup external dns setup ALB contrller  auto scaler Same as application routing -\u0026gt; auto scaler.","keywords":["k8s","aws","azure"],"articleBody":"Control Panel Fee  AKS: 0 EKS: fixed charge 0.1 USD / Hour  Integration I think AKS is better, most of the provisioning plugins can be enabled by one click\nIn aws, you need to\n install plugins setup iam service account for the plugins to access AWS service  application routing For AKS,\n it is just an checkbox option  For EKS, you need to\n setup IAM OICD setup external dns setup ALB contrller  auto scaler Same as application routing - auto scaler. enable and use\nin AWS, we need to setup cluster autoscaler\nvolume provisioning AKS supports volume provisioning with Azure File (EFS) \u0026 Azure Disk (EBS), it has many pre-defined volume class…we do not need to install any plugin\nFor EKS, we need CSI driver\n ebs efs  Virtual node It is AKS things, like EKS’s fargate…but I cannot find the price..\n","wordCount":"140","inLanguage":"en","datePublished":"2021-11-27T00:00:00Z","dateModified":"2021-11-27T00:00:00Z","author":[{"@type":"Person","name":"Hugo"}],"mainEntityOfPage":{"@type":"WebPage","@id":"https://hugotkk.github.io/posts/eks-vs-aks/"},"publisher":{"@type":"Organization","name":"Hugo","logo":{"@type":"ImageObject","url":"https://hugotkk.github.io/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"EKS vs AKS","name":"EKS vs AKS","description":"Control Panel Fee  AKS: 0 EKS: fixed charge 0.1 USD / Hour  Integration I think AKS is better, most of the provisioning plugins can be enabled by one click\nIn aws, you need to\n install plugins setup iam service account for the plugins to access AWS service  application routing For AKS,\n it is just an checkbox option  For EKS, you need to\n setup IAM OICD setup external dns setup ALB contrller  auto scaler Same as application routing -\u0026gt; auto scaler.","keywords":["k8s","aws","azure"],"articleBody":"Control Panel Fee  AKS: 0 EKS: fixed charge 0.1 USD / Hour  Integration I think AKS is better, most of the provisioning plugins can be enabled by one click\nIn aws, you need to\n install plugins setup iam service account for the plugins to access AWS service  application routing For AKS,\n it is just an checkbox option  For EKS, you need to\n setup IAM OICD setup external dns setup ALB contrller  auto scaler Same as application routing - auto scaler. enable and use\nin AWS, we need to setup cluster autoscaler\nvolume provisioning AKS supports volume provisioning with Azure File (EFS) \u0026 Azure Disk (EBS), it has many pre-defined volume class…we do not need to install any plugin\nFor EKS, we need CSI driver\n ebs efs  Virtual node It is AKS things, like EKS’s fargate…but I cannot find the price..\n2021-12-10 updates: I have asked on Microsoft Q\u0026A: https://docs.microsoft.com/en-us/answers/questions/659456/price-of-ake-virtual-node-and-aks-without-node-poo.html\n need min 1 system node group can start / stop the cluster the VM will stop charging when the cluster is stop charge of other provisioned services like LB and Azure File are unknown… virtual node will charge as container service (like fargate)  ","wordCount":"192","inLanguage":"en","datePublished":"2021-11-27T00:00:00Z","dateModified":"2021-11-27T00:00:00Z","author":[{"@type":"Person","name":"Hugo"}],"mainEntityOfPage":{"@type":"WebPage","@id":"https://hugotkk.github.io/posts/eks-vs-aks/"},"publisher":{"@type":"Organization","name":"Hugo","logo":{"@type":"ImageObject","url":"https://hugotkk.github.io/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -98,7 +98,9 @@ EKS vs AKS
 <li>
 <a href=#volume-provisioning aria-label="volume provisioning">volume provisioning</a></li>
 <li>
-<a href=#virtual-node aria-label="Virtual node">Virtual node</a>
+<a href=#virtual-node aria-label="Virtual node">Virtual node</a></li>
+<li>
+<a href=#2021-12-10-updates aria-label="2021-12-10 updates:">2021-12-10 updates:</a>
 </li>
 </ul>
 </div>
@@ -139,6 +141,15 @@ EKS vs AKS
 </ul>
 <h1 id=virtual-node>Virtual node<a hidden class=anchor aria-hidden=true href=#virtual-node>#</a></h1>
 <p>It is AKS things, like EKS&rsquo;s fargate&mldr;but I cannot find the price..</p>
+<h1 id=2021-12-10-updates>2021-12-10 updates:<a hidden class=anchor aria-hidden=true href=#2021-12-10-updates>#</a></h1>
+<p>I have asked on Microsoft Q&A: <a href=https://docs.microsoft.com/en-us/answers/questions/659456/price-of-ake-virtual-node-and-aks-without-node-poo.html>https://docs.microsoft.com/en-us/answers/questions/659456/price-of-ake-virtual-node-and-aks-without-node-poo.html</a></p>
+<ul>
+<li>need min 1 system node group</li>
+<li>can start / stop the cluster</li>
+<li>the VM will stop charging when the cluster is stop</li>
+<li>charge of other provisioned services like LB and Azure File are unknown&mldr;</li>
+<li>virtual node will charge as container service (like fargate)</li>
+</ul>
 </div>
 <footer class=post-footer>
 <ul class=post-tags>

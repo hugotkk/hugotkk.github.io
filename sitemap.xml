@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://hugotkk.github.io/posts/cloud-center-of-excellenace/</loc>
+    <lastmod>2021-12-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://hugotkk.github.io/tags/aws/</loc>
     <lastmod>2021-12-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -9,6 +12,12 @@
     <lastmod>2021-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/tags/blog/</loc>
+    <lastmod>2021-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/cloud/</loc>
+    <lastmod>2021-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/cloud-centre/</loc>
     <lastmod>2021-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/tags/ec2/</loc>

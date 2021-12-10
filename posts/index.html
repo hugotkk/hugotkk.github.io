@@ -16,7 +16,7 @@
 <link rel=mask-icon href=https://hugotkk.github.io/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.89.4">
+<meta name=generator content="Hugo 0.90.0">
 <link rel=alternate type=application/rss+xml href=https://hugotkk.github.io/posts/index.xml>
 <meta property="og:title" content="Posts">
 <meta property="og:description" content>
@@ -61,6 +61,21 @@
 <header class=page-header><div class=breadcrumbs><a href=https://hugotkk.github.io/>Home</a></div>
 <h1>Posts</h1>
 </header>
+<article class=post-entry>
+<header class=entry-header>
+<h2>EC2 Bandwidth test</h2>
+</header>
+<section class=entry-content>
+<p>Objective Test if the ec2 can reach 10Gbps bandwidth in same placement group Test if the 10Gbps is the limited by the ec2 instance type or aws AWS Limit https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-network-bandwidth.html
+in single-flow traffic,
+placement group: 10Gbps w/o placement group: 5Gbps flow = worker (thread) in the network driver. depends on the ec2 instance type.
+EC2 Instance Type Limit https://aws.amazon.com/ec2/instance-types/m5/
+m5.8xlarge can reach 10Gbps
+Setup Created 3 m5....</p>
+</section>
+<footer class=entry-footer>December 10, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to EC2 Bandwidth test" href=https://hugotkk.github.io/posts/bandwidth-test/></a>
+</article>
 <article class=post-entry>
 <header class=entry-header>
 <h2>Bluetooth</h2>
@@ -155,10 +170,10 @@ node red pulls the data from sensors and submits to blockchain automatically...<
 <h2>AWS EKS Workshop</h2>
 </header>
 <section class=entry-content>
-<p>EKS Workshop Day1 Setup https://www.eksworkshop.com/020_prerequisites/ec2instance https://www.eksworkshop.com/030_eksctl/launcheks https://www.eksworkshop.com/beginner/060_helm/helm_intro/install Tasks Deploy simple application Fargate Notes There are 2 modes in EKS:
+<p>Day1 Setup https://www.eksworkshop.com/020_prerequisites/ec2instance https://www.eksworkshop.com/030_eksctl/launcheks https://www.eksworkshop.com/beginner/060_helm/helm_intro/install Tasks Deploy simple application Fargate Notes There are 2 modes in EKS:
 EC2 Fargate They can coexist in EKS.
 Also we can only fargate only. When we deploy plugins to the cluster, It will be deployed to the control panel. (hidden from user)
-How to use fargate in EKS: create a fargate profile which is associated with a namespace deploy yml to that namespace Pros and Con of fargate can be scaled up quickly....</p>
+How to use fargate in EKS: create a fargate profile which is associated with a namespace deploy yml to that namespace Pros and Con of fargate can be scaled up quickly it is a micro vm as similar as pod one fargate instance per pod lower cost of fargate Fargate will be cheaper in some situations....</p>
 </section>
 <footer class=entry-footer>November 27, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
 <a class=entry-link aria-label="post link to AWS EKS Workshop" href=https://hugotkk.github.io/posts/aws-workshop/></a>
@@ -196,7 +211,7 @@ setup IAM OICD setup external dns setup ALB contrller auto scaler Same as applic
 <p>Installation https://hyperledger-fabric.readthedocs.io/en/release-2.2/install.html node go docker fabric fabric-ca third party image: kafka, zookeeper, couchdb fabric-ca-binary</p>
 </section>
 <footer class=entry-footer>November 27, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
-<a class=entry-link aria-label="post link to Hyperledger fabric" href=https://hugotkk.github.io/posts/hyperfabric-ledger/></a>
+<a class=entry-link aria-label="post link to Hyperledger fabric" href=https://hugotkk.github.io/posts/hyperledger-fabric/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
@@ -244,16 +259,6 @@ OICD can request AWS IAM to issue the web identity token the token will be used 
 </section>
 <footer class=entry-footer>November 26, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Hugo</footer>
 <a class=entry-link aria-label="post link to k8s Authentication" href=https://hugotkk.github.io/posts/k8s-authentication/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Note for CKA Exam</h2>
-</header>
-<section class=entry-content>
-<p>Things to turn off before exam Bandwidth saving google drive sync any backgorund updates wifi connection in other devices Prevent from autoupdate software update (mbp, iphone) Others firewall disable all chrome plugins backup plan sim card - two extra network: EE, giffgaff spare computer (MBP) Tips When use wc -> be careful the header, need total - 1 Store temporary commands / note / result in a fixed location like /root/tmp Even in remote host; we use that fixed location to store our results then get back the result from it remote$ cat tmp remote$ exit remote$ exit local$ ssh remote cat tmp Do not use tmux hard to copy and paste and scroll...</p>
-</section>
-<footer class=entry-footer>November 26, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Hugo</footer>
-<a class=entry-link aria-label="post link to Note for CKA Exam" href=https://hugotkk.github.io/posts/note-for-cka-exam/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

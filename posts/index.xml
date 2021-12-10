@@ -9,7 +9,21 @@
       <link>https://hugotkk.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EC2 Bandwidth test</title>
+      <link>https://hugotkk.github.io/posts/bandwidth-test/</link>
+      <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/bandwidth-test/</guid>
+      <description>Objective  Test if the ec2 can reach 10Gbps bandwidth in same placement group Test if the 10Gbps is the limited by the ec2 instance type or aws  AWS Limit https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-network-bandwidth.html
+in single-flow traffic,
+ placement group: 10Gbps w/o placement group: 5Gbps  flow = worker (thread) in the network driver. depends on the ec2 instance type.
+EC2 Instance Type Limit https://aws.amazon.com/ec2/instance-types/m5/
+m5.8xlarge can reach 10Gbps
+Setup Created 3 m5.</description>
+    </item>
+    
     <item>
       <title>Bluetooth</title>
       <link>https://hugotkk.github.io/posts/bluetooth/</link>
@@ -99,10 +113,10 @@ node red pulls the data from sensors and submits to blockchain automatically</de
       <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/aws-workshop/</guid>
-      <description>EKS Workshop Day1 Setup  https://www.eksworkshop.com/020_prerequisites/ec2instance https://www.eksworkshop.com/030_eksctl/launcheks https://www.eksworkshop.com/beginner/060_helm/helm_intro/install  Tasks  Deploy simple application Fargate  Notes There are 2 modes in EKS:
+      <description>Day1 Setup  https://www.eksworkshop.com/020_prerequisites/ec2instance https://www.eksworkshop.com/030_eksctl/launcheks https://www.eksworkshop.com/beginner/060_helm/helm_intro/install  Tasks  Deploy simple application Fargate  Notes There are 2 modes in EKS:
  EC2 Fargate  They can coexist in EKS.
 Also we can only fargate only. When we deploy plugins to the cluster, It will be deployed to the control panel. (hidden from user)
-How to use fargate in EKS:  create a fargate profile which is associated with a namespace deploy yml to that namespace  Pros and Con of fargate can be scaled up quickly.</description>
+How to use fargate in EKS:  create a fargate profile which is associated with a namespace deploy yml to that namespace  Pros and Con of fargate can be scaled up quickly  it is a micro vm as similar as pod one fargate instance per pod  lower cost of fargate  Fargate will be cheaper in some situations.</description>
     </item>
     
     <item>
@@ -130,10 +144,10 @@ In aws, you need to
     
     <item>
       <title>Hyperledger fabric</title>
-      <link>https://hugotkk.github.io/posts/hyperfabric-ledger/</link>
+      <link>https://hugotkk.github.io/posts/hyperledger-fabric/</link>
       <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugotkk.github.io/posts/hyperfabric-ledger/</guid>
+      <guid>https://hugotkk.github.io/posts/hyperledger-fabric/</guid>
       <description>Installation https://hyperledger-fabric.readthedocs.io/en/release-2.2/install.html node go docker fabric fabric-ca third party image: kafka, zookeeper, couchdb fabric-ca-binary</description>
     </item>
     
@@ -265,6 +279,15 @@ Finally, disabled nvm to solve the problem.</description>
       <description>I used the emacs keybind to maniplicate the string on command line but it does not work at chrome on macos.
 I am unhappy with that until I find the solution on this post
  https://stackoverflow.com/questions/20146972/is-there-a-way-to-make-alt-f-and-alt-b-jump-word-forward-and-backward-instead-of  sudo mkdir -p ~/Library/Keybindings/ sudo vi ~/Library/Keybindings/DefaultKeyBinding.dict { &amp;quot;~d&amp;quot; = &amp;quot;deleteWordForward:&amp;quot;; &amp;quot;^w&amp;quot; = &amp;quot;deleteWordBackward:&amp;quot;; &amp;quot;~f&amp;quot; = &amp;quot;moveWordForward:&amp;quot;; &amp;quot;~b&amp;quot; = &amp;quot;moveWordBackward:&amp;quot;; } </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hugotkk.github.io/posts/obsidian/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/obsidian/</guid>
+      <description>Tutorials  How To Use VIM Bindings in Obsidian | Beginners Guide  </description>
     </item>
     
   </channel>

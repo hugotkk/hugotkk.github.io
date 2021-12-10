@@ -73,10 +73,10 @@ node red pulls the data from sensors and submits to blockchain automatically</de
     
     <item>
       <title>Hyperledger fabric</title>
-      <link>https://hugotkk.github.io/posts/hyperfabric-ledger/</link>
+      <link>https://hugotkk.github.io/posts/hyperledger-fabric/</link>
       <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugotkk.github.io/posts/hyperfabric-ledger/</guid>
+      <guid>https://hugotkk.github.io/posts/hyperledger-fabric/</guid>
       <description>Installation https://hyperledger-fabric.readthedocs.io/en/release-2.2/install.html node go docker fabric fabric-ca third party image: kafka, zookeeper, couchdb fabric-ca-binary</description>
     </item>
     

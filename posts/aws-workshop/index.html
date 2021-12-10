@@ -5,10 +5,10 @@
 <meta name=robots content="index, follow">
 <title>AWS EKS Workshop | Hugo</title>
 <meta name=keywords content="workshop,aws,eks">
-<meta name=description content="EKS Workshop Day1 Setup  https://www.eksworkshop.com/020_prerequisites/ec2instance https://www.eksworkshop.com/030_eksctl/launcheks https://www.eksworkshop.com/beginner/060_helm/helm_intro/install  Tasks  Deploy simple application Fargate  Notes There are 2 modes in EKS:
+<meta name=description content="Day1 Setup  https://www.eksworkshop.com/020_prerequisites/ec2instance https://www.eksworkshop.com/030_eksctl/launcheks https://www.eksworkshop.com/beginner/060_helm/helm_intro/install  Tasks  Deploy simple application Fargate  Notes There are 2 modes in EKS:
  EC2 Fargate  They can coexist in EKS.
 Also we can only fargate only. When we deploy plugins to the cluster, It will be deployed to the control panel. (hidden from user)
-How to use fargate in EKS:  create a fargate profile which is associated with a namespace deploy yml to that namespace  Pros and Con of fargate can be scaled up quickly.">
+How to use fargate in EKS:  create a fargate profile which is associated with a namespace deploy yml to that namespace  Pros and Con of fargate can be scaled up quickly  it is a micro vm as similar as pod one fargate instance per pod  lower cost of fargate  Fargate will be cheaper in some situations.">
 <meta name=author content="Hugo">
 <link rel=canonical href=https://hugotkk.github.io/posts/aws-workshop/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.min.6cba0d81b5f3f42bb578d49f402ba4175aa72b43def148780b8ad714c957c6f5.css integrity="sha256-bLoNgbXz9Cu1eNSfQCukF1qnK0Pe8Uh4C4rXFMlXxvU=" rel="preload stylesheet" as=style>
@@ -20,12 +20,12 @@ How to use fargate in EKS:  create a fargate profile which is associated with a 
 <link rel=mask-icon href=https://hugotkk.github.io/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.89.4">
+<meta name=generator content="Hugo 0.90.0">
 <meta property="og:title" content="AWS EKS Workshop">
-<meta property="og:description" content="EKS Workshop Day1 Setup  https://www.eksworkshop.com/020_prerequisites/ec2instance https://www.eksworkshop.com/030_eksctl/launcheks https://www.eksworkshop.com/beginner/060_helm/helm_intro/install  Tasks  Deploy simple application Fargate  Notes There are 2 modes in EKS:
+<meta property="og:description" content="Day1 Setup  https://www.eksworkshop.com/020_prerequisites/ec2instance https://www.eksworkshop.com/030_eksctl/launcheks https://www.eksworkshop.com/beginner/060_helm/helm_intro/install  Tasks  Deploy simple application Fargate  Notes There are 2 modes in EKS:
  EC2 Fargate  They can coexist in EKS.
 Also we can only fargate only. When we deploy plugins to the cluster, It will be deployed to the control panel. (hidden from user)
-How to use fargate in EKS:  create a fargate profile which is associated with a namespace deploy yml to that namespace  Pros and Con of fargate can be scaled up quickly.">
+How to use fargate in EKS:  create a fargate profile which is associated with a namespace deploy yml to that namespace  Pros and Con of fargate can be scaled up quickly  it is a micro vm as similar as pod one fargate instance per pod  lower cost of fargate  Fargate will be cheaper in some situations.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://hugotkk.github.io/posts/aws-workshop/"><meta property="og:image" content="https://hugotkk.github.io/papermod-cover.png"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2021-11-27T00:00:00+00:00">
@@ -33,12 +33,12 @@ How to use fargate in EKS:  create a fargate profile which is associated with a 
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://hugotkk.github.io/papermod-cover.png">
 <meta name=twitter:title content="AWS EKS Workshop">
-<meta name=twitter:description content="EKS Workshop Day1 Setup  https://www.eksworkshop.com/020_prerequisites/ec2instance https://www.eksworkshop.com/030_eksctl/launcheks https://www.eksworkshop.com/beginner/060_helm/helm_intro/install  Tasks  Deploy simple application Fargate  Notes There are 2 modes in EKS:
+<meta name=twitter:description content="Day1 Setup  https://www.eksworkshop.com/020_prerequisites/ec2instance https://www.eksworkshop.com/030_eksctl/launcheks https://www.eksworkshop.com/beginner/060_helm/helm_intro/install  Tasks  Deploy simple application Fargate  Notes There are 2 modes in EKS:
  EC2 Fargate  They can coexist in EKS.
 Also we can only fargate only. When we deploy plugins to the cluster, It will be deployed to the control panel. (hidden from user)
-How to use fargate in EKS:  create a fargate profile which is associated with a namespace deploy yml to that namespace  Pros and Con of fargate can be scaled up quickly.">
+How to use fargate in EKS:  create a fargate profile which is associated with a namespace deploy yml to that namespace  Pros and Con of fargate can be scaled up quickly  it is a micro vm as similar as pod one fargate instance per pod  lower cost of fargate  Fargate will be cheaper in some situations.">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://hugotkk.github.io/posts/"},{"@type":"ListItem","position":2,"name":"AWS EKS Workshop","item":"https://hugotkk.github.io/posts/aws-workshop/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"AWS EKS Workshop","name":"AWS EKS Workshop","description":"EKS Workshop Day1 Setup  https://www.eksworkshop.com/020_prerequisites/ec2instance https://www.eksworkshop.com/030_eksctl/launcheks https://www.eksworkshop.com/beginner/060_helm/helm_intro/install  Tasks  Deploy simple application Fargate  Notes There are 2 modes in EKS:\n EC2 Fargate  They can coexist in EKS.\nAlso we can only fargate only. When we deploy plugins to the cluster, It will be deployed to the control panel. (hidden from user)\nHow to use fargate in EKS:  create a fargate profile which is associated with a namespace deploy yml to that namespace  Pros and Con of fargate can be scaled up quickly.","keywords":["workshop","aws","eks"],"articleBody":"EKS Workshop Day1 Setup  https://www.eksworkshop.com/020_prerequisites/ec2instance https://www.eksworkshop.com/030_eksctl/launcheks https://www.eksworkshop.com/beginner/060_helm/helm_intro/install  Tasks  Deploy simple application Fargate  Notes There are 2 modes in EKS:\n EC2 Fargate  They can coexist in EKS.\nAlso we can only fargate only. When we deploy plugins to the cluster, It will be deployed to the control panel. (hidden from user)\nHow to use fargate in EKS:  create a fargate profile which is associated with a namespace deploy yml to that namespace  Pros and Con of fargate can be scaled up quickly.  it is a micro vm as similar as pod one fargate instance per pod  lower cost of fargate  Fargate will be cheaper in some situations. no need to rent large ec2 instance. it is good if you are doing batch jobs with EKS no need to maintain the ec2 instance (patch it, upgrade the kubelet)  not well integrate with other AWS services like efs?…need to further study on it.\n","wordCount":"150","inLanguage":"en","datePublished":"2021-11-27T00:00:00Z","dateModified":"2021-11-27T00:00:00Z","author":[{"@type":"Person","name":"Hugo"}],"mainEntityOfPage":{"@type":"WebPage","@id":"https://hugotkk.github.io/posts/aws-workshop/"},"publisher":{"@type":"Organization","name":"Hugo","logo":{"@type":"ImageObject","url":"https://hugotkk.github.io/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"AWS EKS Workshop","name":"AWS EKS Workshop","description":"Day1 Setup  https://www.eksworkshop.com/020_prerequisites/ec2instance https://www.eksworkshop.com/030_eksctl/launcheks https://www.eksworkshop.com/beginner/060_helm/helm_intro/install  Tasks  Deploy simple application Fargate  Notes There are 2 modes in EKS:\n EC2 Fargate  They can coexist in EKS.\nAlso we can only fargate only. When we deploy plugins to the cluster, It will be deployed to the control panel. (hidden from user)\nHow to use fargate in EKS:  create a fargate profile which is associated with a namespace deploy yml to that namespace  Pros and Con of fargate can be scaled up quickly  it is a micro vm as similar as pod one fargate instance per pod  lower cost of fargate  Fargate will be cheaper in some situations.","keywords":["workshop","aws","eks"],"articleBody":"Day1 Setup  https://www.eksworkshop.com/020_prerequisites/ec2instance https://www.eksworkshop.com/030_eksctl/launcheks https://www.eksworkshop.com/beginner/060_helm/helm_intro/install  Tasks  Deploy simple application Fargate  Notes There are 2 modes in EKS:\n EC2 Fargate  They can coexist in EKS.\nAlso we can only fargate only. When we deploy plugins to the cluster, It will be deployed to the control panel. (hidden from user)\nHow to use fargate in EKS:  create a fargate profile which is associated with a namespace deploy yml to that namespace  Pros and Con of fargate can be scaled up quickly  it is a micro vm as similar as pod one fargate instance per pod  lower cost of fargate  Fargate will be cheaper in some situations. no need to rent large ec2 instance. it is good if you are doing batch jobs with EKS no need to maintain the ec2 instance (patch it, upgrade the kubelet)  not well integrate with other AWS services like efs?…need to further study on it.\nDay3 Tasks  https://www.eksworkshop.com/intermediate/245_x-ray/microservices https://www.eksworkshop.com/intermediate/246_monitoring_amp_amg https://www.eksworkshop.com/intermediate/250_cloudwatch_container_insights https://www.eksworkshop.com/beginner/170_statefulset https://www.eksworkshop.com/beginner/190_efs  Alternative of argo  https://www.eksworkshop.com/intermediate/260_weave_flux https://www.eksworkshop.com/intermediate/220_codepipeline  ","wordCount":"160","inLanguage":"en","datePublished":"2021-11-27T00:00:00Z","dateModified":"2021-11-27T00:00:00Z","author":[{"@type":"Person","name":"Hugo"}],"mainEntityOfPage":{"@type":"WebPage","@id":"https://hugotkk.github.io/posts/aws-workshop/"},"publisher":{"@type":"Organization","name":"Hugo","logo":{"@type":"ImageObject","url":"https://hugotkk.github.io/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -85,15 +85,11 @@ AWS EKS Workshop
 </summary>
 <div class=inner><ul>
 <li>
-<a href=#eks-workshop aria-label="EKS Workshop">EKS Workshop</a><ul>
-<li>
 <a href=#day1 aria-label=Day1>Day1</a><ul>
 <li>
 <a href=#setup aria-label=Setup>Setup</a></li>
 <li>
-<a href=#tasks aria-label=Tasks>Tasks</a></li></ul>
-</li></ul>
-</li>
+<a href=#tasks aria-label=Tasks>Tasks</a></li>
 <li>
 <a href=#notes aria-label=Notes>Notes</a><ul>
 <li>
@@ -101,14 +97,20 @@ AWS EKS Workshop
 <li>
 <a href=#pros-and-con-of-fargate aria-label="Pros and Con of fargate">Pros and Con of fargate</a><ul>
 <li>
-<a href=#can-be-scaled-up-quickly aria-label="can be scaled up quickly.">can be scaled up quickly.</a></li></ul>
+<a href=#can-be-scaled-up-quickly aria-label="can be scaled up quickly">can be scaled up quickly</a></li></ul>
 </li>
 <li>
-<a href=#lower-cost-of-fargate aria-label="lower cost of fargate">lower cost of fargate</a><ul>
+<a href=#lower-cost-of-fargate aria-label="lower cost of fargate">lower cost of fargate</a></li>
 <li>
-<a href=#not-well-integrate-with-other-aws-services aria-label="not well integrate with other AWS services">not well integrate with other AWS services</a>
+<a href=#not-well-integrate-with-other-aws-services aria-label="not well integrate with other AWS services">not well integrate with other AWS services</a></li></ul>
+</li></ul>
 </li>
-</ul>
+<li>
+<a href=#day3 aria-label=Day3>Day3</a><ul>
+<li>
+<a href=#tasks-1 aria-label=Tasks>Tasks</a></li>
+<li>
+<a href=#alternative-of-argo aria-label="Alternative of argo">Alternative of argo</a>
 </li>
 </ul>
 </li>
@@ -116,20 +118,19 @@ AWS EKS Workshop
 </div>
 </details>
 </div>
-<div class=post-content><h1 id=eks-workshop>EKS Workshop<a hidden class=anchor aria-hidden=true href=#eks-workshop>#</a></h1>
-<h2 id=day1>Day1<a hidden class=anchor aria-hidden=true href=#day1>#</a></h2>
-<h3 id=setup>Setup<a hidden class=anchor aria-hidden=true href=#setup>#</a></h3>
+<div class=post-content><h1 id=day1>Day1<a hidden class=anchor aria-hidden=true href=#day1>#</a></h1>
+<h2 id=setup>Setup<a hidden class=anchor aria-hidden=true href=#setup>#</a></h2>
 <ul>
 <li><a href=https://www.eksworkshop.com/020_prerequisites/ec2instance>https://www.eksworkshop.com/020_prerequisites/ec2instance</a></li>
 <li><a href=https://www.eksworkshop.com/030_eksctl/launcheks>https://www.eksworkshop.com/030_eksctl/launcheks</a></li>
 <li><a href=https://www.eksworkshop.com/beginner/060_helm/helm_intro/install>https://www.eksworkshop.com/beginner/060_helm/helm_intro/install</a></li>
 </ul>
-<h3 id=tasks>Tasks<a hidden class=anchor aria-hidden=true href=#tasks>#</a></h3>
+<h2 id=tasks>Tasks<a hidden class=anchor aria-hidden=true href=#tasks>#</a></h2>
 <ul>
 <li><a href=https://www.eksworkshop.com/beginner/050_deploy>Deploy simple application</a></li>
 <li><a href=https://www.eksworkshop.com/beginner/180_fargate>Fargate</a></li>
 </ul>
-<h1 id=notes>Notes<a hidden class=anchor aria-hidden=true href=#notes>#</a></h1>
+<h2 id=notes>Notes<a hidden class=anchor aria-hidden=true href=#notes>#</a></h2>
 <p>There are 2 modes in EKS:</p>
 <ul>
 <li>EC2</li>
@@ -137,18 +138,18 @@ AWS EKS Workshop
 </ul>
 <p>They can coexist in EKS.</p>
 <p>Also we can only fargate only. When we deploy plugins to the cluster, It will be deployed to the control panel. (hidden from user)</p>
-<h2 id=how-to-use-fargate-in-eks>How to use fargate in EKS:<a hidden class=anchor aria-hidden=true href=#how-to-use-fargate-in-eks>#</a></h2>
+<h3 id=how-to-use-fargate-in-eks>How to use fargate in EKS:<a hidden class=anchor aria-hidden=true href=#how-to-use-fargate-in-eks>#</a></h3>
 <ul>
 <li>create a fargate profile which is associated with a namespace</li>
 <li>deploy yml to that namespace</li>
 </ul>
-<h2 id=pros-and-con-of-fargate>Pros and Con of fargate<a hidden class=anchor aria-hidden=true href=#pros-and-con-of-fargate>#</a></h2>
-<h3 id=can-be-scaled-up-quickly>can be scaled up quickly.<a hidden class=anchor aria-hidden=true href=#can-be-scaled-up-quickly>#</a></h3>
+<h3 id=pros-and-con-of-fargate>Pros and Con of fargate<a hidden class=anchor aria-hidden=true href=#pros-and-con-of-fargate>#</a></h3>
+<h4 id=can-be-scaled-up-quickly>can be scaled up quickly<a hidden class=anchor aria-hidden=true href=#can-be-scaled-up-quickly>#</a></h4>
 <ul>
 <li>it is a micro vm as similar as pod</li>
 <li>one fargate instance per pod</li>
 </ul>
-<h2 id=lower-cost-of-fargate>lower cost of fargate<a hidden class=anchor aria-hidden=true href=#lower-cost-of-fargate>#</a></h2>
+<h3 id=lower-cost-of-fargate>lower cost of fargate<a hidden class=anchor aria-hidden=true href=#lower-cost-of-fargate>#</a></h3>
 <ul>
 <li><a href=https://aws.amazon.com/blogs/containers/theoretical-cost-optimization-by-amazon-ecs-launch-type-fargate-vs-ec2/>Fargate will be cheaper</a> in some situations.</li>
 <li>no need to rent large ec2 instance. it is good if you are doing batch jobs with EKS</li>
@@ -156,6 +157,20 @@ AWS EKS Workshop
 </ul>
 <h3 id=not-well-integrate-with-other-aws-services>not well integrate with other AWS services<a hidden class=anchor aria-hidden=true href=#not-well-integrate-with-other-aws-services>#</a></h3>
 <p>like efs?&mldr;need to further study on it.</p>
+<h1 id=day3>Day3<a hidden class=anchor aria-hidden=true href=#day3>#</a></h1>
+<h2 id=tasks-1>Tasks<a hidden class=anchor aria-hidden=true href=#tasks-1>#</a></h2>
+<ul>
+<li><a href=https://www.eksworkshop.com/intermediate/245_x-ray/microservices>https://www.eksworkshop.com/intermediate/245_x-ray/microservices</a></li>
+<li><a href=https://www.eksworkshop.com/intermediate/246_monitoring_amp_amg>https://www.eksworkshop.com/intermediate/246_monitoring_amp_amg</a></li>
+<li><a href=https://www.eksworkshop.com/intermediate/250_cloudwatch_container_insights>https://www.eksworkshop.com/intermediate/250_cloudwatch_container_insights</a></li>
+<li><a href=https://www.eksworkshop.com/beginner/170_statefulset>https://www.eksworkshop.com/beginner/170_statefulset</a></li>
+<li><a href=https://www.eksworkshop.com/beginner/190_efs>https://www.eksworkshop.com/beginner/190_efs</a></li>
+</ul>
+<h2 id=alternative-of-argo>Alternative of argo<a hidden class=anchor aria-hidden=true href=#alternative-of-argo>#</a></h2>
+<ul>
+<li><a href=https://www.eksworkshop.com/intermediate/260_weave_flux>https://www.eksworkshop.com/intermediate/260_weave_flux</a></li>
+<li><a href=https://www.eksworkshop.com/intermediate/220_codepipeline>https://www.eksworkshop.com/intermediate/220_codepipeline</a></li>
+</ul>
 </div>
 <footer class=post-footer>
 <ul class=post-tags>

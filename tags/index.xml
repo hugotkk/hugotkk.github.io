@@ -9,7 +9,61 @@
       <link>https://hugotkk.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 10 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>azure</title>
+      <link>https://hugotkk.github.io/tags/azure/</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/tags/azure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloud</title>
+      <link>https://hugotkk.github.io/tags/cloud/</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloud-centre</title>
+      <link>https://hugotkk.github.io/tags/cloud-centre/</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/tags/cloud-centre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>migration-centre</title>
+      <link>https://hugotkk.github.io/tags/migration-centre/</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/tags/migration-centre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>k8s</title>
+      <link>https://hugotkk.github.io/tags/k8s/</link>
+      <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/tags/k8s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rancher</title>
+      <link>https://hugotkk.github.io/tags/rancher/</link>
+      <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/tags/rancher/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>aws</title>
       <link>https://hugotkk.github.io/tags/aws/</link>
@@ -34,24 +88,6 @@
       <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cloud</title>
-      <link>https://hugotkk.github.io/tags/cloud/</link>
-      <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugotkk.github.io/tags/cloud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cloud-centre</title>
-      <link>https://hugotkk.github.io/tags/cloud-centre/</link>
-      <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugotkk.github.io/tags/cloud-centre/</guid>
       <description></description>
     </item>
     
@@ -146,15 +182,6 @@
     </item>
     
     <item>
-      <title>azure</title>
-      <link>https://hugotkk.github.io/tags/azure/</link>
-      <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugotkk.github.io/tags/azure/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>eks</title>
       <link>https://hugotkk.github.io/tags/eks/</link>
       <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
@@ -169,15 +196,6 @@
       <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/tags/hk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>k8s</title>
-      <link>https://hugotkk.github.io/tags/k8s/</link>
-      <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugotkk.github.io/tags/k8s/</guid>
       <description></description>
     </item>
     

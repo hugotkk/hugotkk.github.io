@@ -17,7 +17,7 @@
       
       <guid>https://hugotkk.github.io/posts/blockchain-use-case/</guid>
       <description>Trust Over IP: Hyperledger Ursa, Indy, and Aires https://www.youtube.com/watch?v=FfuhlF9ZYPM
-Notes  prove the credential without CA trusted issuer (eg: gov) issues the identity token (eg: driving license) -&amp;gt; send it to a crypto account (like sending btc to someone) on the blockchain, it shows a record that the account owns that license. (like you can check your btc balance / NFS on chain explorer) anyone can request that you own that account (like an approval transaction from dapp).</description>
+Notes  prove the credential without CA trusted issuer (eg: gov) issues the identity token (eg: driving licence) -&amp;gt; send it to a crypto account (like sending btc to someone) on the blockchain, it shows a record that the account owns that licence. (like you can check your btc balance / NFS on chain explorer) anyone can request that you own that account (like an approval transaction from dapp).</description>
     </item>
     
   </channel>

@@ -9,7 +9,17 @@
       <link>https://hugotkk.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 27 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/k8s/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/k8s/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Review of Rancher</title>
+      <link>https://hugotkk.github.io/posts/rancher/</link>
+      <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/rancher/</guid>
+      <description>https://www.youtube.com/watch?v=LK6KbAlQRIg
+ provide a GUI interface manage k8s clusters  Cons (21:12)  Still using docker (should use cri-o) Only support old version k8s (1.18) Mutable approach (not using image to provision, it installs docker and setup the cluster for you) Very slow to create the cluster  Pros  Manage multiple clusters GUI  </description>
+    </item>
+    
     <item>
       <title>EKS vs AKS</title>
       <link>https://hugotkk.github.io/posts/eks-vs-aks/</link>

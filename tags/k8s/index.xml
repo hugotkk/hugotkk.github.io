@@ -9,7 +9,30 @@
       <link>https://hugotkk.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 13 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/k8s/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/k8s/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>istio</title>
+      <link>https://hugotkk.github.io/posts/istio/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/istio/</guid>
+      <description>Playlist
+Deployment Strategies Best Practise
+Canary https://octopus.com/docs/deployments/patterns/canary-deployments
+ we have a load balancer &amp;amp; n server. deploy the changes on one of the server  Blue / Green https://www.ibm.com/docs/en/urbancode-deploy/6.2.7?topic=processes-modeling-blue-green-rolling-canary-deployments
+Rolling </description>
+    </item>
+    
+    <item>
+      <title>Spark</title>
+      <link>https://hugotkk.github.io/posts/spark/</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/spark/</guid>
+      <description>Playlist
+Apache Spark on EKS https://github.com/kubernetes/kubernetes/tree/release-1.3/examples/spark</description>
+    </item>
+    
     <item>
       <title>Review of Rancher</title>
       <link>https://hugotkk.github.io/posts/rancher/</link>

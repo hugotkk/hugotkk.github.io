@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>networking on Hugo</title>
+    <link>https://hugotkk.github.io/tags/networking/</link>
+    <description>Recent content in networking on Hugo</description>
+    <image>
+      <url>https://hugotkk.github.io/papermod-cover.png</url>
+      <link>https://hugotkk.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 26 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Certified Advanced Networking - Specialty</title>
+      <link>https://hugotkk.github.io/posts/aws-certified-advanced-network/</link>
+      <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/aws-certified-advanced-network/</guid>
+      <description>Resources  Exam Landing Page Sample Questions Exam Guide udemy course udemy mock exam whizlabs test &amp;amp; hand-on labs Network to Amazon VPC connectivity option  TODO  take notes revision mocks (by topic) whizlabs revise udemy quiz + exercise mock 1 (udemy) mock 2 (whizlabs)  Revision The numbers below are the page no of the udemy course&amp;rsquo;s pdf: AWS Certified Networking Specialty Slides v1.1.
+Summary  DNS (151) Advanced Networking (188) VPC Endpoint (292, 298) Site-to-site VPN (347, 401, 407) VPN Tunnels and Routing (348, 352) DX Gateway with VGW (532) DX with TGW (547) DX Billing (624) DX (630) Troubleshooting in DX (626) Gateway Load Balancer (816)  Q &amp;amp; A ALB (677) DX (625)</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -9,7 +9,88 @@
       <link>https://hugotkk.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 14 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>aws</title>
+      <link>https://hugotkk.github.io/tags/aws/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>file-system</title>
+      <link>https://hugotkk.github.io/tags/file-system/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/tags/file-system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>istio</title>
+      <link>https://hugotkk.github.io/tags/istio/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/tags/istio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>k8s</title>
+      <link>https://hugotkk.github.io/tags/k8s/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/tags/k8s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://hugotkk.github.io/tags/linux/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>random-number</title>
+      <link>https://hugotkk.github.io/tags/random-number/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/tags/random-number/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>service-mesh</title>
+      <link>https://hugotkk.github.io/tags/service-mesh/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/tags/service-mesh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>space</title>
+      <link>https://hugotkk.github.io/tags/space/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/tags/space/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>use-case</title>
+      <link>https://hugotkk.github.io/tags/use-case/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/tags/use-case/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>azure</title>
       <link>https://hugotkk.github.io/tags/azure/</link>
@@ -47,11 +128,20 @@
     </item>
     
     <item>
-      <title>k8s</title>
-      <link>https://hugotkk.github.io/tags/k8s/</link>
-      <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
+      <title>ml</title>
+      <link>https://hugotkk.github.io/tags/ml/</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugotkk.github.io/tags/k8s/</guid>
+      <guid>https://hugotkk.github.io/tags/ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spark</title>
+      <link>https://hugotkk.github.io/tags/spark/</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/tags/spark/</guid>
       <description></description>
     </item>
     
@@ -61,15 +151,6 @@
       <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/tags/rancher/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>aws</title>
-      <link>https://hugotkk.github.io/tags/aws/</link>
-      <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugotkk.github.io/tags/aws/</guid>
       <description></description>
     </item>
     
@@ -263,11 +344,11 @@
     </item>
     
     <item>
-      <title>use-case</title>
-      <link>https://hugotkk.github.io/tags/use-case/</link>
+      <title>networking</title>
+      <link>https://hugotkk.github.io/tags/networking/</link>
       <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hugotkk.github.io/tags/use-case/</guid>
+      <guid>https://hugotkk.github.io/tags/networking/</guid>
       <description></description>
     </item>
     

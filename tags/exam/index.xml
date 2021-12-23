@@ -16,7 +16,8 @@
       <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/aws-certified-advanced-network/</guid>
-      <description>Resources  AWS Certified Advanced Networking Specialty 2021  How to connect VPCs  Transit gateway peering attachments What is VPC peering? Transit Gateway vs VPC peering     Solution / Situation same region cross region cross account     VPC Peering OK OK OK   TGW Peering OK OK OK   TGW (attach VPC) OK NO OK   AWS Managed VPN OK OK OK   EC2 Based VPN OK OK OK    Private Link is something like tgw peer but for spefic service only.</description>
+      <description>Resources  Exam Landing Page Sample Questions Exam Guide udemy course udemy mock exam whizlabs test &amp;amp; hand-on labs Network to Amazon VPC connectivity option  TODO  take notes revision mocks (by topic) whizlabs revise udemy quiz + exercise mock 1 (udemy) mock 2 (whizlabs)  Revision The numbers below are the page no of the udemy course&amp;rsquo;s pdf: AWS Certified Networking Specialty Slides v1.1.
+Summary  DNS (151) Advanced Networking (188) VPC Endpoint (292, 298) Site-to-site VPN (347, 401, 407) VPN Tunnels and Routing (348, 352) DX Gateway with VGW (532) DX with TGW (547) DX Billing (624) DX (630) Troubleshooting in DX (626) Gateway Load Balancer (816)  Q &amp;amp; A ALB (677) DX (625)</description>
     </item>
     
     <item>

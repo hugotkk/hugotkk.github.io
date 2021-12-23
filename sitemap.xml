@@ -2,6 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://hugotkk.github.io/tags/aws/</loc>
+    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/posts/aws-ground-station/</loc>
+    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/posts/btrfs/</loc>
+    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/file-system/</loc>
+    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/</loc>
+    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/istio/</loc>
+    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/posts/istio/</loc>
+    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/k8s/</loc>
+    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/linux/</loc>
+    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/posts/</loc>
+    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/posts/random-numbers/</loc>
+    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/random-number/</loc>
+    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/service-mesh/</loc>
+    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/space/</loc>
+    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/</loc>
+    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/use-case/</loc>
+    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://hugotkk.github.io/tags/azure/</loc>
     <lastmod>2021-12-14T00:00:00+00:00</lastmod>
   </url><url>
@@ -14,20 +62,17 @@
     <loc>https://hugotkk.github.io/posts/azure-migration-stragegies/</loc>
     <lastmod>2021-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hugotkk.github.io/</loc>
-    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://hugotkk.github.io/tags/migration-centre/</loc>
     <lastmod>2021-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hugotkk.github.io/posts/</loc>
+    <loc>https://hugotkk.github.io/tags/ml/</loc>
     <lastmod>2021-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hugotkk.github.io/tags/</loc>
+    <loc>https://hugotkk.github.io/posts/spark/</loc>
     <lastmod>2021-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hugotkk.github.io/tags/k8s/</loc>
-    <lastmod>2021-12-13T00:00:00+00:00</lastmod>
+    <loc>https://hugotkk.github.io/tags/spark/</loc>
+    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/tags/rancher/</loc>
     <lastmod>2021-12-13T00:00:00+00:00</lastmod>
@@ -36,9 +81,6 @@
     <lastmod>2021-12-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/posts/cloud-center-of-excellenace/</loc>
-    <lastmod>2021-12-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hugotkk.github.io/tags/aws/</loc>
     <lastmod>2021-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/tags/bandwidth/</loc>
@@ -152,13 +194,13 @@
     <loc>https://hugotkk.github.io/posts/k8s-authentication/</loc>
     <lastmod>2021-11-26T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://hugotkk.github.io/tags/networking/</loc>
+    <lastmod>2021-11-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://hugotkk.github.io/posts/note-for-cka-exam/</loc>
     <lastmod>2021-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/posts/etcd/</loc>
-    <lastmod>2021-11-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hugotkk.github.io/tags/use-case/</loc>
     <lastmod>2021-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/categories/</loc>

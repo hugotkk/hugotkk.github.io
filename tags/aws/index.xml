@@ -9,7 +9,17 @@
       <link>https://hugotkk.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 10 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aws Ground Station</title>
+      <link>https://hugotkk.github.io/posts/aws-ground-station/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/aws-ground-station/</guid>
+      <description>https://www.youtube.com/watch?v=_MwNgO0aJo0
+https://www.youtube.com/watch?v=namlZpQ6W_k</description>
+    </item>
+    
     <item>
       <title>EC2 Bandwidth test</title>
       <link>https://hugotkk.github.io/posts/bandwidth-test/</link>
@@ -57,6 +67,16 @@ In aws, you need to
  install plugins setup iam service account for the plugins to access AWS service  application routing For AKS,
  it is just an checkbox option  For EKS, you need to
  setup IAM OICD setup external dns setup ALB contrller  auto scaler Same as application routing -&amp;gt; auto scaler.</description>
+    </item>
+    
+    <item>
+      <title>AWS Certified Advanced Networking - Specialty</title>
+      <link>https://hugotkk.github.io/posts/aws-certified-advanced-network/</link>
+      <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/aws-certified-advanced-network/</guid>
+      <description>Resources  Exam Landing Page Sample Questions Exam Guide udemy course udemy mock exam whizlabs test &amp;amp; hand-on labs Network to Amazon VPC connectivity option  TODO  take notes revision mocks (by topic) whizlabs revise udemy quiz + exercise mock 1 (udemy) mock 2 (whizlabs)  Revision The numbers below are the page no of the udemy course&amp;rsquo;s pdf: AWS Certified Networking Specialty Slides v1.1.
+Summary  DNS (151) Advanced Networking (188) VPC Endpoint (292, 298) Site-to-site VPN (347, 401, 407) VPN Tunnels and Routing (348, 352) DX Gateway with VGW (532) DX with TGW (547) DX Billing (624) DX (630) Troubleshooting in DX (626) Gateway Load Balancer (816)  Q &amp;amp; A ALB (677) DX (625)</description>
     </item>
     
   </channel>

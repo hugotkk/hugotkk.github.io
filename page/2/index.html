@@ -15,7 +15,7 @@
 <link rel=mask-icon href=https://hugotkk.github.io/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.90.1">
+<meta name=generator content="Hugo 0.91.0">
 <link rel=alternate type=application/json href=https://hugotkk.github.io/index.json>
 <meta property="og:title" content="Hugo">
 <meta property="og:description" content>
@@ -64,6 +64,69 @@
 <main class=main>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Node Red</h2>
+</header>
+<section class=entry-content>
+<p>Official Website
+Playlist
+a visual editor to build workflow and ui application to interact with IoT
+wire the IoTs and user (with web dashboard) read data from IoT write data to IoT (control it, on and off etc) build a flow among IoTs and users for automation build dashboard UI all can be done by drag and drop
+can be used with blockchain in the supply chain…
+node red pulls the data from sensors and submits to blockchain automatically...</p>
+</section>
+<footer class=entry-footer>November 28, 2021&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to Node Red" href=https://hugotkk.github.io/posts/node-red/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>AWS EKS Workshop</h2>
+</header>
+<section class=entry-content>
+<p>Day1 Setup https://www.eksworkshop.com/020_prerequisites/ec2instance https://www.eksworkshop.com/030_eksctl/launcheks https://www.eksworkshop.com/beginner/060_helm/helm_intro/install Tasks Deploy simple application Fargate Notes There are 2 modes in EKS:
+EC2 Fargate They can coexist in EKS.
+Also we can only fargate only. When we deploy plugins to the cluster, It will be deployed to the control panel. (hidden from user)
+How to use fargate in EKS: create a fargate profile which is associated with a namespace deploy yml to that namespace Pros and Con of fargate can be scaled up quickly it is a micro vm as similar as pod one fargate instance per pod lower cost of fargate Fargate will be cheaper in some situations....</p>
+</section>
+<footer class=entry-footer>November 27, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to AWS EKS Workshop" href=https://hugotkk.github.io/posts/aws-workshop/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>AWS Managed Blockchain</h2>
+</header>
+<section class=entry-content>
+<p>Pros with AWS Managed Blockchain no need to build the ledger by themself focus on the smart contract a single blockchain network can effectively work cross multiple parties An Overview on Blockchain Services from AWS https://www.youtube.com/watch?v=WAIOBeQA2QQ
+ledger database (immutable transaction) consenus decentlization smart contract ease for audit Hyperledger Fabric VS eth authentication access control private ledger </p>
+</section>
+<footer class=entry-footer>November 27, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to AWS Managed Blockchain" href=https://hugotkk.github.io/posts/aws-managed-blockchain/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>EKS vs AKS</h2>
+</header>
+<section class=entry-content>
+<p>Control Panel Fee AKS: 0 EKS: fixed charge 0.1 USD / Hour Integration I think AKS is better, most of the provisioning plugins can be enabled by one click
+In aws, you need to
+install plugins setup iam service account for the plugins to access AWS service application routing For AKS,
+it is just an checkbox option For EKS, you need to
+setup IAM OICD setup external dns setup ALB contrller auto scaler Same as application routing -> auto scaler....</p>
+</section>
+<footer class=entry-footer>November 27, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to EKS vs AKS" href=https://hugotkk.github.io/posts/eks-vs-aks/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Hyperledger fabric</h2>
+</header>
+<section class=entry-content>
+<p>Installation https://hyperledger-fabric.readthedocs.io/en/release-2.2/install.html node go docker fabric fabric-ca third party image: kafka, zookeeper, couchdb fabric-ca-binary</p>
+</section>
+<footer class=entry-footer>November 27, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to Hyperledger fabric" href=https://hugotkk.github.io/posts/hyperledger-fabric/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Movies about Hong Kong</h2>
 </header>
 <section class=entry-content>
@@ -82,9 +145,10 @@ Connection with mashipo How an elderly Hong Kong pro-democracy protester also fo
 <h2>AWS Certified Advanced Networking - Specialty</h2>
 </header>
 <section class=entry-content>
-<p>Resources AWS Certified Advanced Networking Specialty 2021 How to connect VPCs Transit gateway peering attachments What is VPC peering? Transit Gateway vs VPC peering Solution / Situation same region cross region cross account VPC Peering OK OK OK TGW Peering OK OK OK TGW (attach VPC) OK NO OK AWS Managed VPN OK OK OK EC2 Based VPN OK OK OK Private Link is something like tgw peer but for spefic service only....</p>
+<p>Resources Exam Landing Page Sample Questions Exam Guide udemy course udemy mock exam whizlabs test & hand-on labs Network to Amazon VPC connectivity option TODO take notes revision mocks (by topic) whizlabs revise udemy quiz + exercise mock 1 (udemy) mock 2 (whizlabs) Revision The numbers below are the page no of the udemy course’s pdf: AWS Certified Networking Specialty Slides v1.1.
+Summary DNS (151) Advanced Networking (188) VPC Endpoint (292, 298) Site-to-site VPN (347, 401, 407) VPN Tunnels and Routing (348, 352) DX Gateway with VGW (532) DX with TGW (547) DX Billing (624) DX (630) Troubleshooting in DX (626) Gateway Load Balancer (816) Q & A ALB (677) DX (625)...</p>
 </section>
-<footer class=entry-footer>November 26, 2021&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Hugo</footer>
+<footer class=entry-footer>November 26, 2021&nbsp;·&nbsp;11 min&nbsp;·&nbsp;Hugo</footer>
 <a class=entry-link aria-label="post link to AWS Certified Advanced Networking - Specialty" href=https://hugotkk.github.io/posts/aws-certified-advanced-network/></a>
 </article>
 <article class=post-entry>
@@ -180,33 +244,10 @@ git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main Then the warn
 <footer class=entry-footer>August 25, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
 <a class=entry-link aria-label="post link to Broken Git Ref" href=https://hugotkk.github.io/posts/broken-git-ref/></a>
 </article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Slow Bash Startup</h2>
-</header>
-<section class=entry-content>
-<p>Recently find that it is too slow to start a new bash.
-After debugging, I realize that nvm is the main reason for that.
-Finally, disabled nvm to solve the problem.</p>
-</section>
-<footer class=entry-footer>August 25, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
-<a class=entry-link aria-label="post link to Slow Bash Startup" href=https://hugotkk.github.io/posts/slow-bash-startup/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Move Forward Backward in Chrome</h2>
-</header>
-<section class=entry-content>
-<p>I used the emacs keybind to maniplicate the string on command line but it does not work at chrome on macos.
-I am unhappy with that until I find the solution on this post
-https://stackoverflow.com/questions/20146972/is-there-a-way-to-make-alt-f-and-alt-b-jump-word-forward-and-backward-instead-of sudo mkdir -p ~/Library/Keybindings/ sudo vi ~/Library/Keybindings/DefaultKeyBinding.dict { "~d" = "deleteWordForward:"; "^w" = "deleteWordBackward:"; "~f" = "moveWordForward:"; "~b" = "moveWordBackward:"; } </p>
-</section>
-<footer class=entry-footer>August 20, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
-<a class=entry-link aria-label="post link to Move Forward Backward in Chrome" href=https://hugotkk.github.io/posts/move-forward-backward-in-chrome/></a>
-</article>
 <footer class=page-footer>
 <nav class=pagination>
 <a class=prev href=https://hugotkk.github.io/>« Prev Page</a>
+<a class=next href=https://hugotkk.github.io/page/3/>Next Page »</a>
 </nav>
 </footer>
 </main>

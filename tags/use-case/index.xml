@@ -9,7 +9,17 @@
       <link>https://hugotkk.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 26 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/use-case/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/use-case/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aws Ground Station</title>
+      <link>https://hugotkk.github.io/posts/aws-ground-station/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/aws-ground-station/</guid>
+      <description>https://www.youtube.com/watch?v=_MwNgO0aJo0
+https://www.youtube.com/watch?v=namlZpQ6W_k</description>
+    </item>
+    
     <item>
       <title>Blockchain use cases</title>
       <link>https://hugotkk.github.io/posts/blockchain-use-case/</link>

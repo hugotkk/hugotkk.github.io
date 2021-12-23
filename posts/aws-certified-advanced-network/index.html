@@ -4,8 +4,9 @@
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta name=robots content="index, follow">
 <title>AWS Certified Advanced Networking - Specialty | Hugo</title>
-<meta name=keywords content="cert,exam">
-<meta name=description content="Resources  AWS Certified Advanced Networking Specialty 2021  How to connect VPCs  Transit gateway peering attachments What is VPC peering? Transit Gateway vs VPC peering     Solution / Situation same region cross region cross account     VPC Peering OK OK OK   TGW Peering OK OK OK   TGW (attach VPC) OK NO OK   AWS Managed VPN OK OK OK   EC2 Based VPN OK OK OK    Private Link is something like tgw peer but for spefic service only.">
+<meta name=keywords content="cert,exam,aws,networking">
+<meta name=description content="Resources  Exam Landing Page Sample Questions Exam Guide udemy course udemy mock exam whizlabs test & hand-on labs Network to Amazon VPC connectivity option  TODO  take notes revision mocks (by topic) whizlabs revise udemy quiz + exercise mock 1 (udemy) mock 2 (whizlabs)  Revision The numbers below are the page no of the udemy course&rsquo;s pdf: AWS Certified Networking Specialty Slides v1.1.
+Summary  DNS (151) Advanced Networking (188) VPC Endpoint (292, 298) Site-to-site VPN (347, 401, 407) VPN Tunnels and Routing (348, 352) DX Gateway with VGW (532) DX with TGW (547) DX Billing (624) DX (630) Troubleshooting in DX (626) Gateway Load Balancer (816)  Q & A ALB (677) DX (625)">
 <meta name=author content="Hugo">
 <link rel=canonical href=https://hugotkk.github.io/posts/aws-certified-advanced-network/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.min.6cba0d81b5f3f42bb578d49f402ba4175aa72b43def148780b8ad714c957c6f5.css integrity="sha256-bLoNgbXz9Cu1eNSfQCukF1qnK0Pe8Uh4C4rXFMlXxvU=" rel="preload stylesheet" as=style>
@@ -17,9 +18,10 @@
 <link rel=mask-icon href=https://hugotkk.github.io/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.90.1">
+<meta name=generator content="Hugo 0.91.0">
 <meta property="og:title" content="AWS Certified Advanced Networking - Specialty">
-<meta property="og:description" content="Resources  AWS Certified Advanced Networking Specialty 2021  How to connect VPCs  Transit gateway peering attachments What is VPC peering? Transit Gateway vs VPC peering     Solution / Situation same region cross region cross account     VPC Peering OK OK OK   TGW Peering OK OK OK   TGW (attach VPC) OK NO OK   AWS Managed VPN OK OK OK   EC2 Based VPN OK OK OK    Private Link is something like tgw peer but for spefic service only.">
+<meta property="og:description" content="Resources  Exam Landing Page Sample Questions Exam Guide udemy course udemy mock exam whizlabs test & hand-on labs Network to Amazon VPC connectivity option  TODO  take notes revision mocks (by topic) whizlabs revise udemy quiz + exercise mock 1 (udemy) mock 2 (whizlabs)  Revision The numbers below are the page no of the udemy course&rsquo;s pdf: AWS Certified Networking Specialty Slides v1.1.
+Summary  DNS (151) Advanced Networking (188) VPC Endpoint (292, 298) Site-to-site VPN (347, 401, 407) VPN Tunnels and Routing (348, 352) DX Gateway with VGW (532) DX with TGW (547) DX Billing (624) DX (630) Troubleshooting in DX (626) Gateway Load Balancer (816)  Q & A ALB (677) DX (625)">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://hugotkk.github.io/posts/aws-certified-advanced-network/"><meta property="og:image" content="https://hugotkk.github.io/papermod-cover.png"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2021-11-26T00:00:00+00:00">
@@ -27,9 +29,10 @@
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://hugotkk.github.io/papermod-cover.png">
 <meta name=twitter:title content="AWS Certified Advanced Networking - Specialty">
-<meta name=twitter:description content="Resources  AWS Certified Advanced Networking Specialty 2021  How to connect VPCs  Transit gateway peering attachments What is VPC peering? Transit Gateway vs VPC peering     Solution / Situation same region cross region cross account     VPC Peering OK OK OK   TGW Peering OK OK OK   TGW (attach VPC) OK NO OK   AWS Managed VPN OK OK OK   EC2 Based VPN OK OK OK    Private Link is something like tgw peer but for spefic service only.">
+<meta name=twitter:description content="Resources  Exam Landing Page Sample Questions Exam Guide udemy course udemy mock exam whizlabs test & hand-on labs Network to Amazon VPC connectivity option  TODO  take notes revision mocks (by topic) whizlabs revise udemy quiz + exercise mock 1 (udemy) mock 2 (whizlabs)  Revision The numbers below are the page no of the udemy course&rsquo;s pdf: AWS Certified Networking Specialty Slides v1.1.
+Summary  DNS (151) Advanced Networking (188) VPC Endpoint (292, 298) Site-to-site VPN (347, 401, 407) VPN Tunnels and Routing (348, 352) DX Gateway with VGW (532) DX with TGW (547) DX Billing (624) DX (630) Troubleshooting in DX (626) Gateway Load Balancer (816)  Q & A ALB (677) DX (625)">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://hugotkk.github.io/posts/"},{"@type":"ListItem","position":2,"name":"AWS Certified Advanced Networking - Specialty","item":"https://hugotkk.github.io/posts/aws-certified-advanced-network/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"AWS Certified Advanced Networking - Specialty","name":"AWS Certified Advanced Networking - Specialty","description":"Resources  AWS Certified Advanced Networking Specialty 2021  How to connect VPCs  Transit gateway peering attachments What is VPC peering? Transit Gateway vs VPC peering     Solution / Situation same region cross region cross account     VPC Peering OK OK OK   TGW Peering OK OK OK   TGW (attach VPC) OK NO OK   AWS Managed VPN OK OK OK   EC2 Based VPN OK OK OK    Private Link is something like tgw peer but for spefic service only.","keywords":["cert","exam"],"articleBody":"Resources  AWS Certified Advanced Networking Specialty 2021  How to connect VPCs  Transit gateway peering attachments What is VPC peering? Transit Gateway vs VPC peering     Solution / Situation same region cross region cross account     VPC Peering OK OK OK   TGW Peering OK OK OK   TGW (attach VPC) OK NO OK   AWS Managed VPN OK OK OK   EC2 Based VPN OK OK OK    Private Link is something like tgw peer but for spefic service only. It can cross region and account.\nScope    Resource Scope     VGW VPC   TGW VPC   NLB VPC   ALB VPC   Route53 VPC   NAT Subnet    Exam Essentials    Page Topic     190 VPC   300-302 VPC Peering   402 VPN   632 Direct Connect    VPC Peering Failed cases    Page Title     207 CIDR overlap or transitive routing   208 from DX or VPN   209 to IGW    Site-to-site VPN with VGW Use cases    Page Title     335 Site-to-site Connection with NAT-Traversal   361 Single Site-to-site Connection with VGW   363 Multiple Site-to-site Connection with VGW   365 Redundant VPN connections for HA    VPN CloudHub  369  EC2 Based VPN    Page Title     375 Single instance   376 HA   378 Horizontal scaling - VPN EC2 per subnet   379 Horizontal scaling - Split traffic    Transit VPC    Page Title     391 Transit VPC   398 global regions with single Transit Hub   398 global regions with multiple Transit Hub    Failed cases    Page Title     340 Site-to-site VPN to IGW   341 Site-to-site VPN to NAT   343 Site-to-site VPN to VPC Peering   344 Site-to-site VPN to VPC Gateway endpoint    Successful cases    Page Title     342 Site-to-site VPN to NAT Instance   345 Site-to-site VPN to VPC Interface endpoint   345 Site-to-site VPN to on-premise NAT to Internet    Direct Connect Use cases    Page Title     591 VPN as a backup   592 Dual Devices   593 Dual locations   594 Dual locations with DX connection backup   602 VPN over DX    Failed cases    Page Title     530 DX Gateway with multiple customer sites   542 DX Gateway with multiple TGWs    Successful cases    Page Title     546 DX Gateway with multiple customer sites    Limitation VPC Limit\nPeering VPC Peering: 125\nRouting    Resource Limit     Private VIFs 100   Public VIFs 1000    MTU (159)    Resource Limit     VPC 9001   VPC Peering 1500   DX 9001   TGW (to DX) 8500   TGW (to VPN) 1500   VPC Endpoint 1500   NAT 1500   IGW 1500   VPN 1500    Bandwidth  Quotas for your TGW Aggregated throughput limit for VGW NAT gateways  VPC (180)    Resource Limit     VPC Peer no   IGW no   NAT 5-45Gbps   TGW depends   VGW 1.25Gbps   VGW (to DX) depends on DX    TGW  1 VPN can have 2 tunnels     Resource Limit per resource     VPC 50Gbps   DX 50Gbps   TGW 50Gbps   VPN tunnel 1.25Gbps    VPN Tunnel 1.25Gbps\nEC2  100G networking in AWS, a network performance deep dive  EC2 network performance rules:\n single flow limit within regions and other     Situation Limit     w/i the region 100%   to other regions 50%   igw 50%   dx 50%    Single Flow    Situation Limit     w/i placement group 10Gbps   other 5Gbps    Aggregated  General Purpose Network Performance     Situation Limit     w enhanced networking 100Gbps   w/o enhanced networking 25Gbps       Network Driver Limit     Intel 82599VF 10Gbps   ENA 100Gbps   EFA 100Gbps    VPC Addressing Reversed IPs in subnet https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html\nDefault route table will have rule:  local Limited ips per ENI Single ENI can have multiple private IPs. Depends on the instance types.\nhttps://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html\nVPC Route tables by default the subnet will use vpc route table\nwe can customise the route table per subnet\nVPC Firewall EC2 - Security Group - NACL\nSecurity Group is stateful\nDC need to know about BGP first\nECMP  can aggregate the VPN tunnel only support at BGP routing  ","wordCount":"567","inLanguage":"en","datePublished":"2021-11-26T00:00:00Z","dateModified":"2021-11-26T00:00:00Z","author":[{"@type":"Person","name":"Hugo"}],"mainEntityOfPage":{"@type":"WebPage","@id":"https://hugotkk.github.io/posts/aws-certified-advanced-network/"},"publisher":{"@type":"Organization","name":"Hugo","logo":{"@type":"ImageObject","url":"https://hugotkk.github.io/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"AWS Certified Advanced Networking - Specialty","name":"AWS Certified Advanced Networking - Specialty","description":"Resources  Exam Landing Page Sample Questions Exam Guide udemy course udemy mock exam whizlabs test \u0026amp; hand-on labs Network to Amazon VPC connectivity option  TODO  take notes revision mocks (by topic) whizlabs revise udemy quiz + exercise mock 1 (udemy) mock 2 (whizlabs)  Revision The numbers below are the page no of the udemy course\u0026rsquo;s pdf: AWS Certified Networking Specialty Slides v1.1.\nSummary  DNS (151) Advanced Networking (188) VPC Endpoint (292, 298) Site-to-site VPN (347, 401, 407) VPN Tunnels and Routing (348, 352) DX Gateway with VGW (532) DX with TGW (547) DX Billing (624) DX (630) Troubleshooting in DX (626) Gateway Load Balancer (816)  Q \u0026amp; A ALB (677) DX (625)","keywords":["cert","exam","aws","networking"],"articleBody":"Resources  Exam Landing Page Sample Questions Exam Guide udemy course udemy mock exam whizlabs test \u0026 hand-on labs Network to Amazon VPC connectivity option  TODO  take notes revision mocks (by topic) whizlabs revise udemy quiz + exercise mock 1 (udemy) mock 2 (whizlabs)  Revision The numbers below are the page no of the udemy course’s pdf: AWS Certified Networking Specialty Slides v1.1.\nSummary  DNS (151) Advanced Networking (188) VPC Endpoint (292, 298) Site-to-site VPN (347, 401, 407) VPN Tunnels and Routing (348, 352) DX Gateway with VGW (532) DX with TGW (547) DX Billing (624) DX (630) Troubleshooting in DX (626) Gateway Load Balancer (816)  Q \u0026 A ALB (677) DX (625)\nRemember Good to know  SG (46) BYOIP (90) VPC Traffic Mirroring (105) DHCP Option Sets (124) TGW (251) AWS Site-to-Site VPN (403) Network Load Balancer (656)  Comparisons  private, public and EIP (33) IPv4, IPv6 (36) NACL, SG (48) NAT Gateway, Instance (64) VPC Peering vs Transit Gateway Cloudfront function vs lambda@edge (703) AWS global accelerator vs Cloudfront (711)  Exam Essential  VPC Fundamentals (67) Advanced VPC (190) VPC Peering Endpoint (301) AWs Site-to-Site VPN (402) Direct Connect (632) Firewall (806) Gateway Load Balancer (817)  Revision by topic VPC Fundamentals (17)  What is OSI? (306) How to calculate the no of address in a CIDR (like 192.168.0.1/28)? (18) Can we override the main route table in VPC? (26) Which IPs are reserved for a vpc? (29) What is the default behaviour of SG (inbound and outbound)? (46) How is the NAT gateway charged? (59) Can we apply SG on a NAT gateway? (59) What is the port range NAT gateway needs for outbound connection? (59) Why do we need NAT with HA(AZ)? (62) What is the most important setting to setup NAT with EC2? (63)  Advanced VPC (72)  What is the limitation of adding a secondary CIDR? (79) How many private, public and elastic ip and sg can one ENI have? (81, 85) What is the use case of dual home setup with multiple ENIs? (84) What are the prerequisites of BYOIP? (89, 90) What type of Flow Logs can we capture from a VPC? (92) Where does the Flow Logs Action field come from? (97) What type of record cannot be captured in a flow log? (98) What can be the source \u0026 target of a VPC Traffic Mirror? (102, 105) What port does the VPC Traffic Mirror require? (105) How to set a custom domain / dns on an EC2 instance? (113)  VPC DNS and DHCP  What does enableDNSSupport do? (117) What does enableDNSHostname do? (117) How to resolve the hostname in VPC peering and TGW? (132) How to resolve the hostname in Hybrid cloud (AWS to on-premise, on-premise to AWS) (old \u0026 new way)? (132-150)  VPC Network Performance and Optimization  Formula of throughput (154) What is Jumbo frame? (154) What is Path MTU Discovery? (155) What are the advantages of using placement group - cluster (162) What is the bandwidth limitation between VPC, EC2 instances, VPN and DX (179-183)?  VPC Peering  What is the limitation of VPC Peering? (207)  TGW  what attachments does TGW support? (211) What is the special route in TGW? (230)  VPC Endpoint  How many types of VPC endpoint? What is the difference between them? (258) Can on-premises network access to the gateway endpoint with VPN/DX? (273) What kind of source can be used in a private link? (281) How to use hostname in interface endpoint? (288) How to use the interface endpoint without private DNS? (290) When should we use a private link? When should we use VPC Peering (297)  AWS Site-to-Site VPN  What port does IPsec need? (309) Range of public and private ASN (313) 4 common BGP Param for routing (319) What type of VPN does AWS support Site-to-Site VPN? (327) What routing method does AWS support in Site-to-Site VPN? (329) What port is required in VPN for NAT-T? (335)  VPN Tunnels and Routing  How to set Active/Active tunnel (351) What is DPD? Port to send messages? default timeout? timeout action? (354) How to prevent a tunnel from terminating due to inactivity (355) How to monitor the tunnel status? (357)  DX  What is the fibre mode of DX? (450) what is the data link requirement of DX (450) What are the requirements for a customer router? (450) What is the port of BGP? (457) What is BFD? How to enable it? (457) How long does it take for failover with and without BFD? (458, 597, 598) How can a user whitelist the ips range from AWS? (459) How many VIF can a hosted connection have? (465) What Ip type does DX support? (498) What is the route prefix that public vif can advertise? (503) What is the route prefix that private vif can advertise? (507) What is the limitation of vif and vgw location? (507) What service cannot access inside a VPC with DX? (510) What is the usage of DX gateway? (517) How many vif can a DX connection have? (526) How many transit vif can a DX connection have? (547) How many vif can a DX gateway have? (530) How many vgw can a DX gateway have? (526,547) How many tgw can a Dx gateway have? (538) What is the charge for using Dx gateway? (533) How many routes can be advised per TGW through the DX gateway? (539) what is ECMP (251, 556) - only support BGP how to setup Active-Active with public vif and public ASN (558) how to setup Active-Active with public vif and public ASN (558) how to setup Active-Passive with public vif and public ASN (561) how to setup Active-Passive with public vif and public ASN (561) how to constrain the adviser routes to on-premises with public vif (567) how to constrain the adviser routes to aws with public vif (567) what is the routing policy with private vif (577, 582) What is LAG? (583) How many DX connections can a LAG have? (584) What is the bandwidth requirement of a LAG? (583) What is the operation connection attribute in LAG? (589) how to increase the resiliency of DX? (3 methods) (590) how to encrypt DX traffic? (2 methods) (601) When will the Dx connection be charged? (Hosted and Dedicated connection) (621) What will be charged in Dx? (615) Who will be charged for the DTO fee? (622)  ELB  What Layer ALB, CLB, NLB, GLB belong to? (639) What protocol does ALB, CLB, NLB, GLB support? (641) Why does NLB have less latency than ALB? (652) What kind of target can be used in the ALB and NLB target group? (653) What kind of protocol is supported in the health check? (653) What are the connection idle timeouts of ALB, NLB, CLB? (657) What routing algorithm supported by ALB, NLB, CLB (659) How to keep the client ip in ALB, NLB (671, 672) How to keep the client on the same instance for a period of time? (661) What is Cross-Zone Load Balancing? (663) What is SNI and which ELB does it support? (667) What is Connection Draining (670)  Cloudfront  What is Cloudfront’s origin? (683) Why public access is needed in cloudfront’s origin (683) What is the origin group (687) How to change custom header / behaviour in Cloudfront? (698) How to restrict the content to specific geolocation? (696) What is AWs global accelerator? What does it work (709) What is the difference between AWS global accelerator and cloudfront? (711)  Route53  What is the longest and shortest TTL in route53 (721) What are the alias targets in route53 (724) How to bind an RDS DB instance in route53 (748) Routing Policies in Route53? (724) Which route53 performs the health check in a private VPC? (732) How to setup hybrid DNS (754) How does AWS ensure the HA in route53? (807)  Network firewall  What layer SG, NACL, network firewall, WAF, shield? What is the VPC level in SG and NACL? (766) When should we use nacl instead of sg? (768, 769) When should we use WAF instead of lacl ? (770) Stateless and stateful of sg, nacl, network firewall, shield? (773) How can a SYN cookie prevent DDos in packet flooding?  Gateway Load balancer  what is the use case of gateway load balancer (813) what port does gateway load balancer need for GENEVE (817)  Other Centralised VPC Interface endpoint 295\naccess s3 with endpoint use a private link to access a web server (NLB/EC2)\nDemo (266)\nHand-on Labs https://www.whizlabs.com/learn/course/aws-advanced-networking-speciality/195\nEC2  30  CloudFront  1 2 10  ALB  3 4 5  WAF  11 12  ACL  18 29  VPN  21  Endpoint  23 24 25  Flow Log  26  Container  28  Udemy Sample Questions https://www.udemy.com/course/practice-exam-aws-certified-advanced-networking-specialty/learn/quiz/5355502/result/633468092#questions\nQ2 priority of route table\nhttps://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html#route-table-priority-propagated-routes https://docs.aws.amazon.com/vpn/latest/s2svpn/VPNRoutingTypes.html#vpn-route-priority\npropagated igw nat network interface instance ID tgw vpc peering gateway vpc endpoint gateway load balancer endpoint\nQ3 route53 health check - the health check request is over internet\nhttps://docs.aws.amazon.com/Route53/latest/DeveloperGuide/health-checks-types.html\nQ7 need mesh peer network and private vif for each vpc\nQ9 misunderstand the question, asking about the DNS ips in the VPC\nQ10 don’t understand the question…it is asking for abnormal behaviour but the answer is compliance only\nat 325\n more specific prefix Highest Weight Highest Local Ref Shortest AS_PATH Lowest MED  NAT-T UDP4500 (335)\nVPN Tunnel\n Active / Passive Active / Active  whizlabs questions By Topics AWS Direct Connect https://www.whizlabs.com/learn/course/aws-advanced-networking-speciality/195/quiz/15884/report/5741896\nQ2 Some data need to be encrypted but some no need - DX+VPN, DX\nQ4 QOS + VPN Instance (for something not supported by AWS, then use EC2 Instance)\nQ7 BFD - enabled by AWS by default (quick failure detection \u0026 fail over)\nQ8 IPv4 is owned by the client. IPv6 auto assigned by AWS\nVPN Q2 B  M  AWS\nQ3 OK but less cost effective\nec2 vpn + dx ok 2 vpn + dx Ok vpc peer OK ec2 vpn OK\nthe keyword only needs connectivity on one application, so ec2 vpn is more cost effective\nQ4 C D does not correct as VGW are not transitive\nRemain A B. Difference between A B: use 2/1 ec2 vpn\nVPC  Q1 - misread VPN connection Q2 - use reference instead of cidr Q5 - VPC Peering does not need route53 Q7 - cannot use bucket policy on S3 endpoint as sourceIp are same Q8 - no need to publish s3 then cloudwatch log. Flow Log: VPC or Network Interface  SG  Q1 - SG cannot deny traffic. I forgot… Q5 - default SG: allow b/w instances. allow outbound from instance  https://aws.amazon.com/certification/faqs/\nVPCs Connectivities  Transit gateway peering attachments What is VPC peering? Transit Gateway vs VPC peering     Solution / Situation same region cross account cross region     VPC Peering OK OK OK   TGW Peering OK OK OK   TGW (attach VPC) OK OK NO   AWS Managed VPN OK OK OK   EC2 Based VPN OK OK OK    Private Link is something like tgw peer but for specific service only. It can cross regions and accounts.\nScope    Resource Scope     VGW VPC   TGW VPC   NLB VPC   ALB VPC   Route53 VPC   NAT Subnet    582 Routing\nCommon Pattern Site-to-Site Connection routing  Static - Active/ Active Tunnels (349) Static - Active/ Passive Tunnels (350) Dynamic - Active/ Active Tunnels (351)  TGW 241: Centralised NAT gateway 243: Centralised NAT instance 244: Centralised NAT instance + VPN 245: Centralised VPC interface endpoint + VPN 247: Hybrid VPN 248: Hybrid DX\nVPC Peering Failed cases    Page Title     207 CIDR overlap or transitive routing   208 from DX or VPN   209 to IGW    Site-to-site VPN with VGW Use cases    Page Title     335 Site-to-site Connection with NAT-Traversal   361 Single Site-to-site Connection with VGW   363 Multiple Site-to-site Connection with VGW   365 Redundant VPN connections for HA    Site-to-site VPN with TGW    Page Title     362 Multiple Site-to-site Connection with TGW    Failed cases    Page Title     340 Site-to-site VPN to IGW   341 Site-to-site VPN to NAT   343 Site-to-site VPN to VPC Peering   344 Site-to-site VPN to VPC Gateway endpoint    Successful cases    Page Title     342 Site-to-site VPN to NAT Instance   345 Site-to-site VPN to VPC Interface endpoint   345 Site-to-site VPN to on-premise NAT to Internet    VPN CloudHub  369  EC2 Based VPN    Page Title     375 Single instance   376 HA   378 Horizontal scaling - VPN EC2 per subnet   379 Horizontal scaling - Split traffic    Transit VPC    Page Title     391 Transit VPC   398 global regions with single Transit Hub   398 global regions with multiple Transit Hub (GRE)   549 Direct Connect and Transit VPC    DX Use cases    Page Title     591 VPN as a backup   592 Dual Devices   593 Dual locations   594 Dual locations with DX connection backup   602 VPN over DX    Failed cases    Page Title     530 DX Gateway with multiple customer sites   542 DX Gateway with multiple TGWs    Successful cases    Page Title     546 DX Gateway with multiple customer sites    Network Firewall Use cases  Centralised: single firewall subnet / vpc. connect with tgw (791) Distributed: firewall subnet per vpc (790)  Limitation VPC Limit\nPeering VPC Peering: 125\nRouting    Resource Limit     Private VIFs 100   Public VIFs 1000    MTU (159)    Resource Limit     VPC 9001   VPC Peering 1500   DX 9001   TGW (to DX) 8500   TGW (to VPN) 1500   VPC Endpoint 1500   NAT 1500   IGW 1500   VPN 1500    Bandwidth  Quotas for your TGW Aggregated throughput limit for VGW NAT gateways  VPC (180)    Resource Limit     VPC Peer no   IGW no   NAT 5-45 Gbps   TGW depends   VGW 1.25Gbps   VGW (to DX) depends on DX    TGW  1 VPN can have 2 tunnels     Resource Limit per resource     VPC 50Gbps   DX 50Gbps   TGW 50Gbps   VPN tunnel 1.25Gbps    VPN Tunnel 1.25Gbps\nEC2  100G networking in AWS, a network performance deep dive  EC2 network performance rules:\n single flow limit within regions and other     Situation Limit     w/i the region 100%   to other regions 50%   igw 50%   dx 50%    Single Flow    Situation Limit     w/i placement group 10Gbps   other 5Gbps    Aggregated  General Purpose Network Performance     Situation Limit     w enhanced networking 100Gbps   w/o enhanced networking 25Gbps       Network Driver Limit     Intel 82599VF 10Gbps   ENA 100Gbps   EFA 100Gbps    ","wordCount":"2295","inLanguage":"en","datePublished":"2021-11-26T00:00:00Z","dateModified":"2021-11-26T00:00:00Z","author":[{"@type":"Person","name":"Hugo"}],"mainEntityOfPage":{"@type":"WebPage","@id":"https://hugotkk.github.io/posts/aws-certified-advanced-network/"},"publisher":{"@type":"Organization","name":"Hugo","logo":{"@type":"ImageObject","url":"https://hugotkk.github.io/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -72,7 +75,7 @@
 <h1 class=post-title>
 AWS Certified Advanced Networking - Specialty
 </h1>
-<div class=post-meta>November 26, 2021&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Hugo
+<div class=post-meta>November 26, 2021&nbsp;·&nbsp;11 min&nbsp;·&nbsp;Hugo
 </div>
 </header> <div class=toc>
 <details>
@@ -83,40 +86,168 @@ AWS Certified Advanced Networking - Specialty
 <li>
 <a href=#resources aria-label=Resources>Resources</a></li>
 <li>
-<a href=#how-to-connect-vpcs aria-label="How to connect VPCs">How to connect VPCs</a></li>
+<a href=#todo aria-label=TODO>TODO</a></li>
+<li>
+<a href=#revision aria-label=Revision>Revision</a><ul>
+<li>
+<a href=#summary aria-label=Summary>Summary</a></li>
+<li>
+<a href=#q--a aria-label="Q &amp;amp; A">Q & A</a></li>
+<li>
+<a href=#remember aria-label=Remember>Remember</a></li>
+<li>
+<a href=#good-to-know aria-label="Good to know">Good to know</a></li>
+<li>
+<a href=#comparisons aria-label=Comparisons>Comparisons</a></li>
+<li>
+<a href=#exam-essential aria-label="Exam Essential">Exam Essential</a></li>
+<li>
+<a href=#revision-by-topic aria-label="Revision by topic">Revision by topic</a><ul>
+<li>
+<a href=#vpc-fundamentals-17 aria-label="VPC Fundamentals (17)">VPC Fundamentals (17)</a></li>
+<li>
+<a href=#advanced-vpc-72 aria-label="Advanced VPC (72)">Advanced VPC (72)</a></li>
+<li>
+<a href=#vpc-dns-and-dhcp aria-label="VPC DNS and DHCP">VPC DNS and DHCP</a></li>
+<li>
+<a href=#vpc-network-performance-and-optimization aria-label="VPC Network Performance and Optimization">VPC Network Performance and Optimization</a></li>
+<li>
+<a href=#vpc-peering aria-label="VPC Peering">VPC Peering</a></li>
+<li>
+<a href=#tgw aria-label=TGW>TGW</a></li>
+<li>
+<a href=#vpc-endpoint aria-label="VPC Endpoint">VPC Endpoint</a></li>
+<li>
+<a href=#aws-site-to-site-vpn aria-label="AWS Site-to-Site VPN">AWS Site-to-Site VPN</a></li>
+<li>
+<a href=#vpn-tunnels-and-routing aria-label="VPN Tunnels and Routing">VPN Tunnels and Routing</a></li>
+<li>
+<a href=#dx aria-label=DX>DX</a></li>
+<li>
+<a href=#elb aria-label=ELB>ELB</a></li>
+<li>
+<a href=#cloudfront aria-label=Cloudfront>Cloudfront</a></li>
+<li>
+<a href=#route53 aria-label=Route53>Route53</a></li>
+<li>
+<a href=#network-firewall aria-label="Network firewall">Network firewall</a></li>
+<li>
+<a href=#gateway-load-balancer aria-label="Gateway Load balancer">Gateway Load balancer</a></li>
+<li>
+<a href=#other aria-label=Other>Other</a></li></ul>
+</li></ul>
+</li>
+<li>
+<a href=#hand-on-labs aria-label="Hand-on Labs">Hand-on Labs</a><ul>
+<li>
+<a href=#ec2 aria-label=EC2>EC2</a></li>
+<li>
+<a href=#cloudfront-1 aria-label=CloudFront>CloudFront</a></li>
+<li>
+<a href=#alb aria-label=ALB>ALB</a></li>
+<li>
+<a href=#waf aria-label=WAF>WAF</a></li>
+<li>
+<a href=#acl aria-label=ACL>ACL</a></li>
+<li>
+<a href=#vpn aria-label=VPN>VPN</a></li>
+<li>
+<a href=#endpoint aria-label=Endpoint>Endpoint</a></li>
+<li>
+<a href=#flow-log aria-label="Flow Log">Flow Log</a></li>
+<li>
+<a href=#container aria-label=Container>Container</a></li></ul>
+</li>
+<li>
+<a href=#udemy-sample-questions aria-label="Udemy Sample Questions">Udemy Sample Questions</a><ul>
+<li>
+<a href=#q2 aria-label=Q2>Q2</a></li>
+<li>
+<a href=#q3 aria-label=Q3>Q3</a></li>
+<li>
+<a href=#q7 aria-label=Q7>Q7</a></li>
+<li>
+<a href=#q9 aria-label=Q9>Q9</a></li>
+<li>
+<a href=#q10 aria-label=Q10>Q10</a></li></ul>
+</li>
+<li>
+<a href=#whizlabs-questions aria-label="whizlabs questions">whizlabs questions</a><ul>
+<li>
+<a href=#by-topics aria-label="By Topics">By Topics</a><ul>
+<li>
+<a href=#aws-direct-connect aria-label="AWS Direct Connect">AWS Direct Connect</a><ul>
+<li>
+<a href=#q2-1 aria-label=Q2>Q2</a></li>
+<li>
+<a href=#q4 aria-label=Q4>Q4</a></li>
+<li>
+<a href=#q7-1 aria-label=Q7>Q7</a></li>
+<li>
+<a href=#q8 aria-label=Q8>Q8</a></li></ul>
+</li>
+<li>
+<a href=#vpn-1 aria-label=VPN>VPN</a><ul>
+<li>
+<a href=#q2-2 aria-label=Q2>Q2</a></li>
+<li>
+<a href=#q3-1 aria-label=Q3>Q3</a></li>
+<li>
+<a href=#q4-1 aria-label=Q4>Q4</a></li></ul>
+</li></ul>
+</li>
+<li>
+<a href=#vpc aria-label=VPC>VPC</a></li>
+<li>
+<a href=#sg aria-label=SG>SG</a></li></ul>
+</li>
+<li>
+<a href=#vpcs-connectivities aria-label="VPCs Connectivities">VPCs Connectivities</a></li>
 <li>
 <a href=#scope aria-label=Scope>Scope</a></li>
 <li>
-<a href=#exam-essentials aria-label="Exam Essentials">Exam Essentials</a></li>
+<a href=#common-pattern aria-label="Common Pattern">Common Pattern</a><ul>
 <li>
-<a href=#vpc-peering aria-label="VPC Peering">VPC Peering</a><ul>
+<a href=#site-to-site-connection-routing aria-label="Site-to-Site Connection routing">Site-to-Site Connection routing</a></li>
+<li>
+<a href=#tgw-1 aria-label=TGW>TGW</a></li>
+<li>
+<a href=#vpc-peering-1 aria-label="VPC Peering">VPC Peering</a><ul>
 <li>
 <a href=#failed-cases aria-label="Failed cases">Failed cases</a></li></ul>
 </li>
 <li>
 <a href=#site-to-site-vpn-with-vgw aria-label="Site-to-site VPN with VGW">Site-to-site VPN with VGW</a><ul>
 <li>
-<a href=#use-cases aria-label="Use cases">Use cases</a><ul>
-<li>
-<a href=#vpn-cloudhub aria-label="VPN CloudHub">VPN CloudHub</a></li>
-<li>
-<a href=#ec2-based-vpn aria-label="EC2 Based VPN">EC2 Based VPN</a></li>
-<li>
-<a href=#transit-vpc aria-label="Transit VPC">Transit VPC</a></li></ul>
+<a href=#use-cases aria-label="Use cases">Use cases</a></li></ul>
 </li>
+<li>
+<a href=#site-to-site-vpn-with-tgw aria-label="Site-to-site VPN with TGW">Site-to-site VPN with TGW</a><ul>
 <li>
 <a href=#failed-cases-1 aria-label="Failed cases">Failed cases</a></li>
 <li>
 <a href=#successful-cases aria-label="Successful cases">Successful cases</a></li></ul>
 </li>
 <li>
-<a href=#direct-connect aria-label="Direct Connect">Direct Connect</a><ul>
+<a href=#vpn-cloudhub aria-label="VPN CloudHub">VPN CloudHub</a></li>
+<li>
+<a href=#ec2-based-vpn aria-label="EC2 Based VPN">EC2 Based VPN</a></li>
+<li>
+<a href=#transit-vpc aria-label="Transit VPC">Transit VPC</a></li>
+<li>
+<a href=#dx-1 aria-label=DX>DX</a><ul>
 <li>
 <a href=#use-cases-1 aria-label="Use cases">Use cases</a></li>
 <li>
 <a href=#failed-cases-2 aria-label="Failed cases">Failed cases</a></li>
 <li>
 <a href=#successful-cases-1 aria-label="Successful cases">Successful cases</a></li></ul>
+</li>
+<li>
+<a href=#network-firewall-1 aria-label="Network Firewall">Network Firewall</a><ul>
+<li>
+<a href=#use-cases-2 aria-label="Use cases">Use cases</a></li></ul>
+</li></ul>
 </li>
 <li>
 <a href=#limitation aria-label=Limitation>Limitation</a><ul>
@@ -131,35 +262,21 @@ AWS Certified Advanced Networking - Specialty
 <li>
 <a href=#vpc-180 aria-label="VPC (180)">VPC (180)</a></li>
 <li>
-<a href=#tgw aria-label=TGW>TGW</a></li>
+<a href=#tgw-2 aria-label=TGW>TGW</a></li>
 <li>
 <a href=#vpn-tunnel aria-label="VPN Tunnel">VPN Tunnel</a></li>
 <li>
-<a href=#ec2 aria-label=EC2>EC2</a><ul>
+<a href=#ec2-1 aria-label=EC2>EC2</a><ul>
 <li>
 <a href=#single-flow aria-label="Single Flow">Single Flow</a></li>
 <li>
-<a href=#aggregated aria-label=Aggregated>Aggregated</a></li></ul>
-</li></ul>
-</li></ul>
+<a href=#aggregated aria-label=Aggregated>Aggregated</a>
 </li>
-<li>
-<a href=#vpc-addressing aria-label="VPC Addressing">VPC Addressing</a><ul>
-<li>
-<a href=#reversed-ips-in-subnet aria-label="Reversed IPs in subnet">Reversed IPs in subnet</a></li>
-<li>
-<a href=#default-route-table-will-have-rule-vpc_cidr-local aria-label="Default route table will have rule: &amp;lt;vpc_cidr&amp;gt; local">Default route table will have rule: &lt;vpc_cidr> local</a></li>
-<li>
-<a href=#limited-ips-per-eni aria-label="Limited ips per ENI">Limited ips per ENI</a></li></ul>
+</ul>
 </li>
-<li>
-<a href=#vpc-route-tables aria-label="VPC Route tables">VPC Route tables</a></li>
-<li>
-<a href=#vpc-firewall aria-label="VPC Firewall">VPC Firewall</a></li>
-<li>
-<a href=#dc aria-label=DC>DC</a></li>
-<li>
-<a href=#ecmp aria-label=ECMP>ECMP</a>
+</ul>
+</li>
+</ul>
 </li>
 </ul>
 </div>
@@ -167,9 +284,370 @@ AWS Certified Advanced Networking - Specialty
 </div>
 <div class=post-content><h1 id=resources>Resources<a hidden class=anchor aria-hidden=true href=#resources>#</a></h1>
 <ul>
-<li><a href=https://www.udemy.com/course/aws-certified-advanced-networking-specialty-ans/>AWS Certified Advanced Networking Specialty 2021</a></li>
+<li><a href=https://aws.amazon.com/certification/certified-advanced-networking-specialty>Exam Landing Page</a></li>
+<li><a href=https://d1.awsstatic.com/training-and-certification/docs-advnetworking-spec/AWS-Certified-Advanced-Networking-Specialty_Sample-Questions.pdf>Sample Questions</a></li>
+<li><a href=https://d1.awsstatic.com/training-and-certification/docs-advnetworking-spec/AWS-Certified-Advanced-Networking-Specialty_Exam-Guide.pdf>Exam Guide</a></li>
+<li><a href=https://www.udemy.com/course/aws-certified-advanced-networking-specialty-ans/>udemy course</a></li>
+<li><a href=https://www.udemy.com/course/aws-certified-advanced-networking-specialty-ans/>udemy mock exam</a></li>
+<li><a href=https://www.whizlabs.com/learn/course/aws-advanced-networking-speciality>whizlabs test & hand-on labs</a></li>
+<li><a href=https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/network-to-amazon-vpc-connectivity-options.html>Network to Amazon VPC connectivity option</a></li>
 </ul>
-<h1 id=how-to-connect-vpcs>How to connect VPCs<a hidden class=anchor aria-hidden=true href=#how-to-connect-vpcs>#</a></h1>
+<h1 id=todo>TODO<a hidden class=anchor aria-hidden=true href=#todo>#</a></h1>
+<ul>
+<li>take notes</li>
+<li>revision</li>
+<li>mocks (by topic)</li>
+<li>whizlabs</li>
+<li>revise udemy quiz + exercise</li>
+<li>mock 1 (udemy)</li>
+<li>mock 2 (whizlabs)</li>
+</ul>
+<h1 id=revision>Revision<a hidden class=anchor aria-hidden=true href=#revision>#</a></h1>
+<p>The numbers below are the page no of the udemy course&rsquo;s pdf: AWS Certified Networking Specialty Slides v1.1.</p>
+<h2 id=summary>Summary<a hidden class=anchor aria-hidden=true href=#summary>#</a></h2>
+<ul>
+<li>DNS (151)</li>
+<li>Advanced Networking (188)</li>
+<li>VPC Endpoint (292, 298)</li>
+<li>Site-to-site VPN (347, 401, 407)</li>
+<li>VPN Tunnels and Routing (348, 352)</li>
+<li>DX Gateway with VGW (532)</li>
+<li>DX with TGW (547)</li>
+<li>DX Billing (624)</li>
+<li>DX (630)</li>
+<li>Troubleshooting in DX (626)</li>
+<li>Gateway Load Balancer (816)</li>
+</ul>
+<h2 id=q--a>Q & A<a hidden class=anchor aria-hidden=true href=#q--a>#</a></h2>
+<p>ALB (677)
+DX (625)</p>
+<h2 id=remember>Remember<a hidden class=anchor aria-hidden=true href=#remember>#</a></h2>
+<h2 id=good-to-know>Good to know<a hidden class=anchor aria-hidden=true href=#good-to-know>#</a></h2>
+<ul>
+<li>SG (46)</li>
+<li>BYOIP (90)</li>
+<li>VPC Traffic Mirroring (105)</li>
+<li>DHCP Option Sets (124)</li>
+<li>TGW (251)</li>
+<li>AWS Site-to-Site VPN (403)</li>
+<li>Network Load Balancer (656)</li>
+</ul>
+<h2 id=comparisons>Comparisons<a hidden class=anchor aria-hidden=true href=#comparisons>#</a></h2>
+<ul>
+<li>private, public and EIP (33)</li>
+<li>IPv4, IPv6 (36)</li>
+<li>NACL, SG (48)</li>
+<li>NAT Gateway, Instance (64)</li>
+<li>VPC Peering vs Transit Gateway</li>
+<li>Cloudfront function vs lambda@edge (703)</li>
+<li>AWS global accelerator vs Cloudfront (711)</li>
+</ul>
+<h2 id=exam-essential>Exam Essential<a hidden class=anchor aria-hidden=true href=#exam-essential>#</a></h2>
+<ul>
+<li>VPC Fundamentals (67)</li>
+<li>Advanced VPC (190)</li>
+<li>VPC Peering Endpoint (301)</li>
+<li>AWs Site-to-Site VPN (402)</li>
+<li>Direct Connect (632)</li>
+<li>Firewall (806)</li>
+<li>Gateway Load Balancer (817)</li>
+</ul>
+<h2 id=revision-by-topic>Revision by topic<a hidden class=anchor aria-hidden=true href=#revision-by-topic>#</a></h2>
+<h3 id=vpc-fundamentals-17>VPC Fundamentals (17)<a hidden class=anchor aria-hidden=true href=#vpc-fundamentals-17>#</a></h3>
+<ul>
+<li>What is OSI? (306)</li>
+<li>How to calculate the no of address in a CIDR (like 192.168.0.1/28)? (18)</li>
+<li>Can we override the main route table in VPC? (26)</li>
+<li>Which IPs are reserved for a vpc? (29)</li>
+<li>What is the default behaviour of SG (inbound and outbound)? (46)</li>
+<li>How is the NAT gateway charged? (59)</li>
+<li>Can we apply SG on a NAT gateway? (59)</li>
+<li>What is the port range NAT gateway needs for outbound connection? (59)</li>
+<li>Why do we need NAT with HA(AZ)? (62)</li>
+<li>What is the most important setting to setup NAT with EC2? (63)</li>
+</ul>
+<h3 id=advanced-vpc-72>Advanced VPC (72)<a hidden class=anchor aria-hidden=true href=#advanced-vpc-72>#</a></h3>
+<ul>
+<li>What is the limitation of adding a secondary CIDR? (79)</li>
+<li>How many private, public and elastic ip and sg can one ENI have? (81, 85)</li>
+<li>What is the use case of dual home setup with multiple ENIs? (84)</li>
+<li>What are the prerequisites of BYOIP? (89, 90)</li>
+<li>What type of Flow Logs can we capture from a VPC? (92)</li>
+<li>Where does the Flow Logs Action field come from? (97)</li>
+<li>What type of record cannot be captured in a flow log? (98)</li>
+<li>What can be the source & target of a VPC Traffic Mirror? (102, 105)</li>
+<li>What port does the VPC Traffic Mirror require? (105)</li>
+<li>How to set a custom domain / dns on an EC2 instance? (113)</li>
+</ul>
+<h3 id=vpc-dns-and-dhcp>VPC DNS and DHCP<a hidden class=anchor aria-hidden=true href=#vpc-dns-and-dhcp>#</a></h3>
+<ul>
+<li>What does enableDNSSupport do? (117)</li>
+<li>What does enableDNSHostname do? (117)</li>
+<li>How to resolve the hostname in VPC peering and TGW? (132)</li>
+<li>How to resolve the hostname in Hybrid cloud (AWS to on-premise, on-premise to AWS) (old & new way)? (132-150)</li>
+</ul>
+<h3 id=vpc-network-performance-and-optimization>VPC Network Performance and Optimization<a hidden class=anchor aria-hidden=true href=#vpc-network-performance-and-optimization>#</a></h3>
+<ul>
+<li>Formula of throughput (154)</li>
+<li>What is Jumbo frame? (154)</li>
+<li>What is Path MTU Discovery? (155)</li>
+<li>What are the advantages of using placement group - cluster (162)</li>
+<li>What is the bandwidth limitation between VPC, EC2 instances, VPN and DX (179-183)?</li>
+</ul>
+<h3 id=vpc-peering>VPC Peering<a hidden class=anchor aria-hidden=true href=#vpc-peering>#</a></h3>
+<ul>
+<li>What is the limitation of VPC Peering? (207)</li>
+</ul>
+<h3 id=tgw>TGW<a hidden class=anchor aria-hidden=true href=#tgw>#</a></h3>
+<ul>
+<li>what attachments does TGW support? (211)</li>
+<li>What is the special route in TGW? (230)</li>
+</ul>
+<h3 id=vpc-endpoint>VPC Endpoint<a hidden class=anchor aria-hidden=true href=#vpc-endpoint>#</a></h3>
+<ul>
+<li>How many types of VPC endpoint? What is the difference between them? (258)</li>
+<li>Can on-premises network access to the gateway endpoint with VPN/DX? (273)</li>
+<li>What kind of source can be used in a private link? (281)</li>
+<li>How to use hostname in interface endpoint? (288)</li>
+<li>How to use the interface endpoint without private DNS? (290)</li>
+<li>When should we use a private link? When should we use VPC Peering (297)</li>
+</ul>
+<h3 id=aws-site-to-site-vpn>AWS Site-to-Site VPN<a hidden class=anchor aria-hidden=true href=#aws-site-to-site-vpn>#</a></h3>
+<ul>
+<li>What port does IPsec need? (309)</li>
+<li>Range of public and private ASN (313)</li>
+<li>4 common BGP Param for routing (319)</li>
+<li>What type of VPN does AWS support Site-to-Site VPN? (327)</li>
+<li>What routing method does AWS support in Site-to-Site VPN? (329)</li>
+<li>What port is required in VPN for NAT-T? (335)</li>
+</ul>
+<h3 id=vpn-tunnels-and-routing>VPN Tunnels and Routing<a hidden class=anchor aria-hidden=true href=#vpn-tunnels-and-routing>#</a></h3>
+<ul>
+<li>How to set Active/Active tunnel (351)</li>
+<li>What is DPD? Port to send messages? default timeout? timeout action? (354)</li>
+<li>How to prevent a tunnel from terminating due to inactivity (355)</li>
+<li>How to monitor the tunnel status? (357)</li>
+</ul>
+<h3 id=dx>DX<a hidden class=anchor aria-hidden=true href=#dx>#</a></h3>
+<ul>
+<li>What is the fibre mode of DX? (450)</li>
+<li>what is the data link requirement of DX (450)</li>
+<li>What are the requirements for a customer router? (450)</li>
+<li>What is the port of BGP? (457)</li>
+<li>What is BFD? How to enable it? (457)</li>
+<li>How long does it take for failover with and without BFD? (458, 597, 598)</li>
+<li>How can a user whitelist the ips range from AWS? (459)</li>
+<li>How many VIF can a hosted connection have? (465)</li>
+<li>What Ip type does DX support? (498)</li>
+<li>What is the route prefix that public vif can advertise? (503)</li>
+<li>What is the route prefix that private vif can advertise? (507)</li>
+<li>What is the limitation of vif and vgw location? (507)</li>
+<li>What service cannot access inside a VPC with DX? (510)</li>
+<li>What is the usage of DX gateway? (517)</li>
+<li>How many vif can a DX connection have? (526)</li>
+<li>How many transit vif can a DX connection have? (547)</li>
+<li>How many vif can a DX gateway have? (530)</li>
+<li>How many vgw can a DX gateway have? (526,547)</li>
+<li>How many tgw can a Dx gateway have? (538)</li>
+<li>What is the charge for using Dx gateway? (533)</li>
+<li>How many routes can be advised per TGW through the DX gateway? (539)</li>
+<li>what is ECMP (251, 556) - only support BGP</li>
+<li>how to setup Active-Active with public vif and public ASN (558)</li>
+<li>how to setup Active-Active with public vif and public ASN (558)</li>
+<li>how to setup Active-Passive with public vif and public ASN (561)</li>
+<li>how to setup Active-Passive with public vif and public ASN (561)</li>
+<li>how to constrain the adviser routes to on-premises with public vif (567)</li>
+<li>how to constrain the adviser routes to aws with public vif (567)</li>
+<li>what is the routing policy with private vif (577, 582)</li>
+<li>What is LAG? (583)</li>
+<li>How many DX connections can a LAG have? (584)</li>
+<li>What is the bandwidth requirement of a LAG? (583)</li>
+<li>What is the operation connection attribute in LAG? (589)</li>
+<li>how to increase the resiliency of DX? (3 methods) (590)</li>
+<li>how to encrypt DX traffic? (2 methods) (601)</li>
+<li>When will the Dx connection be charged? (Hosted and Dedicated connection) (621)</li>
+<li>What will be charged in Dx? (615)</li>
+<li>Who will be charged for the DTO fee? (622)</li>
+</ul>
+<h3 id=elb>ELB<a hidden class=anchor aria-hidden=true href=#elb>#</a></h3>
+<ul>
+<li>What Layer ALB, CLB, NLB, GLB belong to? (639)</li>
+<li>What protocol does ALB, CLB, NLB, GLB support? (641)</li>
+<li>Why does NLB have less latency than ALB? (652)</li>
+<li>What kind of target can be used in the ALB and NLB target group? (653)</li>
+<li>What kind of protocol is supported in the health check? (653)</li>
+<li>What are the connection idle timeouts of ALB, NLB, CLB? (657)</li>
+<li>What routing algorithm supported by ALB, NLB, CLB (659)</li>
+<li>How to keep the client ip in ALB, NLB (671, 672)</li>
+<li>How to keep the client on the same instance for a period of time? (661)</li>
+<li>What is Cross-Zone Load Balancing? (663)</li>
+<li>What is SNI and which ELB does it support? (667)</li>
+<li>What is Connection Draining (670)</li>
+</ul>
+<h3 id=cloudfront>Cloudfront<a hidden class=anchor aria-hidden=true href=#cloudfront>#</a></h3>
+<ul>
+<li>What is Cloudfront&rsquo;s origin? (683)</li>
+<li>Why public access is needed in cloudfront&rsquo;s origin (683)</li>
+<li>What is the origin group (687)</li>
+<li>How to change custom header / behaviour in Cloudfront? (698)</li>
+<li>How to restrict the content to specific geolocation? (696)</li>
+<li>What is AWs global accelerator? What does it work (709)</li>
+<li>What is the difference between AWS global accelerator and cloudfront? (711)</li>
+</ul>
+<h3 id=route53>Route53<a hidden class=anchor aria-hidden=true href=#route53>#</a></h3>
+<ul>
+<li>What is the longest and shortest TTL in route53 (721)</li>
+<li>What are the alias targets in route53 (724)</li>
+<li>How to bind an RDS DB instance in route53 (748)</li>
+<li>Routing Policies in Route53? (724)</li>
+<li>Which route53 performs the health check in a private VPC? (732)</li>
+<li>How to setup hybrid DNS (754)</li>
+<li>How does AWS ensure the HA in route53? (807)</li>
+</ul>
+<h3 id=network-firewall>Network firewall<a hidden class=anchor aria-hidden=true href=#network-firewall>#</a></h3>
+<ul>
+<li>What layer SG, NACL, network firewall, WAF, shield?</li>
+<li>What is the VPC level in SG and NACL? (766)</li>
+<li>When should we use nacl instead of sg? (768, 769)</li>
+<li>When should we use WAF instead of lacl ? (770)</li>
+<li>Stateless and stateful of sg, nacl, network firewall, shield? (773)</li>
+<li>How can a SYN cookie prevent DDos in packet flooding?</li>
+</ul>
+<h3 id=gateway-load-balancer>Gateway Load balancer<a hidden class=anchor aria-hidden=true href=#gateway-load-balancer>#</a></h3>
+<ul>
+<li>what is the use case of gateway load balancer (813)</li>
+<li>what port does gateway load balancer need for GENEVE (817)</li>
+</ul>
+<h3 id=other>Other<a hidden class=anchor aria-hidden=true href=#other>#</a></h3>
+<p>Centralised VPC Interface endpoint 295</p>
+<p>access s3 with endpoint
+use a private link to access a web server (NLB/EC2)</p>
+<p>Demo (266)</p>
+<h1 id=hand-on-labs>Hand-on Labs<a hidden class=anchor aria-hidden=true href=#hand-on-labs>#</a></h1>
+<p><a href=https://www.whizlabs.com/learn/course/aws-advanced-networking-speciality/195>https://www.whizlabs.com/learn/course/aws-advanced-networking-speciality/195</a></p>
+<h2 id=ec2>EC2<a hidden class=anchor aria-hidden=true href=#ec2>#</a></h2>
+<ul>
+<li><input disabled type=checkbox> 30</li>
+</ul>
+<h2 id=cloudfront-1>CloudFront<a hidden class=anchor aria-hidden=true href=#cloudfront-1>#</a></h2>
+<ul>
+<li><input disabled type=checkbox> 1</li>
+<li><input disabled type=checkbox> 2</li>
+<li><input disabled type=checkbox> 10</li>
+</ul>
+<h2 id=alb>ALB<a hidden class=anchor aria-hidden=true href=#alb>#</a></h2>
+<ul>
+<li><input disabled type=checkbox> 3</li>
+<li><input disabled type=checkbox> 4</li>
+<li><input disabled type=checkbox> 5</li>
+</ul>
+<h2 id=waf>WAF<a hidden class=anchor aria-hidden=true href=#waf>#</a></h2>
+<ul>
+<li><input disabled type=checkbox> 11</li>
+<li><input disabled type=checkbox> 12</li>
+</ul>
+<h2 id=acl>ACL<a hidden class=anchor aria-hidden=true href=#acl>#</a></h2>
+<ul>
+<li><input disabled type=checkbox> 18</li>
+<li><input disabled type=checkbox> 29</li>
+</ul>
+<h2 id=vpn>VPN<a hidden class=anchor aria-hidden=true href=#vpn>#</a></h2>
+<ul>
+<li><input disabled type=checkbox> 21</li>
+</ul>
+<h2 id=endpoint>Endpoint<a hidden class=anchor aria-hidden=true href=#endpoint>#</a></h2>
+<ul>
+<li><input disabled type=checkbox> 23</li>
+<li><input disabled type=checkbox> 24</li>
+<li><input disabled type=checkbox> 25</li>
+</ul>
+<h2 id=flow-log>Flow Log<a hidden class=anchor aria-hidden=true href=#flow-log>#</a></h2>
+<ul>
+<li><input disabled type=checkbox> 26</li>
+</ul>
+<h2 id=container>Container<a hidden class=anchor aria-hidden=true href=#container>#</a></h2>
+<ul>
+<li><input disabled type=checkbox> 28</li>
+</ul>
+<h1 id=udemy-sample-questions>Udemy Sample Questions<a hidden class=anchor aria-hidden=true href=#udemy-sample-questions>#</a></h1>
+<p><a href=https://www.udemy.com/course/practice-exam-aws-certified-advanced-networking-specialty/learn/quiz/5355502/result/633468092#questions>https://www.udemy.com/course/practice-exam-aws-certified-advanced-networking-specialty/learn/quiz/5355502/result/633468092#questions</a></p>
+<h2 id=q2>Q2<a hidden class=anchor aria-hidden=true href=#q2>#</a></h2>
+<p>priority of route table</p>
+<p><a href=https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html#route-table-priority-propagated-routes>https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html#route-table-priority-propagated-routes</a>
+<a href=https://docs.aws.amazon.com/vpn/latest/s2svpn/VPNRoutingTypes.html#vpn-route-priority>https://docs.aws.amazon.com/vpn/latest/s2svpn/VPNRoutingTypes.html#vpn-route-priority</a></p>
+<p>propagated &lt; static
+propagated &lt; local</p>
+<p>igw
+nat
+network interface
+instance ID
+tgw
+vpc peering
+gateway vpc endpoint
+gateway load balancer endpoint</p>
+<h2 id=q3>Q3<a hidden class=anchor aria-hidden=true href=#q3>#</a></h2>
+<p>route53 health check - the health check request is over internet</p>
+<p><a href=https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/health-checks-types.html>https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/health-checks-types.html</a></p>
+<h2 id=q7>Q7<a hidden class=anchor aria-hidden=true href=#q7>#</a></h2>
+<p>need mesh peer network and private vif for each vpc</p>
+<h2 id=q9>Q9<a hidden class=anchor aria-hidden=true href=#q9>#</a></h2>
+<p>misunderstand the question, asking about the DNS ips in the VPC</p>
+<h2 id=q10>Q10<a hidden class=anchor aria-hidden=true href=#q10>#</a></h2>
+<p>don&rsquo;t understand the question&mldr;it is asking for abnormal behaviour but the answer is compliance only</p>
+<p>at 325</p>
+<ul>
+<li>more specific prefix</li>
+<li>Highest Weight</li>
+<li>Highest Local Ref</li>
+<li>Shortest AS_PATH</li>
+<li>Lowest MED</li>
+</ul>
+<p>NAT-T UDP4500 (335)</p>
+<p>VPN Tunnel</p>
+<ul>
+<li>Active / Passive</li>
+<li>Active / Active</li>
+</ul>
+<h1 id=whizlabs-questions>whizlabs questions<a hidden class=anchor aria-hidden=true href=#whizlabs-questions>#</a></h1>
+<h2 id=by-topics>By Topics<a hidden class=anchor aria-hidden=true href=#by-topics>#</a></h2>
+<h3 id=aws-direct-connect>AWS Direct Connect<a hidden class=anchor aria-hidden=true href=#aws-direct-connect>#</a></h3>
+<p><a href=https://www.whizlabs.com/learn/course/aws-advanced-networking-speciality/195/quiz/15884/report/5741896>https://www.whizlabs.com/learn/course/aws-advanced-networking-speciality/195/quiz/15884/report/5741896</a></p>
+<h4 id=q2-1>Q2<a hidden class=anchor aria-hidden=true href=#q2-1>#</a></h4>
+<p>Some data need to be encrypted but some no need -> DX+VPN, DX</p>
+<h4 id=q4>Q4<a hidden class=anchor aria-hidden=true href=#q4>#</a></h4>
+<p>QOS + VPN Instance (for something not supported by AWS, then use EC2 Instance)</p>
+<h4 id=q7-1>Q7<a hidden class=anchor aria-hidden=true href=#q7-1>#</a></h4>
+<p>BFD -> enabled by AWS by default (quick failure detection & fail over)</p>
+<h4 id=q8>Q8<a hidden class=anchor aria-hidden=true href=#q8>#</a></h4>
+<p>IPv4 is owned by the client. IPv6 auto assigned by AWS</p>
+<h3 id=vpn-1>VPN<a hidden class=anchor aria-hidden=true href=#vpn-1>#</a></h3>
+<h4 id=q2-2>Q2<a hidden class=anchor aria-hidden=true href=#q2-2>#</a></h4>
+<p>B &lt;-WAN-> M &lt;-VPN-> AWS</p>
+<h4 id=q3-1>Q3<a hidden class=anchor aria-hidden=true href=#q3-1>#</a></h4>
+<p>OK but less cost effective</p>
+<p>ec2 vpn + dx ok
+2 vpn + dx Ok
+vpc peer OK
+ec2 vpn OK</p>
+<p>the keyword only needs connectivity on one application, so ec2 vpn is more cost effective</p>
+<h4 id=q4-1>Q4<a hidden class=anchor aria-hidden=true href=#q4-1>#</a></h4>
+<p>C D does not correct as VGW are not transitive</p>
+<p>Remain A B. Difference between A B: use 2/1 ec2 vpn</p>
+<h2 id=vpc>VPC<a hidden class=anchor aria-hidden=true href=#vpc>#</a></h2>
+<ul>
+<li>Q1 -> misread VPN connection</li>
+<li>Q2 -> use reference instead of cidr</li>
+<li>Q5 -> VPC Peering does not need route53</li>
+<li>Q7 -> cannot use bucket policy on S3 endpoint as sourceIp are same</li>
+<li>Q8 -> no need to publish s3 then cloudwatch log. Flow Log: VPC or Network Interface</li>
+</ul>
+<h2 id=sg>SG<a hidden class=anchor aria-hidden=true href=#sg>#</a></h2>
+<ul>
+<li>Q1 -> SG cannot deny traffic. I forgot&mldr;</li>
+<li>Q5 -> default SG: allow b/w instances. allow outbound from instance</li>
+</ul>
+<p><a href=https://aws.amazon.com/certification/faqs/>https://aws.amazon.com/certification/faqs/</a></p>
+<h1 id=vpcs-connectivities>VPCs Connectivities<a hidden class=anchor aria-hidden=true href=#vpcs-connectivities>#</a></h1>
 <ul>
 <li><a href=https://docs.aws.amazon.com/vpc/latest/tgw/tgw-peering.html>Transit gateway peering attachments</a></li>
 <li><a href=https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html>What is VPC peering?</a></li>
@@ -180,8 +658,8 @@ AWS Certified Advanced Networking - Specialty
 <tr>
 <th>Solution / Situation</th>
 <th>same region</th>
-<th>cross region</th>
 <th>cross account</th>
+<th>cross region</th>
 </tr>
 </thead>
 <tbody>
@@ -200,8 +678,8 @@ AWS Certified Advanced Networking - Specialty
 <tr>
 <td>TGW (attach VPC)</td>
 <td>OK</td>
-<td>NO</td>
 <td>OK</td>
+<td>NO</td>
 </tr>
 <tr>
 <td>AWS Managed VPN</td>
@@ -217,7 +695,7 @@ AWS Certified Advanced Networking - Specialty
 </tr>
 </tbody>
 </table>
-<p>Private Link is something like tgw peer but for spefic service only. It can cross region and account.</p>
+<p>Private Link is something like tgw peer but for specific service only. It can cross regions and accounts.</p>
 <h1 id=scope>Scope<a hidden class=anchor aria-hidden=true href=#scope>#</a></h1>
 <table>
 <thead>
@@ -253,35 +731,23 @@ AWS Certified Advanced Networking - Specialty
 </tr>
 </tbody>
 </table>
-<h1 id=exam-essentials>Exam Essentials<a hidden class=anchor aria-hidden=true href=#exam-essentials>#</a></h1>
-<table>
-<thead>
-<tr>
-<th>Page</th>
-<th>Topic</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>190</td>
-<td>VPC</td>
-</tr>
-<tr>
-<td>300-302</td>
-<td>VPC Peering</td>
-</tr>
-<tr>
-<td>402</td>
-<td>VPN</td>
-</tr>
-<tr>
-<td>632</td>
-<td>Direct Connect</td>
-</tr>
-</tbody>
-</table>
-<h1 id=vpc-peering>VPC Peering<a hidden class=anchor aria-hidden=true href=#vpc-peering>#</a></h1>
-<h2 id=failed-cases>Failed cases<a hidden class=anchor aria-hidden=true href=#failed-cases>#</a></h2>
+<p>582 Routing</p>
+<h1 id=common-pattern>Common Pattern<a hidden class=anchor aria-hidden=true href=#common-pattern>#</a></h1>
+<h2 id=site-to-site-connection-routing>Site-to-Site Connection routing<a hidden class=anchor aria-hidden=true href=#site-to-site-connection-routing>#</a></h2>
+<ul>
+<li>Static - Active/ Active Tunnels (349)</li>
+<li>Static - Active/ Passive Tunnels (350)</li>
+<li>Dynamic - Active/ Active Tunnels (351)</li>
+</ul>
+<h2 id=tgw-1>TGW<a hidden class=anchor aria-hidden=true href=#tgw-1>#</a></h2>
+<p>241: Centralised NAT gateway
+243: Centralised NAT instance
+244: Centralised NAT instance + VPN
+245: Centralised VPC interface endpoint + VPN
+247: Hybrid VPN
+248: Hybrid DX</p>
+<h2 id=vpc-peering-1>VPC Peering<a hidden class=anchor aria-hidden=true href=#vpc-peering-1>#</a></h2>
+<h3 id=failed-cases>Failed cases<a hidden class=anchor aria-hidden=true href=#failed-cases>#</a></h3>
 <table>
 <thead>
 <tr>
@@ -304,8 +770,8 @@ AWS Certified Advanced Networking - Specialty
 </tr>
 </tbody>
 </table>
-<h1 id=site-to-site-vpn-with-vgw>Site-to-site VPN with VGW<a hidden class=anchor aria-hidden=true href=#site-to-site-vpn-with-vgw>#</a></h1>
-<h2 id=use-cases>Use cases<a hidden class=anchor aria-hidden=true href=#use-cases>#</a></h2>
+<h2 id=site-to-site-vpn-with-vgw>Site-to-site VPN with VGW<a hidden class=anchor aria-hidden=true href=#site-to-site-vpn-with-vgw>#</a></h2>
+<h3 id=use-cases>Use cases<a hidden class=anchor aria-hidden=true href=#use-cases>#</a></h3>
 <table>
 <thead>
 <tr>
@@ -332,11 +798,7 @@ AWS Certified Advanced Networking - Specialty
 </tr>
 </tbody>
 </table>
-<h3 id=vpn-cloudhub>VPN CloudHub<a hidden class=anchor aria-hidden=true href=#vpn-cloudhub>#</a></h3>
-<ul>
-<li>369</li>
-</ul>
-<h3 id=ec2-based-vpn>EC2 Based VPN<a hidden class=anchor aria-hidden=true href=#ec2-based-vpn>#</a></h3>
+<h2 id=site-to-site-vpn-with-tgw>Site-to-site VPN with TGW<a hidden class=anchor aria-hidden=true href=#site-to-site-vpn-with-tgw>#</a></h2>
 <table>
 <thead>
 <tr>
@@ -346,47 +808,12 @@ AWS Certified Advanced Networking - Specialty
 </thead>
 <tbody>
 <tr>
-<td>375</td>
-<td>Single instance</td>
-</tr>
-<tr>
-<td>376</td>
-<td>HA</td>
-</tr>
-<tr>
-<td>378</td>
-<td>Horizontal scaling - VPN EC2 per subnet</td>
-</tr>
-<tr>
-<td>379</td>
-<td>Horizontal scaling - Split traffic</td>
+<td>362</td>
+<td>Multiple Site-to-site Connection with TGW</td>
 </tr>
 </tbody>
 </table>
-<h3 id=transit-vpc>Transit VPC<a hidden class=anchor aria-hidden=true href=#transit-vpc>#</a></h3>
-<table>
-<thead>
-<tr>
-<th>Page</th>
-<th>Title</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>391</td>
-<td>Transit VPC</td>
-</tr>
-<tr>
-<td>398</td>
-<td>global regions with single Transit Hub</td>
-</tr>
-<tr>
-<td>398</td>
-<td>global regions with multiple Transit Hub</td>
-</tr>
-</tbody>
-</table>
-<h2 id=failed-cases-1>Failed cases<a hidden class=anchor aria-hidden=true href=#failed-cases-1>#</a></h2>
+<h3 id=failed-cases-1>Failed cases<a hidden class=anchor aria-hidden=true href=#failed-cases-1>#</a></h3>
 <table>
 <thead>
 <tr>
@@ -413,7 +840,7 @@ AWS Certified Advanced Networking - Specialty
 </tr>
 </tbody>
 </table>
-<h2 id=successful-cases>Successful cases<a hidden class=anchor aria-hidden=true href=#successful-cases>#</a></h2>
+<h3 id=successful-cases>Successful cases<a hidden class=anchor aria-hidden=true href=#successful-cases>#</a></h3>
 <table>
 <thead>
 <tr>
@@ -436,8 +863,66 @@ AWS Certified Advanced Networking - Specialty
 </tr>
 </tbody>
 </table>
-<h1 id=direct-connect>Direct Connect<a hidden class=anchor aria-hidden=true href=#direct-connect>#</a></h1>
-<h2 id=use-cases-1>Use cases<a hidden class=anchor aria-hidden=true href=#use-cases-1>#</a></h2>
+<h2 id=vpn-cloudhub>VPN CloudHub<a hidden class=anchor aria-hidden=true href=#vpn-cloudhub>#</a></h2>
+<ul>
+<li>369</li>
+</ul>
+<h2 id=ec2-based-vpn>EC2 Based VPN<a hidden class=anchor aria-hidden=true href=#ec2-based-vpn>#</a></h2>
+<table>
+<thead>
+<tr>
+<th>Page</th>
+<th>Title</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>375</td>
+<td>Single instance</td>
+</tr>
+<tr>
+<td>376</td>
+<td>HA</td>
+</tr>
+<tr>
+<td>378</td>
+<td>Horizontal scaling - VPN EC2 per subnet</td>
+</tr>
+<tr>
+<td>379</td>
+<td>Horizontal scaling - Split traffic</td>
+</tr>
+</tbody>
+</table>
+<h2 id=transit-vpc>Transit VPC<a hidden class=anchor aria-hidden=true href=#transit-vpc>#</a></h2>
+<table>
+<thead>
+<tr>
+<th>Page</th>
+<th>Title</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>391</td>
+<td>Transit VPC</td>
+</tr>
+<tr>
+<td>398</td>
+<td>global regions with single Transit Hub</td>
+</tr>
+<tr>
+<td>398</td>
+<td>global regions with multiple Transit Hub (GRE)</td>
+</tr>
+<tr>
+<td>549</td>
+<td>Direct Connect and Transit VPC</td>
+</tr>
+</tbody>
+</table>
+<h2 id=dx-1>DX<a hidden class=anchor aria-hidden=true href=#dx-1>#</a></h2>
+<h3 id=use-cases-1>Use cases<a hidden class=anchor aria-hidden=true href=#use-cases-1>#</a></h3>
 <table>
 <thead>
 <tr>
@@ -468,7 +953,7 @@ AWS Certified Advanced Networking - Specialty
 </tr>
 </tbody>
 </table>
-<h2 id=failed-cases-2>Failed cases<a hidden class=anchor aria-hidden=true href=#failed-cases-2>#</a></h2>
+<h3 id=failed-cases-2>Failed cases<a hidden class=anchor aria-hidden=true href=#failed-cases-2>#</a></h3>
 <table>
 <thead>
 <tr>
@@ -487,7 +972,7 @@ AWS Certified Advanced Networking - Specialty
 </tr>
 </tbody>
 </table>
-<h2 id=successful-cases-1>Successful cases<a hidden class=anchor aria-hidden=true href=#successful-cases-1>#</a></h2>
+<h3 id=successful-cases-1>Successful cases<a hidden class=anchor aria-hidden=true href=#successful-cases-1>#</a></h3>
 <table>
 <thead>
 <tr>
@@ -502,6 +987,12 @@ AWS Certified Advanced Networking - Specialty
 </tr>
 </tbody>
 </table>
+<h2 id=network-firewall-1>Network Firewall<a hidden class=anchor aria-hidden=true href=#network-firewall-1>#</a></h2>
+<h3 id=use-cases-2>Use cases<a hidden class=anchor aria-hidden=true href=#use-cases-2>#</a></h3>
+<ul>
+<li>Centralised: single firewall subnet / vpc. connect with tgw (791)</li>
+<li>Distributed: firewall subnet per vpc (790)</li>
+</ul>
 <h1 id=limitation>Limitation<a hidden class=anchor aria-hidden=true href=#limitation>#</a></h1>
 <p><a href=https://docs.aws.amazon.com/vpc/latest/userguide/amazon-vpc-limits.html>VPC Limit</a></p>
 <h2 id=peering>Peering<a hidden class=anchor aria-hidden=true href=#peering>#</a></h2>
@@ -597,7 +1088,7 @@ AWS Certified Advanced Networking - Specialty
 </tr>
 <tr>
 <td>NAT</td>
-<td>5-45Gbps</td>
+<td>5-45 Gbps</td>
 </tr>
 <tr>
 <td>TGW</td>
@@ -613,7 +1104,7 @@ AWS Certified Advanced Networking - Specialty
 </tr>
 </tbody>
 </table>
-<h3 id=tgw>TGW<a hidden class=anchor aria-hidden=true href=#tgw>#</a></h3>
+<h3 id=tgw-2>TGW<a hidden class=anchor aria-hidden=true href=#tgw-2>#</a></h3>
 <ul>
 <li>1 VPN can have 2 tunnels</li>
 </ul>
@@ -645,7 +1136,7 @@ AWS Certified Advanced Networking - Specialty
 </table>
 <h3 id=vpn-tunnel>VPN Tunnel<a hidden class=anchor aria-hidden=true href=#vpn-tunnel>#</a></h3>
 <p>1.25Gbps</p>
-<h3 id=ec2>EC2<a hidden class=anchor aria-hidden=true href=#ec2>#</a></h3>
+<h3 id=ec2-1>EC2<a hidden class=anchor aria-hidden=true href=#ec2-1>#</a></h3>
 <ul>
 <li><a href=https://toonk.io/aws-network-performance-deep-dive/index.html>100G networking in AWS, a network performance deep dive</a></li>
 </ul>
@@ -743,31 +1234,13 @@ AWS Certified Advanced Networking - Specialty
 </tr>
 </tbody>
 </table>
-<h1 id=vpc-addressing>VPC Addressing<a hidden class=anchor aria-hidden=true href=#vpc-addressing>#</a></h1>
-<h2 id=reversed-ips-in-subnet>Reversed IPs in subnet<a hidden class=anchor aria-hidden=true href=#reversed-ips-in-subnet>#</a></h2>
-<p><a href=https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html>https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html</a></p>
-<h2 id=default-route-table-will-have-rule-vpc_cidr-local>Default route table will have rule: &lt;vpc_cidr> local<a hidden class=anchor aria-hidden=true href=#default-route-table-will-have-rule-vpc_cidr-local>#</a></h2>
-<h2 id=limited-ips-per-eni>Limited ips per ENI<a hidden class=anchor aria-hidden=true href=#limited-ips-per-eni>#</a></h2>
-<p>Single ENI can have multiple private IPs. Depends on the instance types.</p>
-<p><a href=https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html>https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html</a></p>
-<h1 id=vpc-route-tables>VPC Route tables<a hidden class=anchor aria-hidden=true href=#vpc-route-tables>#</a></h1>
-<p>by default the subnet will use vpc route table</p>
-<p>we can customise the route table per subnet</p>
-<h1 id=vpc-firewall>VPC Firewall<a hidden class=anchor aria-hidden=true href=#vpc-firewall>#</a></h1>
-<p>EC2 -> Security Group -> NACL</p>
-<p>Security Group is stateful</p>
-<h1 id=dc>DC<a hidden class=anchor aria-hidden=true href=#dc>#</a></h1>
-<p>need to know about BGP first</p>
-<h1 id=ecmp>ECMP<a hidden class=anchor aria-hidden=true href=#ecmp>#</a></h1>
-<ul>
-<li>can aggregate the VPN tunnel</li>
-<li>only support at BGP routing</li>
-</ul>
 </div>
 <footer class=post-footer>
 <ul class=post-tags>
 <li><a href=https://hugotkk.github.io/tags/cert/>cert</a></li>
 <li><a href=https://hugotkk.github.io/tags/exam/>exam</a></li>
+<li><a href=https://hugotkk.github.io/tags/aws/>aws</a></li>
+<li><a href=https://hugotkk.github.io/tags/networking/>networking</a></li>
 </ul>
 <nav class=paginav>
 <a class=prev href=https://hugotkk.github.io/posts/movies-about-hk/>
@@ -782,7 +1255,7 @@ AWS Certified Advanced Networking - Specialty
 </a>
 </nav>
 <div class=share-buttons>
-<a target=_blank rel="noopener noreferrer" aria-label="share AWS Certified Advanced Networking - Specialty on twitter" href="https://twitter.com/intent/tweet/?text=AWS%20Certified%20Advanced%20Networking%20-%20Specialty&url=https%3a%2f%2fhugotkk.github.io%2fposts%2faws-certified-advanced-network%2f&hashtags=cert%2cexam"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM195.519 424.544c135.939.0 210.268-112.643 210.268-210.268.0-3.218.0-6.437-.153-9.502 14.406-10.421 26.973-23.448 36.935-38.314-13.18 5.824-27.433 9.809-42.452 11.648 15.326-9.196 26.973-23.602 32.49-40.92-14.252 8.429-30.038 14.56-46.896 17.931-13.487-14.406-32.644-23.295-53.946-23.295-40.767.0-73.87 33.104-73.87 73.87.0 5.824.613 11.494 1.992 16.858-61.456-3.065-115.862-32.49-152.337-77.241-6.284 10.881-9.962 23.601-9.962 37.088.0 25.594 13.027 48.276 32.95 61.456-12.107-.307-23.448-3.678-33.41-9.196v.92c0 35.862 25.441 65.594 59.311 72.49-6.13 1.686-12.72 2.606-19.464 2.606-4.751.0-9.348-.46-13.946-1.38 9.349 29.426 36.628 50.728 68.965 51.341-25.287 19.771-57.164 31.571-91.8 31.571-5.977.0-11.801-.306-17.625-1.073 32.337 21.15 71.264 33.41 112.95 33.41z"/></svg>
+<a target=_blank rel="noopener noreferrer" aria-label="share AWS Certified Advanced Networking - Specialty on twitter" href="https://twitter.com/intent/tweet/?text=AWS%20Certified%20Advanced%20Networking%20-%20Specialty&url=https%3a%2f%2fhugotkk.github.io%2fposts%2faws-certified-advanced-network%2f&hashtags=cert%2cexam%2caws%2cnetworking"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM195.519 424.544c135.939.0 210.268-112.643 210.268-210.268.0-3.218.0-6.437-.153-9.502 14.406-10.421 26.973-23.448 36.935-38.314-13.18 5.824-27.433 9.809-42.452 11.648 15.326-9.196 26.973-23.602 32.49-40.92-14.252 8.429-30.038 14.56-46.896 17.931-13.487-14.406-32.644-23.295-53.946-23.295-40.767.0-73.87 33.104-73.87 73.87.0 5.824.613 11.494 1.992 16.858-61.456-3.065-115.862-32.49-152.337-77.241-6.284 10.881-9.962 23.601-9.962 37.088.0 25.594 13.027 48.276 32.95 61.456-12.107-.307-23.448-3.678-33.41-9.196v.92c0 35.862 25.441 65.594 59.311 72.49-6.13 1.686-12.72 2.606-19.464 2.606-4.751.0-9.348-.46-13.946-1.38 9.349 29.426 36.628 50.728 68.965 51.341-25.287 19.771-57.164 31.571-91.8 31.571-5.977.0-11.801-.306-17.625-1.073 32.337 21.15 71.264 33.41 112.95 33.41z"/></svg>
 </a>
 <a target=_blank rel="noopener noreferrer" aria-label="share AWS Certified Advanced Networking - Specialty on linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fhugotkk.github.io%2fposts%2faws-certified-advanced-network%2f&title=AWS%20Certified%20Advanced%20Networking%20-%20Specialty&summary=AWS%20Certified%20Advanced%20Networking%20-%20Specialty&source=https%3a%2f%2fhugotkk.github.io%2fposts%2faws-certified-advanced-network%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM160.461 423.278V197.561h-75.04v225.717h75.04zm270.539.0V293.839c0-69.333-37.018-101.586-86.381-101.586-39.804.0-57.634 21.891-67.617 37.266v-31.958h-75.021c.995 21.181.0 225.717.0 225.717h75.02V297.222c0-6.748.486-13.492 2.474-18.315 5.414-13.475 17.767-27.434 38.494-27.434 27.135.0 38.007 20.707 38.007 51.037v120.768H431zM123.448 88.722C97.774 88.722 81 105.601 81 127.724c0 21.658 16.264 39.002 41.455 39.002h.484c26.165.0 42.452-17.344 42.452-39.002-.485-22.092-16.241-38.954-41.943-39.002z"/></svg>
 </a>

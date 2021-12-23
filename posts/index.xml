@@ -9,7 +9,50 @@
       <link>https://hugotkk.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 14 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aws Ground Station</title>
+      <link>https://hugotkk.github.io/posts/aws-ground-station/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/aws-ground-station/</guid>
+      <description>https://www.youtube.com/watch?v=_MwNgO0aJo0
+https://www.youtube.com/watch?v=namlZpQ6W_k</description>
+    </item>
+    
+    <item>
+      <title>BTRFS</title>
+      <link>https://hugotkk.github.io/posts/btrfs/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/btrfs/</guid>
+      <description>https://www.youtube.com/watch?v=iwNg_fusT9A
+ Copy on Write - copy will not perform immediately only when write operation is happend Snapshot - use the tech of copy on write to save some space. size few bytes to same size as original data  </description>
+    </item>
+    
+    <item>
+      <title>istio</title>
+      <link>https://hugotkk.github.io/posts/istio/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/istio/</guid>
+      <description>Playlist
+Deployment Strategies Best Practise
+Canary https://octopus.com/docs/deployments/patterns/canary-deployments
+ we have a load balancer &amp;amp; n server. deploy the changes on one of the server  Blue / Green https://www.ibm.com/docs/en/urbancode-deploy/6.2.7?topic=processes-modeling-blue-green-rolling-canary-deployments
+Rolling </description>
+    </item>
+    
+    <item>
+      <title>Random number</title>
+      <link>https://hugotkk.github.io/posts/random-numbers/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/random-numbers/</guid>
+      <description>In this post, he wrote a web app to randomly generate the result with QRNG@ANU api.
+It can generate Quantum random numbers. so interesting&amp;hellip;</description>
+    </item>
+    
     <item>
       <title>Coretek&#39;s cloud migration methodology</title>
       <link>https://hugotkk.github.io/posts/azure-migration-stragegies/</link>
@@ -23,6 +66,16 @@ Plan  use cloud adoption framework (10:45)  Migrate Cloud Migration Strategies (
   Refactor - Containerize
   Rearchitech &amp;amp; rebuild - Microservice
   5-week migration process (17:00)  Week T-3 plan Week T-2 build Week T-1 test Week T-0 go migration and cleanup Week T+1 transition  Use azure migrate (17:59) Setup migration Centre of Excellence (CoE) (20:18) Goven &amp;amp; Manage Monitor/ automation Five discipline of cloud governance (21:51) principles on how to manage / goven</description>
+    </item>
+    
+    <item>
+      <title>Spark</title>
+      <link>https://hugotkk.github.io/posts/spark/</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/spark/</guid>
+      <description>Playlist
+Apache Spark on EKS https://github.com/kubernetes/kubernetes/tree/release-1.3/examples/spark</description>
     </item>
     
     <item>
@@ -219,7 +272,8 @@ Connection with mashipo How an elderly Hong Kong pro-democracy protester also fo
       <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/aws-certified-advanced-network/</guid>
-      <description>Resources  AWS Certified Advanced Networking Specialty 2021  How to connect VPCs  Transit gateway peering attachments What is VPC peering? Transit Gateway vs VPC peering     Solution / Situation same region cross region cross account     VPC Peering OK OK OK   TGW Peering OK OK OK   TGW (attach VPC) OK NO OK   AWS Managed VPN OK OK OK   EC2 Based VPN OK OK OK    Private Link is something like tgw peer but for spefic service only.</description>
+      <description>Resources  Exam Landing Page Sample Questions Exam Guide udemy course udemy mock exam whizlabs test &amp;amp; hand-on labs Network to Amazon VPC connectivity option  TODO  take notes revision mocks (by topic) whizlabs revise udemy quiz + exercise mock 1 (udemy) mock 2 (whizlabs)  Revision The numbers below are the page no of the udemy course&amp;rsquo;s pdf: AWS Certified Networking Specialty Slides v1.1.
+Summary  DNS (151) Advanced Networking (188) VPC Endpoint (292, 298) Site-to-site VPN (347, 401, 407) VPN Tunnels and Routing (348, 352) DX Gateway with VGW (532) DX with TGW (547) DX Billing (624) DX (630) Troubleshooting in DX (626) Gateway Load Balancer (816)  Q &amp;amp; A ALB (677) DX (625)</description>
     </item>
     
     <item>

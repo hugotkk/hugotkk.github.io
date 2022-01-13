@@ -17,7 +17,7 @@
 <link rel=mask-icon href=https://hugotkk.github.io/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.91.0">
+<meta name=generator content="Hugo 0.92.0">
 <meta property="og:title" content="Recover etcd">
 <meta property="og:description" content="Control Panel     svr1   svr2   svr3    svr1 Stop k8s systemctl stop kubelet crictl rm -f $(crictl ps -q) start the etcd in single node vim /etc/kubernetes/manifests/etcd.yaml - --force-new-cluster=true Add svr2 etcd to cluster kubectl exec -it etcd-svr1.hhuge9.com -nkube-system -- sh -c 'ETCDCTL_API=3 etcdctl --endpoints 127.0.0.1:2379 --cert=/etc/kubernetes/pki/etcd/server.crt --key=/etc/kubernetes/pki/etcd/server.key --cacert=/etc/kubernetes/pki/etcd/ca.crt member add svr2.hhuge9.com --peer-urls=&#34;https://192.168.0.102:2380&#34;' Save the output export ETCD_NAME=&#34;svr2.hhuge9.com&#34; export ETCD_INITIAL_CLUSTER=&#34;svr1.">
 <meta property="og:type" content="article">
@@ -183,7 +183,7 @@ rm -rf /var/lib/etcd
 </article>
 </main>
 <footer class=footer>
-<span>&copy; 2021 <a href=https://hugotkk.github.io/>Hugo</a></span>
+<span>&copy; 2022 <a href=https://hugotkk.github.io/>Hugo</a></span>
 <span>
 Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &

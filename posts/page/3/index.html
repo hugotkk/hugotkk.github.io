@@ -68,6 +68,20 @@
 </header>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Broken Git Ref</h2>
+</header>
+<section class=entry-content>
+<p>Facing this warning in a repo
+warning: ignoring broken ref refs/remotes/origin/HEAD https://stackoverflow.com/questions/45811971/warning-ignoring-broken-ref-refs-remotes-origin-head
+After reading this article, seem the reference of refs/remotes/origin/HEAD is broken.
+$ git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/master I have changed the branch from master to main before. master branch is no longer exist. I think that is the reason of the warning.
+git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main Then the warning is fixed.</p>
+</section>
+<footer class=entry-footer>August 25, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo</footer>
+<a class=entry-link aria-label="post link to Broken Git Ref" href=https://hugotkk.github.io/posts/broken-git-ref/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Slow Bash Startup</h2>
 </header>
 <section class=entry-content>

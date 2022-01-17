@@ -9,7 +9,16 @@
       <link>https://hugotkk.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 23 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multiple profile in firefox</title>
+      <link>https://hugotkk.github.io/posts/multi-profiles-in-firefox/</link>
+      <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/multi-profiles-in-firefox/</guid>
+      <description>go to about:profile create a new profile  Profile Manager - Create, remove or switch Firefox profiles</description>
+    </item>
+    
     <item>
       <title>Aws Ground Station</title>
       <link>https://hugotkk.github.io/posts/aws-ground-station/</link>

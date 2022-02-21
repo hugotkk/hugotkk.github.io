@@ -9,7 +9,25 @@
       <link>https://hugotkk.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 23 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aurora</title>
+      <link>https://hugotkk.github.io/posts/aurora/</link>
+      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/aurora/</guid>
+      <description>RDS Read Replica  cross AZ: OK cross region: OK promote / point-in-time recovery / restore from snapshot will create a new db instance which is not in my expectation. When DR, user need to update dns / db endpoint in application  Aurora Pros over non-aurora rds  read replica auto scaling failover (failover master to read replica in same region) multi-az by default endpoint for writer and reader instance (also custom endpoint)  Cons in aurora Bad integration in cross-region read replica For example:</description>
+    </item>
+    
+    <item>
+      <title>Opsworks</title>
+      <link>https://hugotkk.github.io/posts/opsworks/</link>
+      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/opsworks/</guid>
+      <description>OpsWorks  stack = cookbooks layer = frontend, backend, api, rds (how to config to instance) app = source code. can deploy and redeploy  Stack  I am exploring this cookbook from aws The nodejs demo cookbook repo does not include its dependencies In the opsworks demo, it uses opsworks-linux-demo-cookbooks-nodejs.tar.gz as the cookbook source We need to convert the repo to the archive before using it Aftering changing the cookbook source, we need to fetch the cache by running commands on instances  Inside the opsworks-linux-demo-cookbooks-nodejs.</description>
+    </item>
+    
     <item>
       <title>Aws Ground Station</title>
       <link>https://hugotkk.github.io/posts/aws-ground-station/</link>

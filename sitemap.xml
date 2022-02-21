@@ -2,29 +2,59 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://hugotkk.github.io/posts/aurora/</loc>
+    <lastmod>2022-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/aurora/</loc>
+    <lastmod>2022-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/aws/</loc>
+    <lastmod>2022-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/cloud/</loc>
+    <lastmod>2022-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/database/</loc>
+    <lastmod>2022-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/devops/</loc>
+    <lastmod>2022-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/</loc>
+    <lastmod>2022-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/posts/opsworks/</loc>
+    <lastmod>2022-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/opsworks/</loc>
+    <lastmod>2022-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/posts/</loc>
+    <lastmod>2022-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/</loc>
+    <lastmod>2022-02-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://hugotkk.github.io/tags/blockchain/</loc>
     <lastmod>2022-01-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/posts/blockchain-introduction/</loc>
     <lastmod>2022-01-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hugotkk.github.io/</loc>
-    <lastmod>2022-01-22T00:00:00+00:00</lastmod>
+    <loc>https://hugotkk.github.io/tags/202201/</loc>
+    <lastmod>2022-01-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hugotkk.github.io/posts/</loc>
-    <lastmod>2022-01-22T00:00:00+00:00</lastmod>
+    <loc>https://hugotkk.github.io/tags/booklist/</loc>
+    <lastmod>2022-01-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hugotkk.github.io/tags/</loc>
-    <lastmod>2022-01-22T00:00:00+00:00</lastmod>
+    <loc>https://hugotkk.github.io/posts/booklist/</loc>
+    <lastmod>2022-01-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/tags/firefox/</loc>
     <lastmod>2022-01-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/posts/multi-profiles-in-firefox/</loc>
     <lastmod>2022-01-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hugotkk.github.io/tags/aws/</loc>
-    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/posts/aws-ground-station/</loc>
     <lastmod>2021-12-23T00:00:00+00:00</lastmod>
@@ -63,9 +93,6 @@
     <lastmod>2021-12-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/tags/azure/</loc>
-    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hugotkk.github.io/tags/cloud/</loc>
     <lastmod>2021-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/tags/cloud-centre/</loc>

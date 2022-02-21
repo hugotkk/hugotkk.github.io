@@ -9,7 +9,25 @@
       <link>https://hugotkk.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 22 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aurora</title>
+      <link>https://hugotkk.github.io/posts/aurora/</link>
+      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/aurora/</guid>
+      <description>RDS Read Replica  cross AZ: OK cross region: OK promote / point-in-time recovery / restore from snapshot will create a new db instance which is not in my expectation. When DR, user need to update dns / db endpoint in application  Aurora Pros over non-aurora rds  read replica auto scaling failover (failover master to read replica in same region) multi-az by default endpoint for writer and reader instance (also custom endpoint)  Cons in aurora Bad integration in cross-region read replica For example:</description>
+    </item>
+    
+    <item>
+      <title>Opsworks</title>
+      <link>https://hugotkk.github.io/posts/opsworks/</link>
+      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/opsworks/</guid>
+      <description>OpsWorks  stack = cookbooks layer = frontend, backend, api, rds (how to config to instance) app = source code. can deploy and redeploy  Stack  I am exploring this cookbook from aws The nodejs demo cookbook repo does not include its dependencies In the opsworks demo, it uses opsworks-linux-demo-cookbooks-nodejs.tar.gz as the cookbook source We need to convert the repo to the archive before using it Aftering changing the cookbook source, we need to fetch the cache by running commands on instances  Inside the opsworks-linux-demo-cookbooks-nodejs.</description>
+    </item>
+    
     <item>
       <title>Blockchain Introduction</title>
       <link>https://hugotkk.github.io/posts/blockchain-introduction/</link>
@@ -17,6 +35,15 @@
       
       <guid>https://hugotkk.github.io/posts/blockchain-introduction/</guid>
       <description>Resources  Hyperledger Fabric Solidity  Notes what is blockchain  The blockchain solution in IoT / Supply chain are changing &amp;ldquo;Mesh&amp;rdquo; network to a &amp;ldquo;Star Network each parties access and write to the &amp;ldquo;blockchain network&amp;rdquo;. not more api integration between parties  How to use it How it work  use cryptography methods to ensure the integrity of a public writable database proof of work, proof of stake, proff  How to implement  solidity node.</description>
+    </item>
+    
+    <item>
+      <title>Booklists</title>
+      <link>https://hugotkk.github.io/posts/booklist/</link>
+      <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/booklist/</guid>
+      <description> 語理分析的思考方法 - 李天命 Salt Sugar Fat: How the Food Giants Hooked Us Sapiens: A Brief History of Humankind (人類大歷史)  機器學習書單 SRE Book 列夫·托爾斯泰作品集  </description>
     </item>
     
     <item>

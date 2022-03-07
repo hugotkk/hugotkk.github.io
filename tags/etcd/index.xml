@@ -16,7 +16,7 @@
       <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/etcd/</guid>
-      <description>Control Panel     svr1   svr2   svr3    svr1 Stop k8s systemctl stop kubelet crictl rm -f $(crictl ps -q) start the etcd in single node vim /etc/kubernetes/manifests/etcd.yaml - --force-new-cluster=true Add svr2 etcd to cluster kubectl exec -it etcd-svr1.hhuge9.com -nkube-system -- sh -c &#39;ETCDCTL_API=3 etcdctl --endpoints 127.0.0.1:2379 --cert=/etc/kubernetes/pki/etcd/server.crt --key=/etc/kubernetes/pki/etcd/server.key --cacert=/etc/kubernetes/pki/etcd/ca.crt member add svr2.hhuge9.com --peer-urls=&amp;quot;https://192.168.0.102:2380&amp;quot;&#39; Save the output export ETCD_NAME=&amp;quot;svr2.hhuge9.com&amp;quot; export ETCD_INITIAL_CLUSTER=&amp;quot;svr1.</description>
+      <description>Control Panel     svr1   svr2   svr3    svr1 Stop k8s systemctl stop kubelet crictl rm -f $(crictl ps -q) start the etcd in single node vim /etc/kubernetes/manifests/etcd.yaml - --force-new-cluster=true Add svr2 etcd to cluster kubectl exec -it etcd-svr1.hhuge9.com -nkube-system -- sh -c &amp;#39;ETCDCTL_API=3 etcdctl --endpoints 127.0.0.1:2379 --cert=/etc/kubernetes/pki/etcd/server.crt --key=/etc/kubernetes/pki/etcd/server.key --cacert=/etc/kubernetes/pki/etcd/ca.crt member add svr2.hhuge9.com --peer-urls=&amp;#34;https://192.168.0.102:2380&amp;#34;&amp;#39; Save the output export ETCD_NAME=&amp;#34;svr2.hhuge9.com&amp;#34; export ETCD_INITIAL_CLUSTER=&amp;#34;svr1.</description>
     </item>
     
   </channel>

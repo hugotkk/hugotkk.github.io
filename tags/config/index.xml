@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>config on Hugo</title>
+    <link>https://hugotkk.github.io/tags/config/</link>
+    <description>Recent content in config on Hugo</description>
+    <image>
+      <url>https://hugotkk.github.io/papermod-cover.png</url>
+      <link>https://hugotkk.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 21 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/config/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Config</title>
+      <link>https://hugotkk.github.io/posts/config/</link>
+      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/config/</guid>
+      <description>config aggregator aggreagate all account under organization   enable service role in organization
+  set up iam with
+ viewing the organization    service role give config.amazonaws.com access for the config resource
+  additional iam right to view accounts in organization
+  from management account or delegated admin to use this option
+aggreagate specfic account  authorization  cfn stackset add stack to stackset = deploy stack delete stack from stackset = delete the stack</description>
+    </item>
+    
+  </channel>
+</rss>

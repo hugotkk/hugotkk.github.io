@@ -9,7 +9,16 @@
       <link>https://hugotkk.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 21 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Certified DevOps Engineer - Professional</title>
+      <link>https://hugotkk.github.io/posts/devops/</link>
+      <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/devops/</guid>
+      <description>DevOps choices Deployment  faster boot time - opsworks slower; ami faster using chef - opsworks need to update config when new node online - opsworks Configure lifecycle event less administrative overhead: eb &amp;gt; cloudformation when both solutions works auto healing: opsworks, codedeploy, eb (bcoz of the asg) rolling: eb, opsworks (not ideal, it is manual deploy), cloudformation+asg, codedeploy blue/green deployment: eb (cname swap), codedeploy blue/green deployment and want to delay the old asg termination: codedeploy canary deployment: codedeploy only on lambda / ecs, eb (traffic splitting) eb&amp;rsquo;s immutable deployment: create 2nd asg.</description>
+    </item>
+    
     <item>
       <title>Aurora</title>
       <link>https://hugotkk.github.io/posts/aurora/</link>
@@ -17,6 +26,43 @@
       
       <guid>https://hugotkk.github.io/posts/aurora/</guid>
       <description>RDS Read Replica  cross AZ: OK cross region: OK promote / point-in-time recovery / restore from snapshot will create a new db instance which is not in my expectation. When DR, user need to update dns / db endpoint in application  Aurora Pros over non-aurora rds  read replica auto scaling failover (failover master to read replica in same region) multi-az by default endpoint for writer and reader instance (also custom endpoint)  Cons in aurora Bad integration in cross-region read replica For example:</description>
+    </item>
+    
+    <item>
+      <title>AWS Config</title>
+      <link>https://hugotkk.github.io/posts/config/</link>
+      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/config/</guid>
+      <description>config aggregator aggreagate all account under organization   enable service role in organization
+  set up iam with
+ viewing the organization    service role give config.amazonaws.com access for the config resource
+  additional iam right to view accounts in organization
+  from management account or delegated admin to use this option
+aggreagate specfic account  authorization  cfn stackset add stack to stackset = deploy stack delete stack from stackset = delete the stack</description>
+    </item>
+    
+    <item>
+      <title>AWS Elastic Beanstalk</title>
+      <link>https://hugotkk.github.io/posts/eb/</link>
+      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/eb/</guid>
+      <description>eb eb init eb use web_dev eb list deploy code in repo
+eb deploy web_dev edit config
+eb config web_dev save config
+eb config save apply save config
+eb config put .elasticbeanstalk/saved_configs/Web-env-sc.cfg.yml Folder Structure
+▾ .ebextensions/ app.config ▾ .elasticbeanstalk/ ▸ saved_configs/ config.yml ▸ .git/ .gitignore index.php README swap name, configuration with not swap</description>
+    </item>
+    
+    <item>
+      <title>AWS Organization</title>
+      <link>https://hugotkk.github.io/posts/aws-organization/</link>
+      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/aws-organization/</guid>
+      <description>aws org  o = organization = it9 r = root = root ou = organization unit = dev / prod / uat / management / network  ou path: o-3ywbznlomt/r-t9g3/ou-t9g3-knls7nau/</description>
     </item>
     
     <item>

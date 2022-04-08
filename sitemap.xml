@@ -3,21 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://hugotkk.github.io/tags/aws/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/posts/sa/</loc>
+    <lastmod>2022-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/cert/</loc>
+    <lastmod>2022-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/exam/</loc>
+    <lastmod>2022-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/</loc>
+    <lastmod>2022-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/posts/</loc>
+    <lastmod>2022-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/sa/</loc>
+    <lastmod>2022-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/</loc>
+    <lastmod>2022-04-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/posts/devops/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/tags/devops/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hugotkk.github.io/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hugotkk.github.io/posts/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hugotkk.github.io/tags/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/posts/aurora/</loc>
@@ -236,16 +248,10 @@
     <loc>https://hugotkk.github.io/posts/blockchain-use-case/</loc>
     <lastmod>2021-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hugotkk.github.io/tags/cert/</loc>
-    <lastmod>2021-11-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://hugotkk.github.io/tags/cka/</loc>
     <lastmod>2021-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/tags/etcd/</loc>
-    <lastmod>2021-11-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hugotkk.github.io/tags/exam/</loc>
     <lastmod>2021-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/posts/k8s-authentication/</loc>

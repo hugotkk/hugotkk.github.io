@@ -9,7 +9,16 @@
       <link>https://hugotkk.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 26 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/exam/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/exam/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS SA PRO</title>
+      <link>https://hugotkk.github.io/posts/sa/</link>
+      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/sa/</guid>
+      <description>api  api gateway throttling limits  aws throttling limit (region level) per account per-api per-stage (methods) per-client (usage plan)    application discovery service  for migration planning connection type  application discovery agent -&amp;gt; install on server. support vm / physical server discovery connector -&amp;gt; install on vCenter (is a ova) Migration Hub import =&amp;gt; import the details directly    asg  will automatically tag the instances by default cooldown will start after last instances launched if there are multiple instance scale at the moment  athena  performance tunning - 1.</description>
+    </item>
+    
     <item>
       <title>AWS Certified Advanced Networking - Specialty</title>
       <link>https://hugotkk.github.io/posts/aws-certified-advanced-network/</link>

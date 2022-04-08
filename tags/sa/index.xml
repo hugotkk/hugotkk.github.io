@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>sa on Hugo</title>
+    <link>https://hugotkk.github.io/tags/sa/</link>
+    <description>Recent content in sa on Hugo</description>
+    <image>
+      <url>https://hugotkk.github.io/papermod-cover.png</url>
+      <link>https://hugotkk.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/sa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS SA PRO</title>
+      <link>https://hugotkk.github.io/posts/sa/</link>
+      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/sa/</guid>
+      <description>api  api gateway throttling limits  aws throttling limit (region level) per account per-api per-stage (methods) per-client (usage plan)    application discovery service  for migration planning connection type  application discovery agent -&amp;gt; install on server. support vm / physical server discovery connector -&amp;gt; install on vCenter (is a ova) Migration Hub import =&amp;gt; import the details directly    asg  will automatically tag the instances by default cooldown will start after last instances launched if there are multiple instance scale at the moment  athena  performance tunning - 1.</description>
+    </item>
+    
+  </channel>
+</rss>

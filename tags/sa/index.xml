@@ -16,7 +16,7 @@
       <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/sa/</guid>
-      <description>api  api gateway throttling limits  aws throttling limit (region level) per account per-api per-stage (methods) per-client (usage plan)    application discovery service  for migration planning connection type  application discovery agent -&amp;gt; install on server. support vm / physical server discovery connector -&amp;gt; install on vCenter (is a ova) Migration Hub import =&amp;gt; import the details directly    asg  will automatically tag the instances by default cooldown will start after last instances launched if there are multiple instance scale at the moment  athena  performance tunning - 1.</description>
+      <description>api  api gateway throttling limits  aws throttling limit (region level) per account per-api per-stage (methods) per-client (usage plan)   three type of endpoint  edge-optimized (default) - route to nearest cloudfront regional private    application discovery service  for migration planning connection type  application discovery agent -&amp;gt; install on server. support vm / physical server discovery connector -&amp;gt; install on vCenter (is a ova) Migration Hub import =&amp;gt; import the details directly    asg  will automatically tag the instances by default cooldown will start after last instances launched if there are multiple instance scale at the moment  athena  performance tunning - 1.</description>
     </item>
     
   </channel>

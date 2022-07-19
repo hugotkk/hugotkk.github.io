@@ -19,10 +19,10 @@
       <description>https://www.youtube.com/watch?v=tj3F0tX8eyc
 6:26 - 5 steps
 Assess Cloud Economic Assessment (8:20) understand resources needed on-premise (mem, storage, bandwidth)
-Plan  use cloud adoption framework (10:45)  Migrate Cloud Migration Strategies (4:30)   Rehost - create vm on cloud and move application to it
-  Refactor - Containerize
-  Rearchitech &amp;amp; rebuild - Microservice
-  5-week migration process (17:00)  Week T-3 plan Week T-2 build Week T-1 test Week T-0 go migration and cleanup Week T+1 transition  Use azure migrate (17:59) Setup migration Centre of Excellence (CoE) (20:18) Goven &amp;amp; Manage Monitor/ automation Five discipline of cloud governance (21:51) principles on how to manage / goven</description>
+Plan use cloud adoption framework (10:45) Migrate Cloud Migration Strategies (4:30) Rehost - create vm on cloud and move application to it
+Refactor - Containerize
+Rearchitech &amp;amp; rebuild - Microservice
+5-week migration process (17:00) Week T-3 plan Week T-2 build Week T-1 test Week T-0 go migration and cleanup Week T+1 transition Use azure migrate (17:59) Setup migration Centre of Excellence (CoE) (20:18) Goven &amp;amp; Manage Monitor/ automation Five discipline of cloud governance (21:51) principles on how to manage / goven</description>
     </item>
     
     <item>
@@ -31,11 +31,11 @@ Plan  use cloud adoption framework (10:45)  Migrate Cloud Migration Strategies (
       <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/eks-vs-aks/</guid>
-      <description>Control Panel Fee  AKS: 0 EKS: fixed charge 0.1 USD / Hour  Integration I think AKS is better, most of the provisioning plugins can be enabled by one click
+      <description>Control Panel Fee AKS: 0 EKS: fixed charge 0.1 USD / Hour Integration I think AKS is better, most of the provisioning plugins can be enabled by one click
 In aws, you need to
- install plugins setup iam service account for the plugins to access AWS service  application routing For AKS,
- it is just an checkbox option  For EKS, you need to
- setup IAM OICD setup external dns setup ALB contrller  auto scaler Same as application routing -&amp;gt; auto scaler.</description>
+install plugins setup iam service account for the plugins to access AWS service application routing For AKS,
+it is just an checkbox option For EKS, you need to
+setup IAM OICD setup external dns setup ALB contrller auto scaler Same as application routing -&amp;gt; auto scaler.</description>
     </item>
     
   </channel>

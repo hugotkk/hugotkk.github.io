@@ -16,7 +16,7 @@
       <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/aurora/</guid>
-      <description>RDS Read Replica  cross AZ: OK cross region: OK promote / point-in-time recovery / restore from snapshot will create a new db instance which is not in my expectation. When DR, user need to update dns / db endpoint in application  Aurora Pros over non-aurora rds  read replica auto scaling failover (failover master to read replica in same region) multi-az by default endpoint for writer and reader instance (also custom endpoint)  Cons in aurora Bad integration in cross-region read replica For example:</description>
+      <description>RDS Read Replica cross AZ: OK cross region: OK promote / point-in-time recovery / restore from snapshot will create a new db instance which is not in my expectation. When DR, user need to update dns / db endpoint in application Aurora Pros over non-aurora rds read replica auto scaling failover (failover master to read replica in same region) multi-az by default endpoint for writer and reader instance (also custom endpoint) Cons in aurora Bad integration in cross-region read replica For example:</description>
     </item>
     
     <item>
@@ -25,7 +25,7 @@
       <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/opsworks/</guid>
-      <description>OpsWorks  stack = cookbooks layer = frontend, backend, api, rds (how to config to instance) app = source code. can deploy and redeploy  Stack  I am exploring this cookbook from aws The nodejs demo cookbook repo does not include its dependencies In the opsworks demo, it uses opsworks-linux-demo-cookbooks-nodejs.tar.gz as the cookbook source We need to convert the repo to the archive before using it Aftering changing the cookbook source, we need to fetch the cache by running commands on instances  Inside the opsworks-linux-demo-cookbooks-nodejs.</description>
+      <description>OpsWorks stack = cookbooks layer = frontend, backend, api, rds (how to config to instance) app = source code. can deploy and redeploy Stack I am exploring this cookbook from aws The nodejs demo cookbook repo does not include its dependencies In the opsworks demo, it uses opsworks-linux-demo-cookbooks-nodejs.tar.gz as the cookbook source We need to convert the repo to the archive before using it Aftering changing the cookbook source, we need to fetch the cache by running commands on instances Inside the opsworks-linux-demo-cookbooks-nodejs.</description>
     </item>
     
     <item>
@@ -37,10 +37,10 @@
       <description>https://www.youtube.com/watch?v=tj3F0tX8eyc
 6:26 - 5 steps
 Assess Cloud Economic Assessment (8:20) understand resources needed on-premise (mem, storage, bandwidth)
-Plan  use cloud adoption framework (10:45)  Migrate Cloud Migration Strategies (4:30)   Rehost - create vm on cloud and move application to it
-  Refactor - Containerize
-  Rearchitech &amp;amp; rebuild - Microservice
-  5-week migration process (17:00)  Week T-3 plan Week T-2 build Week T-1 test Week T-0 go migration and cleanup Week T+1 transition  Use azure migrate (17:59) Setup migration Centre of Excellence (CoE) (20:18) Goven &amp;amp; Manage Monitor/ automation Five discipline of cloud governance (21:51) principles on how to manage / goven</description>
+Plan use cloud adoption framework (10:45) Migrate Cloud Migration Strategies (4:30) Rehost - create vm on cloud and move application to it
+Refactor - Containerize
+Rearchitech &amp;amp; rebuild - Microservice
+5-week migration process (17:00) Week T-3 plan Week T-2 build Week T-1 test Week T-0 go migration and cleanup Week T+1 transition Use azure migrate (17:59) Setup migration Centre of Excellence (CoE) (20:18) Goven &amp;amp; Manage Monitor/ automation Five discipline of cloud governance (21:51) principles on how to manage / goven</description>
     </item>
     
     <item>
@@ -50,7 +50,7 @@ Plan  use cloud adoption framework (10:45)  Migrate Cloud Migration Strategies (
       
       <guid>https://hugotkk.github.io/posts/cloud-center-of-excellenace/</guid>
       <description>https://www.youtube.com/watch?v=mUTGdSA60Ao
- introduction - Cloud Centre of Excellence is a team that can help the organisation for cloud adoption role &amp;amp; responsible characteristic for the team member best practice  Characteristic  driving the organisation forward has ability to stand up - open-minded be confident why and how to do it - clear minded / big picture thinkers diverse and cross-functional  Skill Set  Cost management Project Management (Transparent) Cloud operation engineer (CI/CD) Data engineer (new currency, capture data from IoT, video stream) Application Security (IAM, Policy, Firewall)  Best Practise  Keep passion &amp;amp; excitement Start small (5-7 ppl in a team) Rotate people (training) Communication Scaling and reorganising Think of the failover and backup plan Cloud training for organisation Bill, cost optimization Empower the team (courage them trying new role, new service, bleeding-edge tech) Gain transparency (everyone knows the progress&amp;hellip;why you do that&amp;hellip;)  Notes  cloud makes anything as code -&amp;gt; code makes things more transparent -&amp;gt; the complexity of the project is reduced many jobs can be automated through cloud and they are automatically documented as code is it possible to create a roadmap / resources library for the whole organisation (like AWS workshop)?</description>
+introduction - Cloud Centre of Excellence is a team that can help the organisation for cloud adoption role &amp;amp; responsible characteristic for the team member best practice Characteristic driving the organisation forward has ability to stand up - open-minded be confident why and how to do it - clear minded / big picture thinkers diverse and cross-functional Skill Set Cost management Project Management (Transparent) Cloud operation engineer (CI/CD) Data engineer (new currency, capture data from IoT, video stream) Application Security (IAM, Policy, Firewall) Best Practise Keep passion &amp;amp; excitement Start small (5-7 ppl in a team) Rotate people (training) Communication Scaling and reorganising Think of the failover and backup plan Cloud training for organisation Bill, cost optimization Empower the team (courage them trying new role, new service, bleeding-edge tech) Gain transparency (everyone knows the progress&amp;hellip;why you do that&amp;hellip;) Notes cloud makes anything as code -&amp;gt; code makes things more transparent -&amp;gt; the complexity of the project is reduced many jobs can be automated through cloud and they are automatically documented as code is it possible to create a roadmap / resources library for the whole organisation (like AWS workshop)?</description>
     </item>
     
   </channel>

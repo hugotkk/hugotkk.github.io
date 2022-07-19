@@ -16,12 +16,12 @@
       <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/bandwidth-test/</guid>
-      <description>Objective  Test if the ec2 can reach 10Gbps bandwidth in same placement group Test if the 10Gbps is the limited by the ec2 instance type or aws  AWS Limit https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-network-bandwidth.html
+      <description>Objective Test if the ec2 can reach 10Gbps bandwidth in same placement group Test if the 10Gbps is the limited by the ec2 instance type or aws AWS Limit https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-network-bandwidth.html
 in single-flow traffic,
- placement group: 10Gbps w/o placement group: 5Gbps  flow = worker (thread) in the network driver. depends on the ec2 instance type.
+placement group: 10Gbps w/o placement group: 5Gbps flow = worker (thread) in the network driver. depends on the ec2 instance type.
 EC2 Instance Type Limit https://aws.amazon.com/ec2/instance-types/m5/
 m5.8xlarge can reach 10Gbps
-Setup Created 3 m5.</description>
+Setup Created 3 m5.8xlarge instances which can reach 10Gbps bandwidth each (i use spot)</description>
     </item>
     
   </channel>

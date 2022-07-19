@@ -16,7 +16,7 @@
       <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/opsworks/</guid>
-      <description>OpsWorks  stack = cookbooks layer = frontend, backend, api, rds (how to config to instance) app = source code. can deploy and redeploy  Stack  I am exploring this cookbook from aws The nodejs demo cookbook repo does not include its dependencies In the opsworks demo, it uses opsworks-linux-demo-cookbooks-nodejs.tar.gz as the cookbook source We need to convert the repo to the archive before using it Aftering changing the cookbook source, we need to fetch the cache by running commands on instances  Inside the opsworks-linux-demo-cookbooks-nodejs.</description>
+      <description>OpsWorks stack = cookbooks layer = frontend, backend, api, rds (how to config to instance) app = source code. can deploy and redeploy Stack I am exploring this cookbook from aws The nodejs demo cookbook repo does not include its dependencies In the opsworks demo, it uses opsworks-linux-demo-cookbooks-nodejs.tar.gz as the cookbook source We need to convert the repo to the archive before using it Aftering changing the cookbook source, we need to fetch the cache by running commands on instances Inside the opsworks-linux-demo-cookbooks-nodejs.</description>
     </item>
     
   </channel>

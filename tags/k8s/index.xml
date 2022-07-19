@@ -19,7 +19,7 @@
       <description>Playlist
 Deployment Strategies Best Practise
 Canary https://octopus.com/docs/deployments/patterns/canary-deployments
- we have a load balancer &amp;amp; n server. deploy the changes on one of the server  Blue / Green https://www.ibm.com/docs/en/urbancode-deploy/6.2.7?topic=processes-modeling-blue-green-rolling-canary-deployments
+we have a load balancer &amp;amp; n server. deploy the changes on one of the server Blue / Green https://www.ibm.com/docs/en/urbancode-deploy/6.2.7?topic=processes-modeling-blue-green-rolling-canary-deployments
 Rolling </description>
     </item>
     
@@ -40,7 +40,7 @@ Apache Spark on EKS https://github.com/kubernetes/kubernetes/tree/release-1.3/ex
       
       <guid>https://hugotkk.github.io/posts/rancher/</guid>
       <description>https://www.youtube.com/watch?v=LK6KbAlQRIg
- provide a GUI interface manage k8s clusters  Cons (21:12)  Still using docker (should use cri-o) Only support old version k8s (1.18) Mutable approach (not using image to provision, it installs docker and setup the cluster for you) Very slow to create the cluster  Pros  Manage multiple clusters GUI  </description>
+provide a GUI interface manage k8s clusters Cons (21:12) Still using docker (should use cri-o) Only support old version k8s (1.18) Mutable approach (not using image to provision, it installs docker and setup the cluster for you) Very slow to create the cluster Pros Manage multiple clusters GUI </description>
     </item>
     
     <item>
@@ -49,11 +49,11 @@ Apache Spark on EKS https://github.com/kubernetes/kubernetes/tree/release-1.3/ex
       <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/eks-vs-aks/</guid>
-      <description>Control Panel Fee  AKS: 0 EKS: fixed charge 0.1 USD / Hour  Integration I think AKS is better, most of the provisioning plugins can be enabled by one click
+      <description>Control Panel Fee AKS: 0 EKS: fixed charge 0.1 USD / Hour Integration I think AKS is better, most of the provisioning plugins can be enabled by one click
 In aws, you need to
- install plugins setup iam service account for the plugins to access AWS service  application routing For AKS,
- it is just an checkbox option  For EKS, you need to
- setup IAM OICD setup external dns setup ALB contrller  auto scaler Same as application routing -&amp;gt; auto scaler.</description>
+install plugins setup iam service account for the plugins to access AWS service application routing For AKS,
+it is just an checkbox option For EKS, you need to
+setup IAM OICD setup external dns setup ALB contrller auto scaler Same as application routing -&amp;gt; auto scaler.</description>
     </item>
     
     <item>
@@ -62,8 +62,8 @@ In aws, you need to
       <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/k8s-authentication/</guid>
-      <description>with IAM  user -&amp;gt; with API_KEY &amp;amp; API_TOKEN audience attached iam role (eg: ec2 instance) update the iam role and user mapping in configmap aws-auth  OIDC OIDC built in at the eks cluster
- OICD can request AWS IAM to issue the web identity token the token will be used to assume role and access AWS service     Item Value     OICD oidc.</description>
+      <description>with IAM user -&amp;gt; with API_KEY &amp;amp; API_TOKEN audience attached iam role (eg: ec2 instance) update the iam role and user mapping in configmap aws-auth OIDC OIDC built in at the eks cluster
+OICD can request AWS IAM to issue the web identity token the token will be used to assume role and access AWS service Item Value OICD oidc.hhuge9.com IAM user hugotse OIDC user kevintse IAM role S3Admin To assume a role in EKS Associate OIDC to AWS IAM - that why it is called associate-iam-oidc-provider.</description>
     </item>
     
     <item>
@@ -72,7 +72,7 @@ In aws, you need to
       <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/note-for-cka-exam/</guid>
-      <description>Things to turn off before exam Bandwidth saving  google drive sync any backgorund updates wifi connection in other devices  Prevent from autoupdate  software update (mbp, iphone)  Others  firewall disable all chrome plugins  backup plan  sim card - two extra network: EE, giffgaff spare computer (MBP)  Tips When use wc -&amp;gt; be careful the header, need total - 1 Store temporary commands / note / result in a fixed location like /root/tmp Even in remote host; we use that fixed location to store our results then get back the result from it remote$ cat tmp remote$ exit remote$ exit local$ ssh remote cat tmp Do not use tmux hard to copy and paste and scroll</description>
+      <description>Things to turn off before exam Bandwidth saving google drive sync any backgorund updates wifi connection in other devices Prevent from autoupdate software update (mbp, iphone) Others firewall disable all chrome plugins backup plan sim card - two extra network: EE, giffgaff spare computer (MBP) Tips When use wc -&amp;gt; be careful the header, need total - 1 Store temporary commands / note / result in a fixed location like /root/tmp Even in remote host; we use that fixed location to store our results then get back the result from it remote$ cat tmp remote$ exit remote$ exit local$ ssh remote cat tmp Do not use tmux hard to copy and paste and scroll</description>
     </item>
     
     <item>
@@ -81,7 +81,7 @@ In aws, you need to
       <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/etcd/</guid>
-      <description>Control Panel     svr1   svr2   svr3    svr1 Stop k8s systemctl stop kubelet crictl rm -f $(crictl ps -q) start the etcd in single node vim /etc/kubernetes/manifests/etcd.yaml - --force-new-cluster=true Add svr2 etcd to cluster kubectl exec -it etcd-svr1.hhuge9.com -nkube-system -- sh -c &amp;#39;ETCDCTL_API=3 etcdctl --endpoints 127.0.0.1:2379 --cert=/etc/kubernetes/pki/etcd/server.crt --key=/etc/kubernetes/pki/etcd/server.key --cacert=/etc/kubernetes/pki/etcd/ca.crt member add svr2.hhuge9.com --peer-urls=&amp;#34;https://192.168.0.102:2380&amp;#34;&amp;#39; Save the output export ETCD_NAME=&amp;#34;svr2.hhuge9.com&amp;#34; export ETCD_INITIAL_CLUSTER=&amp;#34;svr1.</description>
+      <description>Control Panel svr1 svr2 svr3 svr1 Stop k8s systemctl stop kubelet crictl rm -f $(crictl ps -q) start the etcd in single node vim /etc/kubernetes/manifests/etcd.yaml - --force-new-cluster=true Add svr2 etcd to cluster kubectl exec -it etcd-svr1.hhuge9.com -nkube-system -- sh -c &amp;#39;ETCDCTL_API=3 etcdctl --endpoints 127.0.0.1:2379 --cert=/etc/kubernetes/pki/etcd/server.crt --key=/etc/kubernetes/pki/etcd/server.key --cacert=/etc/kubernetes/pki/etcd/ca.crt member add svr2.hhuge9.com --peer-urls=&amp;#34;https://192.168.0.102:2380&amp;#34;&amp;#39; Save the output export ETCD_NAME=&amp;#34;svr2.hhuge9.com&amp;#34; export ETCD_INITIAL_CLUSTER=&amp;#34;svr1.hhuge9.com=http://192.168.0.101:2380,svr2.hhuge9.com=http://192.168.0.102:2380&amp;#34; export ETCD_INITIAL_CLUSTER_STATE=existing systemctl start kubelet svr2 Stop k8s and remove etcd data systemctl stop kubelet crictl rm -f $(crictl ps -q) rm -rf /var/lib/etcd Update etcd config (with the output in svr1) vim /etc/kubernetes/manifests/etcd.</description>
     </item>
     
     <item>
@@ -90,7 +90,7 @@ In aws, you need to
       <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/openssl/</guid>
-      <description>Procedures  create private key create csr (distinguished_name) sign csr by CA (x509v3)  Commands Gen private key openssl genrsa \ -out ca.key Self signed crt openssl req -x509 \ -config openssl.cnf -new \ -out ca.crt \ -key ca.key gen csr openssl req \ -config openssl.cnf -new \ -out server.csr \ -key server.key sign crt openssl x509 \ -extfile openssl.cnf \ -extensions svr_cert \ -in server.csr \ -out server.crt \ -CA ca.</description>
+      <description>Procedures create private key create csr (distinguished_name) sign csr by CA (x509v3) Commands Gen private key openssl genrsa \ -out ca.key Self signed crt openssl req -x509 \ -config openssl.cnf -new \ -out ca.crt \ -key ca.key gen csr openssl req \ -config openssl.cnf -new \ -out server.csr \ -key server.key sign crt openssl x509 \ -extfile openssl.cnf \ -extensions svr_cert \ -in server.csr \ -out server.crt \ -CA ca.crt \ -CAkey ca.</description>
     </item>
     
   </channel>

@@ -16,12 +16,13 @@
       <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/config/</guid>
-      <description>config aggregator aggreagate all account under organization   enable service role in organization
-  set up iam with
- viewing the organization    service role give config.amazonaws.com access for the config resource
-  additional iam right to view accounts in organization
-  from management account or delegated admin to use this option
-aggreagate specfic account  authorization  cfn stackset add stack to stackset = deploy stack delete stack from stackset = delete the stack</description>
+      <description>config aggregator aggreagate all account under organization enable service role in organization
+set up iam with
+viewing the organization service role give config.amazonaws.com access for the config resource
+additional iam right to view accounts in organization
+from management account or delegated admin to use this option
+aggreagate specfic account authorization cfn stackset add stack to stackset = deploy stack delete stack from stackset = delete the stack
+organziation use managed service mode enable service role in organization change choose account in organization</description>
     </item>
     
   </channel>

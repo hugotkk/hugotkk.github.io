@@ -20,7 +20,7 @@
 Methods Wait until the transaction is completely settled not practical and safe
 Hashlock The transaction is partially complete
 Settle once the sender publishes the key on the blockchain.
-Cons  hugo cannot refund if kevin does not response  Timelock  hugo made a partial transaction that the btc can be claimed by kevin within n number of blocks if the transaction is expired, hugo can claim back the fund  Cons  the claims need to execute manually  HTLC (Hash Time Lock Contract) Combine two locks: (and)</description>
+Cons hugo cannot refund if kevin does not response Timelock hugo made a partial transaction that the btc can be claimed by kevin within n number of blocks if the transaction is expired, hugo can claim back the fund Cons the claims need to execute manually HTLC (Hash Time Lock Contract) Combine two locks: (and)</description>
     </item>
     
     <item>
@@ -31,7 +31,7 @@ Cons  hugo cannot refund if kevin does not response  Timelock  hugo made a parti
       <guid>https://hugotkk.github.io/posts/hyperledger-composer/</guid>
       <description>Building BLOCKCHAIN Apps With HYPERLEDGER COMPOSER https://www.youtube.com/watch?v=gAxK6zYrfxI
 a framework of hyperledger
- testing - mocha / chai webapp generator - Yeoman api generation - Rest Server + loopback api doc generation - swagger auth (rest api) - passport integration with IOT - red-node  </description>
+testing - mocha / chai webapp generator - Yeoman api generation - Rest Server + loopback api doc generation - swagger auth (rest api) - passport integration with IOT - red-node </description>
     </item>
     
     <item>
@@ -40,8 +40,8 @@ a framework of hyperledger
       <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/aws-managed-blockchain/</guid>
-      <description>Pros with AWS Managed Blockchain  no need to build the ledger by themself focus on the smart contract a single blockchain network can effectively work cross multiple parties  An Overview on Blockchain Services from AWS https://www.youtube.com/watch?v=WAIOBeQA2QQ
- ledger database (immutable transaction) consenus decentlization smart contract ease for audit  Hyperledger Fabric VS eth  authentication access control private ledger  </description>
+      <description>Pros with AWS Managed Blockchain no need to build the ledger by themself focus on the smart contract a single blockchain network can effectively work cross multiple parties An Overview on Blockchain Services from AWS https://www.youtube.com/watch?v=WAIOBeQA2QQ
+ledger database (immutable transaction) consenus decentlization smart contract ease for audit Hyperledger Fabric VS eth authentication access control private ledger </description>
     </item>
     
     <item>
@@ -51,7 +51,7 @@ a framework of hyperledger
       
       <guid>https://hugotkk.github.io/posts/blockchain-use-case/</guid>
       <description>Trust Over IP: Hyperledger Ursa, Indy, and Aires https://www.youtube.com/watch?v=FfuhlF9ZYPM
-Notes  prove the credential without CA trusted issuer (eg: gov) issues the identity token (eg: driving licence) -&amp;gt; send it to a crypto account (like sending btc to someone) on the blockchain, it shows a record that the account owns that licence. (like you can check your btc balance / NFS on chain explorer) anyone can request that you own that account (like an approval transaction from dapp).</description>
+Notes prove the credential without CA trusted issuer (eg: gov) issues the identity token (eg: driving licence) -&amp;gt; send it to a crypto account (like sending btc to someone) on the blockchain, it shows a record that the account owns that licence. (like you can check your btc balance / NFS on chain explorer) anyone can request that you own that account (like an approval transaction from dapp).</description>
     </item>
     
   </channel>

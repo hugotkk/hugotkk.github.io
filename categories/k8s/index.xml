@@ -16,7 +16,7 @@
       <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/openssl/</guid>
-      <description>Procedures  create private key create csr (distinguished_name) sign csr by CA (x509v3)  Commands Gen private key openssl genrsa \ -out ca.key Self signed crt openssl req -x509 \ -config openssl.cnf -new \ -out ca.crt \ -key ca.key gen csr openssl req \ -config openssl.cnf -new \ -out server.csr \ -key server.key sign crt openssl x509 \ -extfile openssl.cnf \ -extensions svr_cert \ -in server.csr \ -out server.crt \ -CA ca.</description>
+      <description>Procedures create private key create csr (distinguished_name) sign csr by CA (x509v3) Commands Gen private key openssl genrsa \ -out ca.key Self signed crt openssl req -x509 \ -config openssl.cnf -new \ -out ca.crt \ -key ca.key gen csr openssl req \ -config openssl.cnf -new \ -out server.csr \ -key server.key sign crt openssl x509 \ -extfile openssl.cnf \ -extensions svr_cert \ -in server.csr \ -out server.crt \ -CA ca.crt \ -CAkey ca.</description>
     </item>
     
   </channel>

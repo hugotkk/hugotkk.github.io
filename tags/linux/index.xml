@@ -17,7 +17,7 @@
       
       <guid>https://hugotkk.github.io/posts/btrfs/</guid>
       <description>https://www.youtube.com/watch?v=iwNg_fusT9A
- Copy on Write - copy will not perform immediately only when write operation is happend Snapshot - use the tech of copy on write to save some space. size few bytes to same size as original data  </description>
+Copy on Write - copy will not perform immediately only when write operation is happend Snapshot - use the tech of copy on write to save some space. size few bytes to same size as original data </description>
     </item>
     
   </channel>

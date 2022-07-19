@@ -20,7 +20,7 @@
 Methods Wait until the transaction is completely settled not practical and safe
 Hashlock The transaction is partially complete
 Settle once the sender publishes the key on the blockchain.
-Cons  hugo cannot refund if kevin does not response  Timelock  hugo made a partial transaction that the btc can be claimed by kevin within n number of blocks if the transaction is expired, hugo can claim back the fund  Cons  the claims need to execute manually  HTLC (Hash Time Lock Contract) Combine two locks: (and)</description>
+Cons hugo cannot refund if kevin does not response Timelock hugo made a partial transaction that the btc can be claimed by kevin within n number of blocks if the transaction is expired, hugo can claim back the fund Cons the claims need to execute manually HTLC (Hash Time Lock Contract) Combine two locks: (and)</description>
     </item>
     
   </channel>

@@ -9,14 +9,23 @@
       <link>https://hugotkk.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 22 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hyperledger fabric</title>
+      <link>https://hugotkk.github.io/posts/hyperledger-fabric/</link>
+      <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/hyperledger-fabric/</guid>
+      <description>Notes installation - curl -sSL https://bit.ly/2ysbOFE | bash -s &amp;ndash; 2.2.7 1.5.3 to start a basic test network (two org, 1 application channel) network.sh up createChannel -c mychannel -s couchdb without fabric-ca network.sh up createChannel -ca -c mychannel -s couchdb with fabric-ca organizations/cryptogen/crypto-config-org3.yaml + cryptogen will be used to bootstrap all required crypto stuff like certificates / tls / user identity for you - this is what I call &amp;ldquo;without fabric-ca&amp;rdquo; in the with fabric-ca way, you have to cretae a fabric-ca-server and register the peer, generate the user identity and certificates manually with fabric-ca-client configtx/configtx.</description>
+    </item>
+    
     <item>
       <title>Blockchain Introduction</title>
       <link>https://hugotkk.github.io/posts/blockchain-introduction/</link>
       <pubDate>Sat, 22 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/blockchain-introduction/</guid>
-      <description>Resources  Hyperledger Fabric Solidity  Notes what is blockchain  The blockchain solution in IoT / Supply chain are changing &amp;ldquo;Mesh&amp;rdquo; network to a &amp;ldquo;Star Network each parties access and write to the &amp;ldquo;blockchain network&amp;rdquo;. not more api integration between parties  How to use it How it work  use cryptography methods to ensure the integrity of a public writable database proof of work, proof of stake, proff  How to implement  solidity node.</description>
+      <description>Resources Hyperledger Fabric Solidity Notes what is blockchain The blockchain solution in IoT / Supply chain are changing &amp;ldquo;Mesh&amp;rdquo; network to a &amp;ldquo;Star Network each parties access and write to the &amp;ldquo;blockchain network&amp;rdquo;. not more api integration between parties How to use it How it work use cryptography methods to ensure the integrity of a public writable database proof of work, proof of stake, proff How to implement solidity node.js truffle web3.</description>
     </item>
     
     <item>
@@ -29,7 +38,7 @@
 proxy pattern user interact with the proxy contract
 the proxy will point to another smart contract
 When upgrading the contract, the admin of the proxy contract points the proxy to another smart contract storage
-Implementation  Transparent UUPS  </description>
+Implementation Transparent UUPS </description>
     </item>
     
     <item>
@@ -42,7 +51,7 @@ Implementation  Transparent UUPS  </description>
 Methods Wait until the transaction is completely settled not practical and safe
 Hashlock The transaction is partially complete
 Settle once the sender publishes the key on the blockchain.
-Cons  hugo cannot refund if kevin does not response  Timelock  hugo made a partial transaction that the btc can be claimed by kevin within n number of blocks if the transaction is expired, hugo can claim back the fund  Cons  the claims need to execute manually  HTLC (Hash Time Lock Contract) Combine two locks: (and)</description>
+Cons hugo cannot refund if kevin does not response Timelock hugo made a partial transaction that the btc can be claimed by kevin within n number of blocks if the transaction is expired, hugo can claim back the fund Cons the claims need to execute manually HTLC (Hash Time Lock Contract) Combine two locks: (and)</description>
     </item>
     
     <item>
@@ -53,7 +62,7 @@ Cons  hugo cannot refund if kevin does not response  Timelock  hugo made a parti
       <guid>https://hugotkk.github.io/posts/hyperledger-composer/</guid>
       <description>Building BLOCKCHAIN Apps With HYPERLEDGER COMPOSER https://www.youtube.com/watch?v=gAxK6zYrfxI
 a framework of hyperledger
- testing - mocha / chai webapp generator - Yeoman api generation - Rest Server + loopback api doc generation - swagger auth (rest api) - passport integration with IOT - red-node  </description>
+testing - mocha / chai webapp generator - Yeoman api generation - Rest Server + loopback api doc generation - swagger auth (rest api) - passport integration with IOT - red-node </description>
     </item>
     
     <item>
@@ -65,7 +74,7 @@ a framework of hyperledger
       <description>Official Website
 Playlist
 a visual editor to build workflow and ui application to interact with IoT
- wire the IoTs and user (with web dashboard) read data from IoT write data to IoT (control it, on and off etc) build a flow among IoTs and users for automation build dashboard UI  all can be done by drag and drop
+wire the IoTs and user (with web dashboard) read data from IoT write data to IoT (control it, on and off etc) build a flow among IoTs and users for automation build dashboard UI all can be done by drag and drop
 can be used with blockchain in the supply chain&amp;hellip;
 node red pulls the data from sensors and submits to blockchain automatically</description>
     </item>
@@ -76,17 +85,8 @@ node red pulls the data from sensors and submits to blockchain automatically</de
       <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/aws-managed-blockchain/</guid>
-      <description>Pros with AWS Managed Blockchain  no need to build the ledger by themself focus on the smart contract a single blockchain network can effectively work cross multiple parties  An Overview on Blockchain Services from AWS https://www.youtube.com/watch?v=WAIOBeQA2QQ
- ledger database (immutable transaction) consenus decentlization smart contract ease for audit  Hyperledger Fabric VS eth  authentication access control private ledger  </description>
-    </item>
-    
-    <item>
-      <title>Hyperledger fabric</title>
-      <link>https://hugotkk.github.io/posts/hyperledger-fabric/</link>
-      <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugotkk.github.io/posts/hyperledger-fabric/</guid>
-      <description>Installation https://hyperledger-fabric.readthedocs.io/en/release-2.2/install.html node go docker fabric fabric-ca third party image: kafka, zookeeper, couchdb fabric-ca-binary</description>
+      <description>Pros with AWS Managed Blockchain no need to build the ledger by themself focus on the smart contract a single blockchain network can effectively work cross multiple parties An Overview on Blockchain Services from AWS https://www.youtube.com/watch?v=WAIOBeQA2QQ
+ledger database (immutable transaction) consenus decentlization smart contract ease for audit Hyperledger Fabric VS eth authentication access control private ledger </description>
     </item>
     
     <item>
@@ -96,7 +96,7 @@ node red pulls the data from sensors and submits to blockchain automatically</de
       
       <guid>https://hugotkk.github.io/posts/blockchain-use-case/</guid>
       <description>Trust Over IP: Hyperledger Ursa, Indy, and Aires https://www.youtube.com/watch?v=FfuhlF9ZYPM
-Notes  prove the credential without CA trusted issuer (eg: gov) issues the identity token (eg: driving licence) -&amp;gt; send it to a crypto account (like sending btc to someone) on the blockchain, it shows a record that the account owns that licence. (like you can check your btc balance / NFS on chain explorer) anyone can request that you own that account (like an approval transaction from dapp).</description>
+Notes prove the credential without CA trusted issuer (eg: gov) issues the identity token (eg: driving licence) -&amp;gt; send it to a crypto account (like sending btc to someone) on the blockchain, it shows a record that the account owns that licence. (like you can check your btc balance / NFS on chain explorer) anyone can request that you own that account (like an approval transaction from dapp).</description>
     </item>
     
   </channel>

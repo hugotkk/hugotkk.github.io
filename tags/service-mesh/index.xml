@@ -19,7 +19,7 @@
       <description>Playlist
 Deployment Strategies Best Practise
 Canary https://octopus.com/docs/deployments/patterns/canary-deployments
- we have a load balancer &amp;amp; n server. deploy the changes on one of the server  Blue / Green https://www.ibm.com/docs/en/urbancode-deploy/6.2.7?topic=processes-modeling-blue-green-rolling-canary-deployments
+we have a load balancer &amp;amp; n server. deploy the changes on one of the server Blue / Green https://www.ibm.com/docs/en/urbancode-deploy/6.2.7?topic=processes-modeling-blue-green-rolling-canary-deployments
 Rolling </description>
     </item>
     

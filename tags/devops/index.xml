@@ -16,7 +16,7 @@
       <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/devops/</guid>
-      <description>DevOps choices Deployment  faster boot time - opsworks slower; ami faster using chef - opsworks need to update config when new node online - opsworks Configure lifecycle event less administrative overhead: eb &amp;gt; cloudformation when both solutions works auto healing: opsworks, codedeploy, eb (bcoz of the asg) rolling: eb, opsworks (not ideal, it is manual deploy), cloudformation+asg+AutoScalingRollingUpdate policy, codedeploy rolling = drop traffic to n instance &amp;gt; deploy &amp;gt; allow traffic in-place = deploy the deploy to all instances (parallel) blue/green deployment: eb (cname swap), codedeploy, 2x(cfn+asg+elb)+route53 or 2(cfn+asg)+elb(weighted target groups) blue/green deployment and want to delay the old asg termination: codedeploy canary deployment: codedeploy only on lambda / ecs, eb (traffic splitting), api gateway eb&amp;rsquo;s immutable deployment: create 2nd asg.</description>
+      <description>DevOps choices Deployment faster boot time - opsworks slower; ami faster using chef - opsworks need to update config when new node online - opsworks Configure lifecycle event less administrative overhead: eb &amp;gt; cloudformation when both solutions works auto healing: opsworks, codedeploy, eb (bcoz of the asg) rolling: eb, opsworks (not ideal, it is manual deploy), cloudformation+asg+AutoScalingRollingUpdate policy, codedeploy rolling = drop traffic to n instance &amp;gt; deploy &amp;gt; allow traffic in-place = deploy the deploy to all instances (parallel) blue/green deployment: eb (cname swap), codedeploy, 2x(cfn+asg+elb)+route53 or 2(cfn+asg)+elb(weighted target groups) blue/green deployment and want to delay the old asg termination: codedeploy canary deployment: codedeploy only on lambda / ecs, eb (traffic splitting), api gateway eb&amp;rsquo;s immutable deployment: create 2nd asg.</description>
     </item>
     
     <item>
@@ -25,7 +25,7 @@
       <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/aurora/</guid>
-      <description>RDS Read Replica  cross AZ: OK cross region: OK promote / point-in-time recovery / restore from snapshot will create a new db instance which is not in my expectation. When DR, user need to update dns / db endpoint in application  Aurora Pros over non-aurora rds  read replica auto scaling failover (failover master to read replica in same region) multi-az by default endpoint for writer and reader instance (also custom endpoint)  Cons in aurora Bad integration in cross-region read replica For example:</description>
+      <description>RDS Read Replica cross AZ: OK cross region: OK promote / point-in-time recovery / restore from snapshot will create a new db instance which is not in my expectation. When DR, user need to update dns / db endpoint in application Aurora Pros over non-aurora rds read replica auto scaling failover (failover master to read replica in same region) multi-az by default endpoint for writer and reader instance (also custom endpoint) Cons in aurora Bad integration in cross-region read replica For example:</description>
     </item>
     
     <item>
@@ -34,12 +34,13 @@
       <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/config/</guid>
-      <description>config aggregator aggreagate all account under organization   enable service role in organization
-  set up iam with
- viewing the organization    service role give config.amazonaws.com access for the config resource
-  additional iam right to view accounts in organization
-  from management account or delegated admin to use this option
-aggreagate specfic account  authorization  cfn stackset add stack to stackset = deploy stack delete stack from stackset = delete the stack</description>
+      <description>config aggregator aggreagate all account under organization enable service role in organization
+set up iam with
+viewing the organization service role give config.amazonaws.com access for the config resource
+additional iam right to view accounts in organization
+from management account or delegated admin to use this option
+aggreagate specfic account authorization cfn stackset add stack to stackset = deploy stack delete stack from stackset = delete the stack
+organziation use managed service mode enable service role in organization change choose account in organization</description>
     </item>
     
     <item>
@@ -62,7 +63,7 @@ eb config put .elasticbeanstalk/saved_configs/Web-env-sc.cfg.yml Folder Structur
       <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/aws-organization/</guid>
-      <description>aws org  o = organization = it9 r = root = root ou = organization unit = dev / prod / uat / management / network  ou path: o-3ywbznlomt/r-t9g3/ou-t9g3-knls7nau/</description>
+      <description>aws org o = organization = it9 r = root = root ou = organization unit = dev / prod / uat / management / network ou path: o-3ywbznlomt/r-t9g3/ou-t9g3-knls7nau/</description>
     </item>
     
     <item>
@@ -71,7 +72,7 @@ eb config put .elasticbeanstalk/saved_configs/Web-env-sc.cfg.yml Folder Structur
       <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/opsworks/</guid>
-      <description>OpsWorks  stack = cookbooks layer = frontend, backend, api, rds (how to config to instance) app = source code. can deploy and redeploy  Stack  I am exploring this cookbook from aws The nodejs demo cookbook repo does not include its dependencies In the opsworks demo, it uses opsworks-linux-demo-cookbooks-nodejs.tar.gz as the cookbook source We need to convert the repo to the archive before using it Aftering changing the cookbook source, we need to fetch the cache by running commands on instances  Inside the opsworks-linux-demo-cookbooks-nodejs.</description>
+      <description>OpsWorks stack = cookbooks layer = frontend, backend, api, rds (how to config to instance) app = source code. can deploy and redeploy Stack I am exploring this cookbook from aws The nodejs demo cookbook repo does not include its dependencies In the opsworks demo, it uses opsworks-linux-demo-cookbooks-nodejs.tar.gz as the cookbook source We need to convert the repo to the archive before using it Aftering changing the cookbook source, we need to fetch the cache by running commands on instances Inside the opsworks-linux-demo-cookbooks-nodejs.</description>
     </item>
     
   </channel>

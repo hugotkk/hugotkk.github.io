@@ -101,15 +101,6 @@
     <loc>https://hugotkk.github.io/tags/file-system/</loc>
     <lastmod>2021-12-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hugotkk.github.io/tags/istio/</loc>
-    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hugotkk.github.io/posts/istio/</loc>
-    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hugotkk.github.io/tags/k8s/</loc>
-    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://hugotkk.github.io/tags/linux/</loc>
     <lastmod>2021-12-23T00:00:00+00:00</lastmod>
   </url><url>
@@ -117,9 +108,6 @@
     <lastmod>2021-12-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/tags/random-number/</loc>
-    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hugotkk.github.io/tags/service-mesh/</loc>
     <lastmod>2021-12-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/tags/space/</loc>
@@ -135,6 +123,9 @@
     <lastmod>2021-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/posts/azure-migration-stragegies/</loc>
+    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugotkk.github.io/tags/k8s/</loc>
     <lastmod>2021-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hugotkk.github.io/tags/migration-centre/</loc>

@@ -164,24 +164,6 @@
     </item>
     
     <item>
-      <title>istio</title>
-      <link>https://hugotkk.github.io/tags/istio/</link>
-      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugotkk.github.io/tags/istio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>k8s</title>
-      <link>https://hugotkk.github.io/tags/k8s/</link>
-      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugotkk.github.io/tags/k8s/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>linux</title>
       <link>https://hugotkk.github.io/tags/linux/</link>
       <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
@@ -196,15 +178,6 @@
       <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/tags/random-number/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>service-mesh</title>
-      <link>https://hugotkk.github.io/tags/service-mesh/</link>
-      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugotkk.github.io/tags/service-mesh/</guid>
       <description></description>
     </item>
     
@@ -241,6 +214,15 @@
       <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/tags/cloud-centre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>k8s</title>
+      <link>https://hugotkk.github.io/tags/k8s/</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/tags/k8s/</guid>
       <description></description>
     </item>
     

@@ -141,19 +141,6 @@ Copy on Write - copy will not perform immediately only when write operation is h
     </item>
     
     <item>
-      <title>istio</title>
-      <link>https://hugotkk.github.io/posts/istio/</link>
-      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugotkk.github.io/posts/istio/</guid>
-      <description>Playlist
-Deployment Strategies Best Practise
-Canary https://octopus.com/docs/deployments/patterns/canary-deployments
-we have a load balancer &amp;amp; n server. deploy the changes on one of the server Blue / Green https://www.ibm.com/docs/en/urbancode-deploy/6.2.7?topic=processes-modeling-blue-green-rolling-canary-deployments
-Rolling </description>
-    </item>
-    
-    <item>
       <title>Random number</title>
       <link>https://hugotkk.github.io/posts/random-numbers/</link>
       <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>

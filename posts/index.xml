@@ -9,7 +9,21 @@
       <link>https://hugotkk.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 18 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Istio Note</title>
+      <link>https://hugotkk.github.io/posts/istio/</link>
+      <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/istio/</guid>
+      <description>Main concept Injecting a proxy in front of each pods - so we can do traffic management
+Traffic Shifting Fault Injection Circuit Breaking Mirror and apply security features
+mtls between pods security policy or some logging / auditing works
+Imagine there is a proxy server in front of each pod.
+VirtualService and DestinationRule are the configure of the proxy server
+Actually the offical documentation is good enough. here is a good course to learn about istio.</description>
+    </item>
+    
     <item>
       <title>Hyperledger fabric</title>
       <link>https://hugotkk.github.io/posts/hyperledger-fabric/</link>

@@ -16,9 +16,9 @@
       <pubDate>Tue, 13 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/notes-about-docker/</guid>
-      <description>Self-document from Dockerfile Most of the containers are not very well-documented. It makes me hard to find out the information about the container from docker hub and github&amp;rsquo;s README.
+      <description>Self-document from Dockerfile Most of the containers are not very well-documented. It makes it hard to find out the information about the container from docker hub and github&amp;rsquo;s README.
 Usually I would like to know:
-Which user this container run as? Which ports are used by the application? Where are the config files / directory? Where will the persistent data be stored? The best way to find those answers is to look at the Dockerfile.</description>
+Which user does this container run as? Which ports are used by the application? Where are the config files / directory? Where will the persistent data be stored? The best way to find those answers is to look at the Dockerfile.</description>
     </item>
     
   </channel>

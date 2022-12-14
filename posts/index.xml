@@ -9,16 +9,25 @@
       <link>https://hugotkk.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 13 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notes about Solana</title>
+      <link>https://hugotkk.github.io/posts/notes-about-solana/</link>
+      <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/notes-about-solana/</guid>
+      <description>Useful links Explorer solana explorer NFT marketplace solanart solasea Good articles to understand the concept of solana Solana NFT 101 Solana’s Token Program, Explained Understanding Solana’s Mint Accounts and Token Accounts How NFTs are represented in Solana In the Solana world, data will be stored in different accounts. Accounts will be associated with each other by cross-referencing. The Solana program will be used to manipulate those accounts (create, delete, set link).</description>
+    </item>
+    
     <item>
       <title>Notes about Docker</title>
       <link>https://hugotkk.github.io/posts/notes-about-docker/</link>
       <pubDate>Tue, 13 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/posts/notes-about-docker/</guid>
-      <description>Self-document from Dockerfile Most of the containers are not very well-documented. It makes me hard to find out the information about the container from docker hub and github&amp;rsquo;s README.
+      <description>Self-document from Dockerfile Most of the containers are not very well-documented. It makes it hard to find out the information about the container from docker hub and github&amp;rsquo;s README.
 Usually I would like to know:
-Which user this container run as? Which ports are used by the application? Where are the config files / directory? Where will the persistent data be stored? The best way to find those answers is to look at the Dockerfile.</description>
+Which user does this container run as? Which ports are used by the application? Where are the config files / directory? Where will the persistent data be stored? The best way to find those answers is to look at the Dockerfile.</description>
     </item>
     
     <item>

@@ -1,25 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>chrome on Hugo</title>
-    <link>https://hugotkk.github.io/tags/chrome/</link>
-    <description>Recent content in chrome on Hugo</description>
-    <image>
-      <url>https://hugotkk.github.io/papermod-cover.png</url>
-      <link>https://hugotkk.github.io/papermod-cover.png</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 09 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Disable Ctrl&#43;w on Chrome</title>
-      <link>https://hugotkk.github.io/posts/disable-ctrl-w-on-chrome/</link>
-      <pubDate>Sat, 09 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugotkk.github.io/posts/disable-ctrl-w-on-chrome/</guid>
-      <description>I am preparing the CKA exam. The exam requires us to complete tasks using web terminal on Chrome.
-My concern is that Ctrl+w is a common shortcut in terminal (delete word) but it also is the &amp;ldquo;close tab&amp;rdquo; shortcut of chrome. (Windows)
-There is a workaround on this issue. Comment under this article mentioned that we can define ctrl+w in chrome://extensions/shortcuts to override the default behavior on ctrl+w. This will prevent the tab be closed when hit ctrl+w accidently.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>chrome on Hugo's IT journal</title><link>https://hugotkk.github.com/tags/chrome/</link><description>Recent content in chrome on Hugo's IT journal</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 09 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.com/tags/chrome/index.xml" rel="self" type="application/rss+xml"/><item><title>Disable Ctrl+w on Chrome</title><link>https://hugotkk.github.com/posts/disable-ctrl-w-on-chrome/</link><pubDate>Sat, 09 Oct 2021 00:00:00 +0000</pubDate><guid>https://hugotkk.github.com/posts/disable-ctrl-w-on-chrome/</guid><description>I am preparing the CKA exam. The exam requires us to complete tasks using web terminal on Chrome.
+My concern is that Ctrl+w is a common shortcut in terminal (delete word) but it also is the &amp;ldquo;close tab&amp;rdquo; shortcut of chrome.</description></item></channel></rss>

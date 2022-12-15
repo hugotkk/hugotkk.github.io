@@ -1,24 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>rancher on Hugo</title>
-    <link>https://hugotkk.github.io/tags/rancher/</link>
-    <description>Recent content in rancher on Hugo</description>
-    <image>
-      <url>https://hugotkk.github.io/papermod-cover.png</url>
-      <link>https://hugotkk.github.io/papermod-cover.png</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 13 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/rancher/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Review of Rancher</title>
-      <link>https://hugotkk.github.io/posts/rancher/</link>
-      <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugotkk.github.io/posts/rancher/</guid>
-      <description>https://www.youtube.com/watch?v=LK6KbAlQRIg
-provide a GUI interface manage k8s clusters Cons (21:12) Still using docker (should use cri-o) Only support old version k8s (1.18) Mutable approach (not using image to provision, it installs docker and setup the cluster for you) Very slow to create the cluster Pros Manage multiple clusters GUI </description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rancher on Hugo's IT journal</title><link>https://hugotkk.github.com/tags/rancher/</link><description>Recent content in rancher on Hugo's IT journal</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 13 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.com/tags/rancher/index.xml" rel="self" type="application/rss+xml"/><item><title>Review of Rancher</title><link>https://hugotkk.github.com/posts/rancher/</link><pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate><guid>https://hugotkk.github.com/posts/rancher/</guid><description> https://www.youtube.com/watch?v=LK6KbAlQRIg
+provide a GUI interface manage k8s clusters Cons (21:12)> Cons (21:12) # Still using docker (should use cri-o) Only support old version k8s (1.18) Mutable approach (not using image to provision, it installs docker and setup the cluster for you) Very slow to create the cluster Pros> Pros # Manage multiple clusters GUI</description></item></channel></rss>

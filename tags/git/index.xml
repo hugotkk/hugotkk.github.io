@@ -1,27 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>git on Hugo</title>
-    <link>https://hugotkk.github.io/tags/git/</link>
-    <description>Recent content in git on Hugo</description>
-    <image>
-      <url>https://hugotkk.github.io/papermod-cover.png</url>
-      <link>https://hugotkk.github.io/papermod-cover.png</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 25 Aug 2021 11:57:02 +0100</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Broken Git Ref</title>
-      <link>https://hugotkk.github.io/posts/broken-git-ref/</link>
-      <pubDate>Wed, 25 Aug 2021 11:57:02 +0100</pubDate>
-      
-      <guid>https://hugotkk.github.io/posts/broken-git-ref/</guid>
-      <description>Facing this warning in a repo
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>git on Hugo's IT journal</title><link>https://hugotkk.github.com/tags/git/</link><description>Recent content in git on Hugo's IT journal</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 25 Aug 2021 11:57:02 +0100</lastBuildDate><atom:link href="https://hugotkk.github.com/tags/git/index.xml" rel="self" type="application/rss+xml"/><item><title>Broken Git Ref</title><link>https://hugotkk.github.com/posts/broken-git-ref/</link><pubDate>Wed, 25 Aug 2021 11:57:02 +0100</pubDate><guid>https://hugotkk.github.com/posts/broken-git-ref/</guid><description>Facing this warning in a repo
 warning: ignoring broken ref refs/remotes/origin/HEAD https://stackoverflow.com/questions/45811971/warning-ignoring-broken-ref-refs-remotes-origin-head
 After reading this article, seem the reference of refs/remotes/origin/HEAD is broken.
-$ git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/master I have changed the branch from master to main before. master branch is no longer exist. I think that is the reason of the warning.
-git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main Then the warning is fixed.</description>
-    </item>
-    
-  </channel>
-</rss>
+$ git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/master I have changed the branch from master to main before.</description></item></channel></rss>

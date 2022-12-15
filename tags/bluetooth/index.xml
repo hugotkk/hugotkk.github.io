@@ -1,31 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>bluetooth on Hugo</title>
-    <link>https://hugotkk.github.io/tags/bluetooth/</link>
-    <description>Recent content in bluetooth on Hugo</description>
-    <image>
-      <url>https://hugotkk.github.io/papermod-cover.png</url>
-      <link>https://hugotkk.github.io/papermod-cover.png</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/bluetooth/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Bluetooth</title>
-      <link>https://hugotkk.github.io/posts/bluetooth/</link>
-      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugotkk.github.io/posts/bluetooth/</guid>
-      <description>https://www.youtube.com/watch?v=1I1vxu5qIUM
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bluetooth on Hugo's IT journal</title><link>https://hugotkk.github.com/tags/bluetooth/</link><description>Recent content in bluetooth on Hugo's IT journal</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.com/tags/bluetooth/index.xml" rel="self" type="application/rss+xml"/><item><title>Bluetooth</title><link>https://hugotkk.github.com/posts/bluetooth/</link><pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate><guid>https://hugotkk.github.com/posts/bluetooth/</guid><description>https://www.youtube.com/watch?v=1I1vxu5qIUM
 Transmit an electromagnetic wave (binary) with different wavelength
 eg: 121mm = 1 124mm = 0
 the waves send in all directions
 Bluetooth range: 2.4835GHz - 2.4GHz
-Divided in different sections (79 channels), each section has a pair of wavelengths representing 0 and 1
-the bluetooth range is shared with some other device like a microwave oven
-like the power of a microwave oven is too large for bluetooth.
-it may destroy the bluetooth device if you put them inside the microwave oven (danger)</description>
-    </item>
-    
-  </channel>
-</rss>
+Divided in different sections (79 channels), each section has a pair of wavelengths representing 0 and 1</description></item></channel></rss>

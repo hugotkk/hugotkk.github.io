@@ -1,58 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>hyperledger on Hugo</title>
-    <link>https://hugotkk.github.io/tags/hyperledger/</link>
-    <description>Recent content in hyperledger on Hugo</description>
-    <image>
-      <url>https://hugotkk.github.io/papermod-cover.png</url>
-      <link>https://hugotkk.github.io/papermod-cover.png</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 28 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/hyperledger/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Atomic cross chain swap between Hyperledger Fabric and Ethereum</title>
-      <link>https://hugotkk.github.io/posts/cross-chain-swap/</link>
-      <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugotkk.github.io/posts/cross-chain-swap/</guid>
-      <description>https://www.youtube.com/watch?v=j_j2MiAxUvY&amp;amp;list=PL0MZ85B_96CEmmy0C6NF52ZCMNcY1Wryf
-Methods Wait until the transaction is completely settled not practical and safe
-Hashlock The transaction is partially complete
-Settle once the sender publishes the key on the blockchain.
-Cons hugo cannot refund if kevin does not response Timelock hugo made a partial transaction that the btc can be claimed by kevin within n number of blocks if the transaction is expired, hugo can claim back the fund Cons the claims need to execute manually HTLC (Hash Time Lock Contract) Combine two locks: (and)</description>
-    </item>
-    
-    <item>
-      <title>Hyperledger composer</title>
-      <link>https://hugotkk.github.io/posts/hyperledger-composer/</link>
-      <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugotkk.github.io/posts/hyperledger-composer/</guid>
-      <description>Building BLOCKCHAIN Apps With HYPERLEDGER COMPOSER https://www.youtube.com/watch?v=gAxK6zYrfxI
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hyperledger on Hugo's IT journal</title><link>https://hugotkk.github.com/tags/hyperledger/</link><description>Recent content in hyperledger on Hugo's IT journal</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 28 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.com/tags/hyperledger/index.xml" rel="self" type="application/rss+xml"/><item><title>Atomic cross chain swap between Hyperledger Fabric and Ethereum</title><link>https://hugotkk.github.com/posts/cross-chain-swap/</link><pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate><guid>https://hugotkk.github.com/posts/cross-chain-swap/</guid><description>https://www.youtube.com/watch?v=j_j2MiAxUvY&amp;list=PL0MZ85B_96CEmmy0C6NF52ZCMNcY1Wryf
+Methods> Methods # Wait until the transaction is completely settled> Wait until the transaction is completely settled # not practical and safe
+Hashlock> Hashlock # The transaction is partially complete</description></item><item><title>Hyperledger composer</title><link>https://hugotkk.github.com/posts/hyperledger-composer/</link><pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate><guid>https://hugotkk.github.com/posts/hyperledger-composer/</guid><description>Building BLOCKCHAIN Apps With HYPERLEDGER COMPOSER> Building BLOCKCHAIN Apps With HYPERLEDGER COMPOSER # https://www.youtube.com/watch?v=gAxK6zYrfxI
 a framework of hyperledger
-testing - mocha / chai webapp generator - Yeoman api generation - Rest Server + loopback api doc generation - swagger auth (rest api) - passport integration with IOT - red-node </description>
-    </item>
-    
-    <item>
-      <title>AWS Managed Blockchain</title>
-      <link>https://hugotkk.github.io/posts/aws-managed-blockchain/</link>
-      <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugotkk.github.io/posts/aws-managed-blockchain/</guid>
-      <description>Pros with AWS Managed Blockchain no need to build the ledger by themself focus on the smart contract a single blockchain network can effectively work cross multiple parties An Overview on Blockchain Services from AWS https://www.youtube.com/watch?v=WAIOBeQA2QQ
-ledger database (immutable transaction) consenus decentlization smart contract ease for audit Hyperledger Fabric VS eth authentication access control private ledger </description>
-    </item>
-    
-    <item>
-      <title>Blockchain use cases</title>
-      <link>https://hugotkk.github.io/posts/blockchain-use-case/</link>
-      <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugotkk.github.io/posts/blockchain-use-case/</guid>
-      <description>Trust Over IP: Hyperledger Ursa, Indy, and Aires https://www.youtube.com/watch?v=FfuhlF9ZYPM
-Notes prove the credential without CA trusted issuer (eg: gov) issues the identity token (eg: driving licence) -&amp;gt; send it to a crypto account (like sending btc to someone) on the blockchain, it shows a record that the account owns that licence. (like you can check your btc balance / NFS on chain explorer) anyone can request that you own that account (like an approval transaction from dapp).</description>
-    </item>
-    
-  </channel>
-</rss>
+testing - mocha / chai webapp generator - Yeoman api generation - Rest Server + loopback api doc generation - swagger auth (rest api) - passport integration with IOT - red-node</description></item><item><title>AWS Managed Blockchain</title><link>https://hugotkk.github.com/posts/aws-managed-blockchain/</link><pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate><guid>https://hugotkk.github.com/posts/aws-managed-blockchain/</guid><description>Pros with AWS Managed Blockchain> Pros with AWS Managed Blockchain # no need to build the ledger by themself focus on the smart contract a single blockchain network can effectively work cross multiple parties An Overview on Blockchain Services from AWS> An Overview on Blockchain Services from AWS # https://www.</description></item><item><title>Blockchain use cases</title><link>https://hugotkk.github.com/posts/blockchain-use-case/</link><pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate><guid>https://hugotkk.github.com/posts/blockchain-use-case/</guid><description>Trust Over IP: Hyperledger Ursa, Indy, and Aires> Trust Over IP: Hyperledger Ursa, Indy, and Aires # https://www.youtube.com/watch?v=FfuhlF9ZYPM
+Notes> Notes # prove the credential without CA trusted issuer (eg: gov) issues the identity token (eg: driving licence) -&amp;gt; send it to a crypto account (like sending btc to someone) on the blockchain, it shows a record that the account owns that licence.</description></item></channel></rss>

@@ -1,48 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>study on Hugo</title>
-    <link>https://hugotkk.github.io/tags/study/</link>
-    <description>Recent content in study on Hugo</description>
-    <image>
-      <url>https://hugotkk.github.io/papermod-cover.png</url>
-      <link>https://hugotkk.github.io/papermod-cover.png</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/study/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Bluetooth</title>
-      <link>https://hugotkk.github.io/posts/bluetooth/</link>
-      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugotkk.github.io/posts/bluetooth/</guid>
-      <description>https://www.youtube.com/watch?v=1I1vxu5qIUM
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>study on Hugo's IT journal</title><link>https://hugotkk.github.com/tags/study/</link><description>Recent content in study on Hugo's IT journal</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.com/tags/study/index.xml" rel="self" type="application/rss+xml"/><item><title>Bluetooth</title><link>https://hugotkk.github.com/posts/bluetooth/</link><pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate><guid>https://hugotkk.github.com/posts/bluetooth/</guid><description>https://www.youtube.com/watch?v=1I1vxu5qIUM
 Transmit an electromagnetic wave (binary) with different wavelength
 eg: 121mm = 1 124mm = 0
 the waves send in all directions
 Bluetooth range: 2.4835GHz - 2.4GHz
-Divided in different sections (79 channels), each section has a pair of wavelengths representing 0 and 1
-the bluetooth range is shared with some other device like a microwave oven
-like the power of a microwave oven is too large for bluetooth.
-it may destroy the bluetooth device if you put them inside the microwave oven (danger)</description>
-    </item>
-    
-    <item>
-      <title>Study Tips</title>
-      <link>https://hugotkk.github.io/posts/idea-about-study/</link>
-      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugotkk.github.io/posts/idea-about-study/</guid>
-      <description>Zero to Full-Time Programmer in 5 Steps Zero to Full-Time Programmer in 5 Steps
-start from small consistently study every day The scoreboard that is changing my life The scoreboard that is changing my life
-use scoreboard to track your goal
-goal vs actual
-Weekly review (like a logbook)
-lagging metric (review past performance)
-leading metric (measure future performance)
-How I consistently study with a full time job https://www.youtube.com/watch?v=INymz5VwLmk
-the key is consistency, motivation doesn&amp;rsquo;t last long (always show up, always try) keep tracking the process ME small step every day never being late, start today If you feel hesitating, then just start it do not need to make things perfect or well-prepared to start on something Archive Goal https://www.</description>
-    </item>
-    
-  </channel>
-</rss>
+Divided in different sections (79 channels), each section has a pair of wavelengths representing 0 and 1</description></item><item><title>Study Tips</title><link>https://hugotkk.github.com/posts/idea-about-study/</link><pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate><guid>https://hugotkk.github.com/posts/idea-about-study/</guid><description>Zero to Full-Time Programmer in 5 Steps> Zero to Full-Time Programmer in 5 Steps # Zero to Full-Time Programmer in 5 Steps
+start from small consistently study every day The scoreboard that is changing my life> The scoreboard that is changing my life # The scoreboard that is changing my life</description></item></channel></rss>

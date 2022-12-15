@@ -1,28 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>node-red on Hugo</title>
-    <link>https://hugotkk.github.io/tags/node-red/</link>
-    <description>Recent content in node-red on Hugo</description>
-    <image>
-      <url>https://hugotkk.github.io/papermod-cover.png</url>
-      <link>https://hugotkk.github.io/papermod-cover.png</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 28 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/node-red/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Node Red</title>
-      <link>https://hugotkk.github.io/posts/node-red/</link>
-      <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugotkk.github.io/posts/node-red/</guid>
-      <description>Official Website
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>node-red on Hugo's IT journal</title><link>https://hugotkk.github.com/tags/node-red/</link><description>Recent content in node-red on Hugo's IT journal</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 28 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.com/tags/node-red/index.xml" rel="self" type="application/rss+xml"/><item><title>Node Red</title><link>https://hugotkk.github.com/posts/node-red/</link><pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate><guid>https://hugotkk.github.com/posts/node-red/</guid><description>Official Website
 Playlist
 a visual editor to build workflow and ui application to interact with IoT
-wire the IoTs and user (with web dashboard) read data from IoT write data to IoT (control it, on and off etc) build a flow among IoTs and users for automation build dashboard UI all can be done by drag and drop
-can be used with blockchain in the supply chain&amp;hellip;
-node red pulls the data from sensors and submits to blockchain automatically</description>
-    </item>
-    
-  </channel>
-</rss>
+wire the IoTs and user (with web dashboard) read data from IoT write data to IoT (control it, on and off etc) build a flow among IoTs and users for automation build dashboard UI all can be done by drag and drop</description></item></channel></rss>

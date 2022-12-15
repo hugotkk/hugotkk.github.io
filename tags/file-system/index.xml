@@ -1,24 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>file-system on Hugo</title>
-    <link>https://hugotkk.github.io/tags/file-system/</link>
-    <description>Recent content in file-system on Hugo</description>
-    <image>
-      <url>https://hugotkk.github.io/papermod-cover.png</url>
-      <link>https://hugotkk.github.io/papermod-cover.png</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 23 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/tags/file-system/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>BTRFS</title>
-      <link>https://hugotkk.github.io/posts/btrfs/</link>
-      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugotkk.github.io/posts/btrfs/</guid>
-      <description>https://www.youtube.com/watch?v=iwNg_fusT9A
-Copy on Write - copy will not perform immediately only when write operation is happend Snapshot - use the tech of copy on write to save some space. size few bytes to same size as original data </description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>file-system on Hugo's IT journal</title><link>https://hugotkk.github.com/tags/file-system/</link><description>Recent content in file-system on Hugo's IT journal</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 23 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.com/tags/file-system/index.xml" rel="self" type="application/rss+xml"/><item><title>BTRFS</title><link>https://hugotkk.github.com/posts/btrfs/</link><pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate><guid>https://hugotkk.github.com/posts/btrfs/</guid><description> https://www.youtube.com/watch?v=iwNg_fusT9A
+Copy on Write - copy will not perform immediately only when write operation is happend Snapshot - use the tech of copy on write to save some space. size few bytes to same size as original data</description></item></channel></rss>

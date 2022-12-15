@@ -29,11 +29,29 @@
     </item>
     
     <item>
+      <title>grafana</title>
+      <link>https://hugotkk.github.io/tags/grafana/</link>
+      <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/tags/grafana/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ip</title>
       <link>https://hugotkk.github.io/tags/ip/</link>
       <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/tags/ip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>monitor</title>
+      <link>https://hugotkk.github.io/tags/monitor/</link>
+      <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/tags/monitor/</guid>
       <description></description>
     </item>
     
@@ -52,6 +70,15 @@
       <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hugotkk.github.io/tags/nslookup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>prometheus</title>
+      <link>https://hugotkk.github.io/tags/prometheus/</link>
+      <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/tags/prometheus/</guid>
       <description></description>
     </item>
     

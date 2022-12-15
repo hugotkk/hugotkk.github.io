@@ -11,6 +11,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 15 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Notes about Prometheus &amp; Grafana</title>
+      <link>https://hugotkk.github.io/posts/notes-about-prometheus-grafana/</link>
+      <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugotkk.github.io/posts/notes-about-prometheus-grafana/</guid>
+      <description>Installation Prometheus &amp;amp; the related components (eg: pushgateway, blackbox_exporter, alertmanager) - scrape engine - it&amp;rsquo;s better to look at the README.md and Dockerfile on their github repo to get the information about the docker setup
+Grafana - for visualization; drawing graphs
+Node Exporter (via package manager) - Centos7 (need epel repo); Ubuntu20.04 - monitor VM&amp;rsquo;s states
+cAdvisor - monitor docker host&amp;rsquo;s states
+Others exporters
+kube-prometheus-stack (eks) - included grafana and prometheus</description>
+    </item>
+    
+    <item>
       <title>Useful web tools</title>
       <link>https://hugotkk.github.io/posts/useful-web-tools/</link>
       <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>

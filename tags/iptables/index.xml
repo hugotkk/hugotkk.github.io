@@ -2,4 +2,5 @@
 Problem: Non-persistent iptables rule after system restarts.
 This is how to add a rule to iptables:
 sudo iptables -A INPUT -p tcp --dport ssh -j ACCEPT Solution:
-This command applies the rule immediately, but it won&amp;rsquo;t persist after a system restart.</description></item></channel></rss>
+This command applies the rule immediately, but it won&amp;rsquo;t persist after a system restart.</description></item><item><title>Summary of Setting up Firewall on Different Distros</title><link>https://hugotkk.github.com/posts/summary-of-setting-up-firewall-on-different-distros/</link><pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate><guid>https://hugotkk.github.com/posts/summary-of-setting-up-firewall-on-different-distros/</guid><description>In this article, I will cover the basics of setting up firewalls on different distros, including firewalld, ufw, and iptables.
+We will also discuss the daily tasks of firewall management, such as allowing or blocking specific source addresses/destination ports, port forwarding, and NAT.</description></item></channel></rss>

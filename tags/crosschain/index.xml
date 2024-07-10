@@ -1,3 +1,4 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>crosschain on Hugo's IT journal</title><link>https://hugotkk.github.com/tags/crosschain/</link><description>Recent content in crosschain on Hugo's IT journal</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 28 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hugotkk.github.com/tags/crosschain/index.xml" rel="self" type="application/rss+xml"/><item><title>Atomic cross chain swap between Hyperledger Fabric and Ethereum</title><link>https://hugotkk.github.com/posts/cross-chain-swap/</link><pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate><guid>https://hugotkk.github.com/posts/cross-chain-swap/</guid><description>https://www.youtube.com/watch?v=j_j2MiAxUvY&amp;list=PL0MZ85B_96CEmmy0C6NF52ZCMNcY1Wryf
-Methods> Methods # Wait until the transaction is completely settled> Wait until the transaction is completely settled # not practical and safe
-Hashlock> Hashlock # The transaction is partially complete</description></item></channel></rss>
+Methods # Wait until the transaction is completely settled # not practical and safe
+Hashlock # The transaction is partially complete
+Settle once the sender publishes the key on the blockchain.</description></item></channel></rss>
